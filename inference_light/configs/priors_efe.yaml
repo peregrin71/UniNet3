@@ -1,0 +1,13 @@
+priors:
+  - parameter: Phi_ratio
+    distribution: gaussian
+    mean: 60.0
+    sigma: 10.0
+    source_anchor: EFE-compatible inflationary ratio envelope
+
+  - parameter: chi_parity
+    distribution: gaussian
+    mean: 0.0
+    sigma: 0.03
+    source_anchor: EFE-consistent small parity-odd transfer branch
+

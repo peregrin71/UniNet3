@@ -1,0 +1,41 @@
+parameters:
+  tau_relax:
+    role: fit
+    initial: 0.85
+    bounds: [0.1, 3.0]
+    unit: Gyr
+
+  lambda_DM:
+    role: fit
+    initial: 1.15
+    bounds: [0.2, 4.0]
+    unit: Gpc
+
+  A_cong:
+    role: fit
+    initial: 0.25
+    bounds: [0.0, 2.0]
+    unit: dimensionless
+
+  Phi_ratio:
+    role: fit
+    initial: 60.0
+    bounds: [20.0, 120.0]
+    unit: dimensionless
+
+  chi_parity:
+    role: fit
+    initial: 0.01
+    bounds: [-0.2, 0.2]
+    unit: rad
+
+  kappa:
+    role: fixed
+    value: 2.076647442844e-43
+    unit: SI
+
+  c_map:
+    role: fixed
+    value: 299792458.0
+    unit: m/s
+

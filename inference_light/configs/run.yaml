@@ -1,0 +1,13 @@
+run_id: auto
+seed: 12345
+
+sampler:
+  nwalkers: 36
+  nsteps: 900
+  burn_in: 300
+  thin: 2
+  init_jitter: 0.03
+
+diagnostics:
+  posterior_draws: 400
+

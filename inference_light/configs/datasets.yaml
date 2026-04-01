@@ -1,0 +1,78 @@
+datasets:
+  - dataset_id: cmb_compressed_v1
+    family: cmb
+    enabled: true
+    is_non_ladder: true
+    data_vector_path: data/raw/cmb/cmb_vector.csv
+    covariance_path: data/raw/cmb/cmb_cov.csv
+    source_url: local-sample
+    version_tag: sample-v1
+    unit_convention: dimensionless
+    observable_columns: [observable, value]
+    model:
+      type: linear
+      observables:
+        - name: cmb_shift
+          intercept: 0.44
+          coeffs:
+            Phi_ratio: 0.01
+            chi_parity: 0.20
+
+  - dataset_id: bao_desi_compressed_v1
+    family: bao
+    enabled: true
+    is_non_ladder: true
+    data_vector_path: data/raw/bao/bao_vector.csv
+    covariance_path: data/raw/bao/bao_cov.csv
+    source_url: local-sample
+    version_tag: sample-v1
+    unit_convention: ratio
+    observable_columns: [observable, value]
+    model:
+      type: linear
+      observables:
+        - name: dm_over_rs
+          intercept: 10.40
+          coeffs:
+            tau_relax: 3.90
+            A_cong: -0.10
+
+  - dataset_id: rsd_growth_v1
+    family: rsd
+    enabled: true
+    is_non_ladder: true
+    data_vector_path: data/raw/rsd/rsd_vector.csv
+    covariance_path: data/raw/rsd/rsd_cov.csv
+    source_url: local-sample
+    version_tag: sample-v1
+    unit_convention: dimensionless
+    observable_columns: [observable, value]
+    model:
+      type: linear
+      observables:
+        - name: f_sigma8
+          intercept: 0.35
+          coeffs:
+            A_cong: 0.12
+            lambda_DM: 0.06
+
+  - dataset_id: wl_s8_v1
+    family: weak_lensing
+    enabled: true
+    is_non_ladder: true
+    data_vector_path: data/raw/weak_lensing/wl_vector.csv
+    covariance_path: data/raw/weak_lensing/wl_cov.csv
+    source_url: local-sample
+    version_tag: sample-v1
+    unit_convention: dimensionless
+    observable_columns: [observable, value]
+    model:
+      type: linear
+      observables:
+        - name: S8
+          intercept: 0.62
+          coeffs:
+            lambda_DM: 0.07
+            tau_relax: 0.08
+            A_cong: -0.02
+
