@@ -1,4 +1,4 @@
-﻿# UniNet Cosmology Section: Full-Rigor Build Plan (LCDM-Comparable)
+# UniNet Cosmology Section: Full-Rigor Build Plan (LCDM-Comparable)
 
 **Date:** 2026-03-30  
 **Primary source of truth:** `../docs_input/UNINET_CORE_AXIOMS.md` only  
@@ -56,7 +56,7 @@ The cosmology section can begin now with this lock:
    - Map queue drift and saturation-throughput suppression to growth and late-time expansion observables without adding new microscopic axioms.
 
 11. **C11: Inflation Exit and Reheating Interface**
-   - Define the end-of-inflation trigger, reheating channel assumptions, and observable consistency checks (`N_{\mathrm{eff}}`, thermal-history constraints).
+   - Define the end-of-inflation trigger, reheating channel assumptions, and observable consistency checks ($N_{\mathrm{eff}}$, thermal-history constraints).
 
 12. **C12: Non-Particle Dark-Sector Detection Interface (Deferred)**
    - Define how long-wavelength buffer modes map (or fail to map) to collider/direct-detection observables.
@@ -86,8 +86,8 @@ Recommended target file: `UNINET_COSMOLOGY_LCDM_SECTION.md`
 ### C1-C2
 - `Definition C1.1`: coarse-graining operator from graph to effective fluid variables.
 - `Theorem/Postulate C2.1`: derivation status of Friedmann-like equations in this framework.
-  Native targets: effective `H(z)` and continuity equations for buffered components.
-  Variational companion (where assumptions are frozen): effective action `\mathcal{S}_{\mathrm{eff}}=\int d^4x\sqrt{-g}\,\mathcal{L}_{\mathrm{eff}}(\rho_{\mathrm{buffer}},\Phi,\ldots)` yielding background equations.
+  Native targets: effective $H(z)$ and continuity equations for buffered components.
+  Variational companion (where assumptions are frozen): effective action $\mathcal{S}_{\mathrm{eff}}=\int d^4x\sqrt{-g}\,\mathcal{L}_{\mathrm{eff}}(\rho_{\mathrm{buffer}},\Phi,\ldots)$ yielding background equations.
 
 ### C3
 - `Definition C3.1`: relaxation law and parameter set.
@@ -179,6 +179,7 @@ Recommended target file: `UNINET_COSMOLOGY_LCDM_SECTION.md`
 6. Add C12 detection-interface status map.
 7. Add C7 conservation/thermo checks.
 8. Close with C8-C9 LCDM comparison and falsifiability.
+
 
 
 

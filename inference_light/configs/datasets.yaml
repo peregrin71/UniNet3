@@ -1,83 +1,87 @@
 datasets:
-  - dataset_id: cmb_planck_compressed_pr3
-    family: cmb
-    enabled: false
-    is_non_ladder: true
-    data_vector_path: data/processed/cmb/planck_pr3_compressed_vector.csv
-    covariance_path: data/processed/cmb/planck_pr3_compressed_cov.csv
-    source_url: https://pla.esac.esa.int/
-    version_tag: planck-pr3-compressed
-    unit_convention: dimensionless
-    observable_columns: [observable, value]
-    model:
-      type: linear
-      observables:
-        - name: theta_star
-          intercept: 0.85
-          coeffs:
-            Phi_ratio: 0.003
-            chi_parity: 0.020
-
-  - dataset_id: bao_desi_dr1_gccomb
-    family: bao
-    enabled: false
-    is_non_ladder: true
-    data_vector_path: data/processed/bao/desi_dr1_bao_gccomb_vector.csv
-    covariance_path: data/processed/bao/desi_dr1_bao_gccomb_cov.csv
-    source_url: https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/
-    version_tag: desi-dr1-bao-v1.0
-    unit_convention: ratio
-    observable_columns: [observable, value]
-    model:
-      type: linear
-      observables:
-        - name: dm_over_rs_z0p510
-          intercept: 10.00
-          coeffs:
-            tau_relax: 3.20
-            A_cong: -0.20
-        - name: dh_over_rs_z0p510
-          intercept: 20.00
-          coeffs:
-            tau_relax: 0.80
-            A_cong: 0.25
-
-  - dataset_id: rsd_desi_dr1_fsigma8
-    family: rsd
-    enabled: false
-    is_non_ladder: true
-    data_vector_path: data/processed/rsd/desi_dr1_rsd_fsigma8_vector.csv
-    covariance_path: data/processed/rsd/desi_dr1_rsd_fsigma8_cov.csv
-    source_url: https://data.desi.lbl.gov/public/dr1/vac/dr1/full-shape-bao-clustering/v1.0/
-    version_tag: desi-dr1-fullshape-v1.0
-    unit_convention: dimensionless
-    observable_columns: [observable, value]
-    model:
-      type: linear
-      observables:
-        - name: fsigma8_z0p800
-          intercept: 0.34
-          coeffs:
-            lambda_DM: 0.07
-            A_cong: 0.10
-
-  - dataset_id: wl_kids1000_s8
-    family: weak_lensing
-    enabled: false
-    is_non_ladder: true
-    data_vector_path: data/processed/weak_lensing/kids1000_s8_vector.csv
-    covariance_path: data/processed/weak_lensing/kids1000_s8_cov.csv
-    source_url: https://kids.strw.leidenuniv.nl/DR4/KiDS-1000_3x2pt_Cosmology.php
-    version_tag: kids1000-3x2pt
-    unit_convention: dimensionless
-    observable_columns: [observable, value]
-    model:
-      type: linear
-      observables:
-        - name: S8
-          intercept: 0.60
-          coeffs:
-            tau_relax: 0.08
-            lambda_DM: 0.06
-            A_cong: -0.03
-
+- dataset_id: cmb_planck_compressed_pr3
+  family: cmb
+  enabled: true
+  is_non_ladder: true
+  data_vector_path: data/processed/cmb/planck_pr3_compressed_vector.csv
+  covariance_path: data/processed/cmb/planck_pr3_compressed_cov.csv
+  source_url: https://pla.esac.esa.int/
+  version_tag: planck-pr3-compressed
+  unit_convention: dimensionless
+  observable_columns:
+  - observable
+  - value
+  model:
+    type: linear
+    observables:
+    - name: theta_star
+      intercept: 0.85
+      coeffs:
+        Phi_ratio: 0.003
+        chi_parity: 0.02
+- dataset_id: bao_desi_dr1_gccomb
+  family: bao
+  enabled: false
+  is_non_ladder: true
+  data_vector_path: data/processed/bao/desi_dr1_bao_gccomb_vector.csv
+  covariance_path: data/processed/bao/desi_dr1_bao_gccomb_cov.csv
+  source_url: https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/
+  version_tag: desi-dr1-bao-v1.0
+  unit_convention: ratio
+  observable_columns:
+  - observable
+  - value
+  model:
+    type: linear
+    observables:
+    - name: dm_over_rs_z0p510
+      intercept: 10.0
+      coeffs:
+        tau_relax: 3.2
+        A_cong: -0.2
+    - name: dh_over_rs_z0p510
+      intercept: 20.0
+      coeffs:
+        tau_relax: 0.8
+        A_cong: 0.25
+- dataset_id: rsd_desi_dr1_fsigma8
+  family: rsd
+  enabled: true
+  is_non_ladder: true
+  data_vector_path: data/processed/rsd/desi_dr1_rsd_fsigma8_vector.csv
+  covariance_path: data/processed/rsd/desi_dr1_rsd_fsigma8_cov.csv
+  source_url: https://data.desi.lbl.gov/public/dr1/vac/dr1/full-shape-bao-clustering/v1.0/
+  version_tag: desi-dr1-fullshape-v1.0
+  unit_convention: dimensionless
+  observable_columns:
+  - observable
+  - value
+  model:
+    type: linear
+    observables:
+    - name: fsigma8_z0p800
+      intercept: 0.34
+      coeffs:
+        lambda_DM: 0.07
+        A_cong: 0.1
+- dataset_id: wl_kids1000_s8
+  family: weak_lensing
+  enabled: true
+  is_non_ladder: true
+  data_vector_path: data/processed/weak_lensing/kids1000_s8_vector.csv
+  covariance_path: data/processed/weak_lensing/kids1000_s8_cov.csv
+  source_url: https://kids.strw.leidenuniv.nl/DR4/KiDS-1000_3x2pt_Cosmology.php
+  version_tag: kids1000-3x2pt
+  unit_convention: dimensionless
+  observable_columns:
+  - observable
+  - value
+  model:
+    type: linear
+    observables:
+    - name: S8
+      intercept: 0.6
+      coeffs:
+        tau_relax: 0.08
+        lambda_DM: 0.06
+        A_cong: -0.03

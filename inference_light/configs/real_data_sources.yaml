@@ -1,0 +1,45 @@
+datasets:
+  cmb_planck_compressed_pr3:
+    vector_path_candidates:
+      - data/raw/cmb/planck_pr3_compressed_vector.csv
+      - data/raw/cmb/cmb_vector.csv
+    covariance_path_candidates:
+      - data/raw/cmb/planck_pr3_compressed_cov.csv
+      - data/raw/cmb/cmb_cov.csv
+    observable_name_map:
+      theta_star: theta_star
+      cmb_shift: theta_star
+
+  bao_desi_dr1_gccomb:
+    vector_path_candidates:
+      - data/raw/bao/desi_dr1_bao_gccomb_vector.csv
+      - data/raw/bao/bao_vector.csv
+    covariance_path_candidates:
+      - data/raw/bao/desi_dr1_bao_gccomb_cov.csv
+      - data/raw/bao/bao_cov.csv
+    observable_name_map:
+      dm_over_rs_z0p510: dm_over_rs_z0p510
+      dh_over_rs_z0p510: dh_over_rs_z0p510
+      dm_over_rs: dm_over_rs_z0p510
+      dh_over_rs: dh_over_rs_z0p510
+
+  rsd_desi_dr1_fsigma8:
+    vector_path_candidates:
+      - data/raw/rsd/desi_dr1_rsd_fsigma8_vector.csv
+      - data/raw/rsd/rsd_vector.csv
+    covariance_path_candidates:
+      - data/raw/rsd/desi_dr1_rsd_fsigma8_cov.csv
+      - data/raw/rsd/rsd_cov.csv
+    observable_name_map:
+      fsigma8_z0p800: fsigma8_z0p800
+      f_sigma8: fsigma8_z0p800
+
+  wl_kids1000_s8:
+    vector_path_candidates:
+      - data/raw/weak_lensing/kids1000_s8_vector.csv
+      - data/raw/weak_lensing/wl_vector.csv
+    covariance_path_candidates:
+      - data/raw/weak_lensing/kids1000_s8_cov.csv
+      - data/raw/weak_lensing/wl_cov.csv
+    observable_name_map:
+      S8: S8

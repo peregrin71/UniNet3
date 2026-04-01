@@ -1,4 +1,4 @@
-﻿# UniNet Noether and Symmetry Program (Rigor Track)
+# UniNet Noether and Symmetry Program (Rigor Track)
 
 Date: 2026-03-30  
 Purpose: formalize which symmetry claims are already theorem-level, which are Noether-like invariants, and which require additional action-level assumptions before promotion.
@@ -24,7 +24,7 @@ Purpose: formalize which symmetry claims are already theorem-level, which are No
 | NS-002 | QM time-translation invariance in static regime (`S2`) | theorem-now | Time-independent update and regime assumptions | none |
 | NS-003 | Locality-preserving conjugation symmetry (`S3`) | theorem-now | Local unitary conjugation structure | none |
 | NS-004 | Pseudo-unitary projected invariance (`S4`) | noether-like | Explicit design-goal symmetry in projected block | Needs full action + generator relation |
-| NS-005 | Norm conservation (`C1`) | theorem-now | Unitarity (`U^\dagger U=I`) | none |
+| NS-005 | Norm conservation (`C1`) | theorem-now | Unitarity ($U^\dagger U=I$) | none |
 | NS-006 | Entropy/closure-style invariants under coarse-graining constraints | noether-like | Core continuity + queue/cut bookkeeping theorems | Needs full observable functional and domain class |
 | NS-007 | Source-curvature conservation compatibility (Bianchi-style) | deferred-noether | Present in GR rigor plan obligations | Requires finalized discrete action and variation space |
 
@@ -50,6 +50,7 @@ To promote any `noether-like` or `deferred-noether` item:
 1. `Noether Ledger v1`: symmetry groups, domains, and claim status for every symmetry statement used in active docs.
 2. `Discrete-Action Preconditions Note`: exact mathematical assumptions needed for theorem-level Noether promotion.
 3. `Promotion Patch Set`: convert eligible `noether-like` claims to `theorem-now` with explicit proofs.
+
 
 
 

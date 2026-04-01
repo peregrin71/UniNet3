@@ -1,4 +1,4 @@
-﻿# UniNet Cosmology Section (LCDM-Comparable Build-Up Draft v1)
+# UniNet Cosmology Section (LCDM-Comparable Build-Up Draft v1)
 
 Date: 2026-03-30  
 Primary source of truth: `../docs_input/UNINET_CORE_AXIOMS.md`  
@@ -32,17 +32,17 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 ### C2. Effective Sources -> Friedmann-Like Evolution
 
 - Operational background equation form:
-  \[
+  $$
   H^2(z)=H_0^2\left[\Omega_r(1+z)^4+\Omega_m(1+z)^3+\Omega_{\mathrm{DE}}\,f_{\mathrm{DE}}(z)\right].
-  \]
+  $$
 - Status: `postulate` packaging; explicit mapping kernels are deferred by component.
 
 ### C3. Buffer Relaxation -> Dark Energy Sector
 
 - Operational parameterization:
-  \[
+  $$
   w(z)=w_0+w_a\frac{z}{1+z}.
-  \]
+  $$
 - Status: `postulate`.
 - Matrix-linked sign test: `COS-CORE-001`.
 
@@ -50,7 +50,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 - Status: `postulate`.
 - Working claim: long-wavelength buffered modes can mimic pressureless clustering behavior in relevant regime.
-- Precision transfer kernel to `P(k,z)` remains `deferred` (`COS-DEF-006`).
+- Precision transfer kernel to $P(k,z)$ remains `deferred` (`COS-DEF-006`).
 
 ### C5. Early-Time Phase/Buffer Mechanism -> Inflation Sector
 
@@ -89,7 +89,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 ### C11. Inflation Exit and Reheating Interface
 
 - Status: `deferred` unless explicit exit trigger and reheating channel map are frozen with observables.
-- Required observables include thermal-history consistency channels (for example `N_{\mathrm{eff}}` class constraints).
+- Required observables include thermal-history consistency channels (for example $N_{\mathrm{eff}}$ class constraints).
 
 ### C12. Non-Particle Dark-Sector Detection Interface
 
@@ -100,9 +100,9 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 - Native equations remain primary.
 - Effective-action companion (when assumptions are frozen):
-  \[
+  $$
   \mathcal{S}_{\mathrm{eff}}=\int d^4x\sqrt{-g}\,\mathcal{L}_{\mathrm{eff}}\!\left(\rho_{\mathrm{buffer}},\Phi,\ldots\right).
-  \]
+  $$
 - Status: formal scaffold only; not a completed derivation theorem.
 
 ## 5. Claim Boundaries
@@ -124,7 +124,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 |---|---|---|
 | C1 coarse-graining to background sectors | postulate | explicit kernel closure |
 | C2 Friedmann-like packaged dynamics | postulate | derivation from frozen effective action |
-| C3 DE branch and `w(z)` behavior | postulate | parameter-lock and robust transfer map |
+| C3 DE branch and $w(z)$ behavior | postulate | parameter-lock and robust transfer map |
 | C4 DM-like clustering branch | postulate | scale-dependent kernel closure |
 | C5 inflation packaging | postulate | micro-to-primordial derivation |
 | C6 perturbation-to-observable transfer | deferred | explicit forward kernel |
@@ -139,6 +139,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 1. Core rows: `COS-CORE-001`, `COS-CORE-002`, `COS-CORE-003`, `COS-CORE-004`.
 2. Deferred rows: `COS-DEF-005`, `COS-DEF-006`, `COS-DEF-007`.
+
 
 
 

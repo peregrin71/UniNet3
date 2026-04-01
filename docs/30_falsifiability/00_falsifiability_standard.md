@@ -1,4 +1,4 @@
-﻿# UniNet Falsifiability Standard v1
+# UniNet Falsifiability Standard v1
 
 Date: 2026-03-30
 Scope: mandatory standard for all UniNet falsifiability matrices.
@@ -23,16 +23,16 @@ Rows failing any condition remain in the matrix as `deferred`.
 
 Every row in every section matrix must contain all fields below.
 
-1. `prediction_id`
+1. $prediction_id$
 2. `claim_status` (`theorem` | `postulate` | `deferred`)
 3. `source_anchor` (absolute path + line in core docs)
-4. `model_equation_or_rule`
+4. $model_equation_or_rule$
 5. `observable`
-6. `sign_or_direction`
-7. `null_model`
-8. `current_constraint`
-9. `forecast_constraint`
-10. `free_parameter_policy` (`none` | `pre-locked-from-disjoint-data`)
+6. $sign_or_direction$
+7. $null_model$
+8. $current_constraint$
+9. $forecast_constraint$
+10. $free_parameter_policy$ (`none` | `pre-locked-from-disjoint-data`)
 11. `decision_rule`
 12. `falsifier_statement`
 
@@ -47,16 +47,16 @@ Every row in every section matrix must contain all fields below.
 - Format: `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:<line>`.
 - Multiple anchors allowed if one line is insufficient.
 
-3. `current_constraint`
+3. $current_constraint$
 - Must include numeric statement and CL when available.
 - Must include source and publication date.
 
-4. `forecast_constraint`
+4. $forecast_constraint$
 - Must include instrument/survey name.
 - Must include expected sensitivity and date window.
 - If sensitivity is scaling-based, mark it explicitly as inference.
 
-5. `free_parameter_policy`
+5. $free_parameter_policy$
 - `none`: no fitted nuisance/transfer parameter used in this test.
 - `pre-locked-from-disjoint-data`: all fitted parameters locked on a non-overlapping dataset before target test.
 
@@ -94,6 +94,7 @@ Deferred handling applies when any core criterion is missing:
 2. Do not label consistency-only statements as predictions.
 3. No new physical derivations in this phase.
 4. Matrix outputs must be decision-complete for the later statistics phase.
+
 
 
 

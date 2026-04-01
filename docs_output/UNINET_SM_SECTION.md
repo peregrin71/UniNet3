@@ -1,4 +1,4 @@
-﻿# UniNet SM Section (Build-Up Draft v1)
+# UniNet SM Section (Build-Up Draft v1)
 
 Date: 2026-03-30  
 Primary source of truth: `../docs_input/UNINET_CORE_AXIOMS.md`  
@@ -39,27 +39,27 @@ No independent particle ontology is introduced in this section.
 
 - `proved`: left/right decomposition from Axiom 0.7.
 - Canonical split:
-  \[
+  $$
   \mathcal{H}_v = \mathcal{H}_v^L \oplus \mathcal{H}_v^R.
-  \]
+  $$
 - This defines the basic mode classes used for parity/CP packaging.
 
 ### S2. Chiral Transfer Blocks -> Controlled Mixing Sector
 
 - `postulate`: admissible transfer class respects chiral block structure plus bounded mixing.
 - Canonical window variable:
-  \[
+  $$
   0 < \bar{\epsilon}_{\mathrm{mix}} \le \epsilon_{\mathrm{mix}}^{\max} \ll 1.
-  \]
+  $$
 - Non-emptiness of admissible class is required but still partially `deferred` (see S9).
 
 ### S3. CP Operator -> Quantified CP Breaking
 
 - CP involution with real chiral phases and operator non-commutation metric:
-  \[
+  $$
   \epsilon_{\mathrm{CP}}=\frac{1}{2}\|[\mathsf{CP},U]\|_{\mathrm{op}},\qquad
   0 < \epsilon_{\mathrm{CP}} \le \epsilon_{\mathrm{CP}}^{\max}\ll 1.
-  \]
+  $$
 - Status: `postulate` as transfer-class restriction; observational mapping tested in falsifiability matrix.
 
 ### S4. Exchange Symmetry Constraints -> Fermion/Boson Sectors
@@ -71,7 +71,7 @@ No independent particle ontology is introduced in this section.
 
 - Goal: map admissible transfer symmetries to effective internal gauge algebra.
 - Status now: `deferred` for full constructive theorem.
-- Non-claim: no current theorem that UniNet already derives all of `U(1)\times SU(2)\times SU(3)`.
+- Non-claim: no current theorem that UniNet already derives all of $U(1)\times SU(2)\times SU(3)$.
 
 ### S6. Representation and Anomaly Consistency
 
@@ -86,8 +86,8 @@ No independent particle ontology is introduced in this section.
 ### S8. Observable Interface
 
 - Observable map class:
-  - kaon CP parameter `|\epsilon_K|`,
-  - B-sector CP asymmetry `\sin(2\phi_1)`,
+  - kaon CP parameter $|\epsilon_K|$,
+  - B-sector CP asymmetry $\sin(2\phi_1)$,
   - chirality-sensitive weak-decay ratios.
 - Status: `postulate` packaging with hard test rows in matrix.
 
@@ -106,11 +106,11 @@ No independent particle ontology is introduced in this section.
 
 - Native constraints remain primary.
 - Optional variational encoding for admissible transfer family:
-  \[
+  $$
   \min_{U}\ \mathcal{J}[U]
   \quad\text{subject to}\quad
   U^\dagger U=I,\ \text{locality},\ \bar{\epsilon}_{\mathrm{mix}}\le\epsilon_{\mathrm{mix}}^{\max},\ \epsilon_{\mathrm{CP}}\le\epsilon_{\mathrm{CP}}^{\max}.
-  \]
+  $$
 - Status: this is a formal encoding aid, not yet a completed derivation theorem.
 
 ## 5. Claim Boundaries
@@ -145,4 +145,5 @@ No independent particle ontology is introduced in this section.
 
 1. `UNINET_SM_FALSIFIABILITY_MATRIX.md`: `SM-CORE-001`, `SM-CORE-002`.
 2. Deferred bridge rows: `SM-DEF-003`, `SM-DEF-004`.
+
 

@@ -1,4 +1,4 @@
-# UniNet Core Axioms (v1.4)
+﻿# UniNet Core Axioms (v1.4)
 Date: 2026-03-30
 
 ---
@@ -42,3 +42,4 @@ Derived theorem. No new axioms introduced.
 
 ---
 **End of Addendum**
+

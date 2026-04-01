@@ -1,4 +1,4 @@
-# UniNet Update Operator Constraints and Candidate Forms (v3)
+﻿# UniNet Update Operator Constraints and Candidate Forms (v3)
 Date: 2026-03-30
 Status: Expository / Non-Axiomatic Consolidation
 
@@ -12,12 +12,12 @@ This document consolidates **all known constraints on the UniNet update operator
 This document supports *recognition*, not novelty.
 
 ---
-## 2. Hard Constraints from Tier‑0 Axioms
+## 2. Hard Constraints from Tier-0 Axioms
 
 ### C0.1 Unitarity
 $U^\dagger U = I$
 - Exact information conservation.
-- Excludes stochastic or collapse-based dynamics at Tier‑0.
+- Excludes stochastic or collapse-based dynamics at Tier-0.
 
 ### C0.2 Graph Locality
 - $U$ factorizes into node-local and edge-local operations.
@@ -63,10 +63,10 @@ $\mathcal{H}_v = \mathcal{H}_v^L \oplus \mathcal{H}_v^R$
 - Block-structured internal space with bounded mixing.
 
 ### C7. Bounded Chirality Mixing
-$0 < ar{\epsilon}_{\mathrm{mix}} \le \epsilon_{\mathrm{mix}}^{\max} \ll 1$
+$0 < \bar{\epsilon}_{\mathrm{mix}} \le \epsilon_{\mathrm{mix}}^{\max} \ll 1$
 
 ### C8. CP Non-Commutation
-$\epsilon_{\mathrm{CP}} = 	frac12\|[\mathrm{CP},U]\|_{op} > 0$
+$\epsilon_{\mathrm{CP}} = \frac{1}{2}\|[\mathrm{CP},U]\|_{\mathrm{op}} > 0$
 
 ### C9. Anomaly Compatibility
 - Only anomaly-consistent representations are admissible.
@@ -149,3 +149,4 @@ Observations **prune** the admissible class; they do not introduce new operator 
 
 ---
 **End of document (v3)**
+

@@ -10,7 +10,7 @@
 
 This GR section is ready to start **now** under the following lock:
 
-1. No new microscopic axioms beyond Tier-0 and bridge axioms 4.1â€“4.3 already in `../docs_input/UNINET_CORE_AXIOMS.md`.
+1. No new microscopic axioms beyond Tier-0 and bridge axioms 4.1–4.3 already in `../docs_input/UNINET_CORE_AXIOMS.md`.
 2. Any new assumption at GR level must be marked explicitly as either:
    - `Postulate` (model choice), or
    - `Derived` (with proof and dependency list).
@@ -117,7 +117,7 @@ Recommended target file: `UNINET_GR_SECTION.md`
 
 ### M2: Causal Order -> Observed Time
 - `Definition M2.1`: $t_obs$ from past-set volume (or equivalent monotone functional).
-- `Theorem M2.2`: $x â‰º y => t_obs(x) < t_obs(y)$ under nondegeneracy assumptions.
+- `Theorem M2.2`: $x \prec y \Rightarrow t_{\mathrm{obs}}(x) < t_{\mathrm{obs}}(y)$ under nondegeneracy assumptions.
 - `Remark M2.R`: distinguish microscopic tick `n` from emergent observed time.
 
 ### M3: Microscopic State -> Observed Spacetime
@@ -144,8 +144,8 @@ Recommended target file: `UNINET_GR_SECTION.md`
 - `Definition M7.1`: effort functional and stress-effort map.
 - `Theorem M7.2`: Euler-Lagrange discrete field equation.
 - `Lemma M7.3`: conservation consistency (Bianchi-type compatibility condition).
-  Native target equation: `\mathrm{Curv}[\tau] = \kappa\,\mathrm{StressEffort}[\rho,J]`.
-  Variational companion: `\delta(\mathcal{S}_{\mathrm{geo}}[\tau]+\kappa\,\mathcal{S}_{\mathrm{src}}[\rho,J])/\delta\tau=0`.
+  Native target equation: $\mathrm{Curv}[\tau] = \kappa\,\mathrm{StressEffort}[\rho,J]$.
+  Variational companion: $\delta(\mathcal{S}_{\mathrm{geo}}[\tau]+\kappa\,\mathcal{S}_{\mathrm{src}}[\rho,J])/\delta\tau=0$.
 
 ### M8: Queueing/Backpressure and Horizons
 - `Definition M8.1`: normal vs near-saturation queueing regimes in projected GR observables.
@@ -169,7 +169,7 @@ Recommended target file: `UNINET_GR_SECTION.md`
 4. No phenomenological statement in proof sections.
 5. Units must be checked line-by-line in the projection/dynamics blocks.
 6. If a step is not proved, mark it `Postulate` and isolate it.
-7. Every horizon statement must declare whether it is in the exact-closure branch (`\Phi=0`) or leaky branch (`\Phi\neq0`) and quote the throughput bound class.
+7. Every horizon statement must declare whether it is in the exact-closure branch ($\Phi=0$) or leaky branch ($\Phi\neq0$) and quote the throughput bound class.
 8. Dynamics/source claims must show native theorem statement plus variational companion form.
 
 ---
@@ -231,6 +231,8 @@ All must be true:
 5. Write M8 queueing/backpressure-horizon block and tie to falsifiability rows.
 6. Write M9 black-hole application block (deferred-aware).
 7. Run a final "claim audit" to remove all unstated assumptions.
+
+
 
 
 

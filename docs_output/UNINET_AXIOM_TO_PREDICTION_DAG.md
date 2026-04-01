@@ -1,4 +1,4 @@
-﻿# UniNet Axiom-to-Prediction Dependency DAG
+# UniNet Axiom-to-Prediction Dependency DAG
 
 Date: 2026-03-30  
 Purpose: single traceable map from axioms to derived theorems to section-level falsifiability rows.
@@ -100,7 +100,7 @@ Core anchors:
 
 These are intentionally non-core until promoted:
 
-1. Gauge-group derivation node (`U(1) x SU(2) x SU(3)` emergence).
+1. Gauge-group derivation node ($U(1) x SU(2) x SU(3)$ emergence).
 2. Full Page/firewall/ringdown forward models.
 3. CMB multipole transfer kernel lock.
 4. Collider/direct-detection effective coupling map for non-particle DM branch.
@@ -117,6 +117,7 @@ Every new prediction row must add:
 1. one `A*`/`T*` parent path in this DAG,
 2. one explicit source anchor in core,
 3. one binary reject criterion in matrix row.
+
 
 
 
