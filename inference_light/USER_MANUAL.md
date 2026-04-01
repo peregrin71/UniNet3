@@ -50,13 +50,13 @@ When you decide to move from sample inputs to real datasets:
 
 1. Use `download_manifest.md` as the source list.
 2. Download manually to `data/raw/<family>/...`.
-3. Record source/version/checksum metadata.
-4. Update `configs/datasets.yaml` paths to the real files.
-5. Re-run the pipeline.
+3. Preprocess to CSV outputs in `data/processed/...` as documented in `InferenceLightPipelineDesign.md` (Section 13).
+4. Record source/version/checksum metadata.
+5. Set the selected datasets to `enabled: true` in `configs/datasets.yaml`.
+6. Re-run the pipeline.
 
 ## 6. Common Notes
 
 1. This project is BAT-first on Windows.
 2. `.venv` and `runs/*` are ignored by git via `.gitignore`.
 3. If `run_pipeline` says `.venv` is missing, run `bootstrap_venv` first.
-

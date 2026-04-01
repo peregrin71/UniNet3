@@ -337,3 +337,118 @@ Verification method:
 3. All input datasets used are traceable by URL/version/hash.
 4. Final verdict (`fits_known_physics_at_all`) is reproducible with fixed seed.
 5. No PowerShell execution is required by default workflow.
+
+## 13. Real-Data Preprocessing to CSV (Portable Procedure)
+
+This section describes exactly what to prepare on another system before enabling real datasets.
+
+### 13.1 Output Directory and File Contract
+
+Create these files under `inference_light\data\processed`:
+
+1. `cmb/planck_pr3_compressed_vector.csv`
+2. `cmb/planck_pr3_compressed_cov.csv`
+3. `bao/desi_dr1_bao_gccomb_vector.csv`
+4. `bao/desi_dr1_bao_gccomb_cov.csv`
+5. `rsd/desi_dr1_rsd_fsigma8_vector.csv`
+6. `rsd/desi_dr1_rsd_fsigma8_cov.csv`
+7. `weak_lensing/kids1000_s8_vector.csv`
+8. `weak_lensing/kids1000_s8_cov.csv`
+
+### 13.2 Required CSV Formats
+
+Data vector CSV format (header required):
+
+```csv
+observable,value
+theta_star,1.0411
+```
+
+Covariance CSV format:
+
+1. One number for 1x1 covariance, for example:
+   - `0.000001`
+2. For multi-observable vectors: comma-separated square matrix with shape `N x N`.
+
+Observable names must exactly match `model.observables[].name` in `configs/datasets.yaml`.
+
+### 13.3 BAO (DESI DR1) Preprocess Steps
+
+Input source candidates:
+
+1. `https://data.desi.lbl.gov/public/dr1/vac/dr1/bao-cosmo-params/v1.0/`
+2. `https://github.com/CobayaSampler/bao_data` (e.g. `desi_2024_gaussian_bao_ALL_GCcomb_mean.txt` and cov counterpart)
+
+Process:
+
+1. Read the DESI mean file rows `(z, value, quantity)`.
+2. Select rows you want to fit (example uses z=0.510 `DM_over_rs` and `DH_over_rs`).
+3. Convert to vector CSV:
+   - `dm_over_rs_z0p510,<value>`
+   - `dh_over_rs_z0p510,<value>`
+4. Extract matching covariance block and write comma-separated `2x2` covariance CSV.
+
+Expected outputs:
+
+1. `data/processed/bao/desi_dr1_bao_gccomb_vector.csv`
+2. `data/processed/bao/desi_dr1_bao_gccomb_cov.csv`
+
+### 13.4 RSD (DESI DR1 Full Shape) Preprocess Steps
+
+Input source:
+
+1. `https://data.desi.lbl.gov/public/dr1/vac/dr1/full-shape-bao-clustering/v1.0/data/likelihood/`
+
+Process:
+
+1. Read the selected likelihood product (HDF5).
+2. Extract one compressed growth observable (example name: `fsigma8_z0p800`).
+3. Write vector CSV with one row and its covariance as `1x1`.
+
+Expected outputs:
+
+1. `data/processed/rsd/desi_dr1_rsd_fsigma8_vector.csv`
+2. `data/processed/rsd/desi_dr1_rsd_fsigma8_cov.csv`
+
+### 13.5 Weak Lensing (KiDS-1000) Preprocess Steps
+
+Input source:
+
+1. `https://kids.strw.leidenuniv.nl/DR4/KiDS-1000_3x2pt_Cosmology.php`
+
+Process:
+
+1. Extract the summary statistic used in v1 (example: `S8`).
+2. Write vector CSV with `S8,<value>`.
+3. Write `1x1` covariance CSV from published uncertainty (`sigma^2`).
+
+Expected outputs:
+
+1. `data/processed/weak_lensing/kids1000_s8_vector.csv`
+2. `data/processed/weak_lensing/kids1000_s8_cov.csv`
+
+### 13.6 CMB (Planck PR3 Compressed) Preprocess Steps
+
+Input source:
+
+1. Planck baseline package referenced by `COM_Likelihood_Data-baseline_R3.00.tar.gz`
+
+Process:
+
+1. Produce a compressed observable summary used by this v1 linear adapter (example: `theta_star`).
+2. Export `observable,value` CSV.
+3. Export matching covariance as `1x1` or `NxN` CSV.
+
+Expected outputs:
+
+1. `data/processed/cmb/planck_pr3_compressed_vector.csv`
+2. `data/processed/cmb/planck_pr3_compressed_cov.csv`
+
+### 13.7 Enable Real Datasets
+
+After files exist:
+
+1. Set `enabled: true` per dataset in `configs/datasets.yaml`.
+2. Keep `is_non_ladder: true` for core-run datasets.
+3. Confirm observable names in vectors match `model.observables`.
+4. Run pipeline.

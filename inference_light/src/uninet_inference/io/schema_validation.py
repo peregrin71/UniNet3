@@ -159,12 +159,15 @@ def validate_datasets_config(config: dict[str, Any], project_root: Path) -> None
                 "core runs require non-ladder data"
             )
 
+        # Disabled datasets are allowed to point to not-yet-created files.
+        # This supports shipping real-run templates before data preprocessing.
         data_path = project_root / dataset["data_vector_path"]
         cov_path = project_root / dataset["covariance_path"]
-        if not data_path.exists():
-            raise ValueError(f"Dataset '{dataset_id}' data_vector_path missing: {data_path}")
-        if not cov_path.exists():
-            raise ValueError(f"Dataset '{dataset_id}' covariance_path missing: {cov_path}")
+        if dataset["enabled"]:
+            if not data_path.exists():
+                raise ValueError(f"Dataset '{dataset_id}' data_vector_path missing: {data_path}")
+            if not cov_path.exists():
+                raise ValueError(f"Dataset '{dataset_id}' covariance_path missing: {cov_path}")
 
         model = dataset["model"]
         if not isinstance(model, dict):
@@ -179,4 +182,3 @@ def validate_datasets_config(config: dict[str, Any], project_root: Path) -> None
             _ensure_keys(obs, ["name", "intercept", "coeffs"], f"dataset '{dataset_id}' observable")
             if not isinstance(obs["coeffs"], dict):
                 raise ValueError(f"Dataset '{dataset_id}' observable coeffs must be a mapping")
-
