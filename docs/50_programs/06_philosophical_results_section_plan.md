@@ -42,13 +42,13 @@ Recommended target file: `UNINET_PHILOSOPHICAL_RESULTS_SECTION.md`
 
 | Theme | UniNet Interpretation Target | Current Anchor(s) | Status Now | Promotion Need |
 |---|---|---|---|---|
-| Bell | Contextual/no-signaling compatibility with deeper deterministic substrate | `../docs_input/UNINET_CORE_AXIOMS.md:671`, `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q5/Q6) | deferred-interpretive | Add explicit Bell-inequality mapping theorem or deferred formal note |
-| Einstein "dice" | Deterministic microdynamics + observed probabilistic coarse layer | `../docs_input/UNINET_CORE_AXIOMS.md:244`, `../docs_input/UNINET_CORE_AXIOMS.md:671`, `UNINET_QM_FALSIFIABILITY_MATRIX.md:10` | mixed (`proved` + `postulate`) | Tighten language to "effective randomness from coarse-graining" only |
-| Wigner's friend / Copenhagen | Observer-relative collapse as projection effect, not Tier-0 dynamics | `../docs_input/UNINET_CORE_AXIOMS.md:671`, `../docs_input/UNINET_CORE_AXIOMS.md:695`, `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q4-Q6) | partially covered | Add explicit synchronization/causal-contact condition statement |
-| Bohr complementarity | Measurement context dependence at observable interface | `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q5/Q6), `../docs_input/UNINET_CORE_AXIOMS.md:632` | deferred | Define protocol-level contextuality observable |
-| Rovelli relationality | Observer-dependent macro descriptions from partial information | `../docs_input/UNINET_CORE_AXIOMS.md:632`, `../docs_input/UNINET_CORE_AXIOMS.md:671` | partially covered | Add explicit relational-state language with non-claim boundary |
-| Page-Wootters | Emergent observed time from internal correlations/coarse-graining | `../docs_input/UNINET_CORE_AXIOMS.md:632`, `../docs_input/UNINET_CORE_AXIOMS.md:671`, `UNINET_QM_SECTION_RIGOR_PLAN.md:98` | partially covered | Add comparative note; avoid claiming equivalence theorem |
-| Delayed choice | No retrocausality at substrate level; observer-level ordering limits | `../docs_input/UNINET_CORE_AXIOMS.md:544`, `../docs_input/UNINET_CORE_AXIOMS.md:632`, `../docs_input/UNINET_CORE_AXIOMS.md:671` | deferred | Add explicit causal-order theorem/corollary in QM document |
+| Bell | Contextual/no-signaling compatibility with deeper deterministic substrate | `../docs_input/UNINET_CORE_AXIOMS.md:706`, `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q5/Q6) | deferred-interpretive | Add explicit Bell-inequality mapping theorem or deferred formal note |
+| Einstein "dice" | Deterministic microdynamics + observed probabilistic coarse layer | `../docs_input/UNINET_CORE_AXIOMS.md:298`, `../docs_input/UNINET_CORE_AXIOMS.md:706`, `UNINET_QM_FALSIFIABILITY_MATRIX.md:10` | mixed (`proved` + `postulate`) | Tighten language to "effective randomness from coarse-graining" only |
+| Wigner's friend / Copenhagen | Observer-relative collapse as projection effect, not Tier-0 dynamics | `../docs_input/UNINET_CORE_AXIOMS.md:706`, `../docs_input/UNINET_CORE_AXIOMS.md:730`, `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q4-Q6) | partially covered | Add explicit synchronization/causal-contact condition statement |
+| Bohr complementarity | Measurement context dependence at observable interface | `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q5/Q6), `../docs_input/UNINET_CORE_AXIOMS.md:667` | deferred | Define protocol-level contextuality observable |
+| Rovelli relationality | Observer-dependent macro descriptions from partial information | `../docs_input/UNINET_CORE_AXIOMS.md:667`, `../docs_input/UNINET_CORE_AXIOMS.md:706` | partially covered | Add explicit relational-state language with non-claim boundary |
+| Page-Wootters | Emergent observed time from internal correlations/coarse-graining | `../docs_input/UNINET_CORE_AXIOMS.md:667`, `../docs_input/UNINET_CORE_AXIOMS.md:706`, `UNINET_QM_SECTION_RIGOR_PLAN.md:98` | partially covered | Add comparative note; avoid claiming equivalence theorem |
+| Delayed choice | No retrocausality at substrate level; observer-level ordering limits | `../docs_input/UNINET_CORE_AXIOMS.md:579`, `../docs_input/UNINET_CORE_AXIOMS.md:667`, `../docs_input/UNINET_CORE_AXIOMS.md:706` | deferred | Add explicit causal-order theorem/corollary in QM document |
 | Wave-particle duality | Unified microdynamics + projection-dependent observable regimes | `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q5/Q6), `UNINET_QM_FALSIFIABILITY_MATRIX.md` | deferred | Add concrete protocol statistic linking interference + detection regime |
 | Uncertainty as projection limit | Operational uncertainty from coarse observables (not Tier-0 randomness) | `UNINET_QM_SECTION_RIGOR_PLAN.md` (Q5/Q6), `UNINET_BOUNDARY_NONCLAIMS.md` | deferred | Add explicit theorem/postulate boundary and protocol test |
 
@@ -76,6 +76,7 @@ For each philosophical claim:
 3. Add a final non-claims subsection that mirrors `UNINET_BOUNDARY_NONCLAIMS.md`.
 4. Add cross-links from QM/GR/SM/Cosmology plans where relevant.
 5. Add one review pass specifically for wording inflation and category errors.
+
 
 
 

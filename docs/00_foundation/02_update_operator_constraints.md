@@ -14,6 +14,16 @@ This document supports *recognition*, not novelty.
 ---
 ## 2. Hard Constraints from Tier-0 Axioms
 
+### C0.0 One Update Rule Family (`AXIOM-4`)
+- A single declared evolution-law family $\{U_n\}$ governs all ticks.
+- In the baseline static regime, $U_n \equiv U$.
+- Excludes undeclared patchwork dynamics.
+
+### C0.0b Update Homogeneity (`AXIOM-5`)
+- The admissible local update form is uniform across nodes/edges.
+- Any variation must come from declared local observables, not node identity.
+- Excludes hidden per-node laws.
+
 ### C0.1 Unitarity
 $U^\dagger U = I$
 - Exact information conservation.

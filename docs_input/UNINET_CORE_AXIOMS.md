@@ -1,4 +1,4 @@
-﻿# UniNet: Minimal Axiomatic Foundation
+# UniNet: Minimal Axiomatic Foundation
 
 **A rigorous, self-contained reference for the graph-to-spacetime framework**
 
@@ -8,24 +8,24 @@
 
 ## Conceptual Preview: What Are We Building?
 
-**In one sentence:** We are rebuilding Quantum Mechanics, the Standard Model, and General Relativity—**entirely on a deterministic substrate**.
+**In one sentence:** We are rebuilding Quantum Mechanics, the Standard Model, and General Relativity�**entirely on a deterministic substrate**.
 
 ### The Intuition
 
 Imagine a **vast graph** (like a cosmic network) where:
 - **Each node** stores quantum information (internal d.o.f., split into left/right chiral sectors)
 - **Each $n$**, this information propagates to neighbors via a fixed **unitary transfer operator** $U$
-- **No randomness, no collapse, no external rules**—just pure, reversible, deterministic wave evolution
+- **No randomness, no collapse, no external rules**�just pure, reversible, deterministic wave evolution
 
 ### Information as the Currency: Mass/Energy Emerges from Confinement
 
-Here's the key insight: **Information is not abstract–it has physical consequences.**
+Here's the key insight: **Information is not abstract�it has physical consequences.**
 
-**In the graph (Tier 0 — Microscopic):**
+**In the graph (Tier 0 � Microscopic):**
 - Information at node $v$ is quantified by buffering density $\rho(v, n) = |\psi_v(n)|^2$
-- **Unitary evolution preserves total information** (Axiom 0.2: $\sum_v \rho(v, n) = 1$ conserved)
-- Confined information (high $\rho$ at a node) **resists propagation** — signals slow down
-- Everything is deterministic, reversible, unitary–no randomness, no collapse
+- **Unitary evolution preserves total information** (AXIOM-7: $\sum_v \rho(v, n) = 1$ conserved)
+- Confined information (high $\rho$ at a node) **resists propagation** � signals slow down
+- Everything is deterministic, reversible, unitary�no randomness, no collapse
 
 ### What Emerges When We Coarse-Grain This Structure
 
@@ -34,7 +34,7 @@ Now the key question: **What happens when we average over microscopic structure 
 When we coarse-grain deterministic graph dynamics (averaging over Planck-scale structure), we get:
 
 1. **Quantum mechanics' randomness** emerges from **projection and information hiding** (buffering density obscures phase information; we only observe composite observables, not all d.o.f.)
-2. **Born rule** emerges from **averaging over fine structure**—deterministic → appears random at macro scale
+2. **Born rule** emerges from **averaging over fine structure**�deterministic appears random at macro scale
 3. **Spacetime geometry** emerges as a **coarse-grained effective description** (transport costs create effective geometric delays)
 4. **Standard Model gauge groups** $(U(1) \times SU(2) \times SU(3))$ emerge from **chiral mode topology** (not postulated)
 5. **Fermion-boson distinction** emerges from **spin-statistics** (antisymmetry vs. symmetry under chiral sector exchange)
@@ -49,7 +49,7 @@ Once we've coarse-grained to a macroscopic description, we introduce the **linea
 - **Mass emerges from information confinement**, not as a separate property
 
 **Physical consequence:**
-- **Black holes:** Extreme buffering (information maximally confined at horizon) → extreme spacetime curvature
+- **Black holes:** Extreme buffering (information maximally confined at horizon) extreme spacetime curvature
 - **Information paradox resolved:** Information is **never lost** at Tier 0 (unitary evolution); it's released gradually via Hawking radiation as buffer decays (effective thermodynamics at macro scale)
 - **Energy conservation:** Always rooted in information conservation (unitary dynamics at Tier 0)
 - **Arrow of time emerges:** Coarse-graining discards phase information; forward evolution hides information in unobservable phases; backward reversal is impossible without the lost phase data. Result: **macroscopic time becomes irreversible** (second law, entropy increase) even though Tier 0 is reversible.
@@ -66,7 +66,7 @@ Once we've coarse-grained to a macroscopic description, we introduce the **linea
 ### The Price and the Prize
 
 **What we give up:**
-- Smooth spacetime (temporarily–emerges in continuum limit)
+- Smooth spacetime (temporarily�emerges in continuum limit)
 - Locality in spacetime (only graph locality; spacetime locality emerges)
 - Gauge principle as starting point (gauge structure emerges)
 
@@ -80,13 +80,13 @@ Once we've coarse-grained to a macroscopic description, we introduce the **linea
 
 To achieve this emergence, the transfer operator $U$ is **not arbitrary**. It must satisfy:
 
-- **R1: Graph locality** — information only spreads one hop per tick (enables causal structure)
-- **R2: Unitarity (Information Preservation)** — reversible, norm-preserving dynamics (the **core constraint**: information is never lost, only redistributed; this solves the information paradox and guarantees energy conservation)
-- **R3: Buffering consistency** — local conservation of information density (enables stress-energy projection; mass/energy emerges from information confinement via buffering)
-- **R5: Chiral structure** — left/right sectors with measurable mixing (enables parity violation, CP violation)
-- **R6: CP structure** — real chiral phases with controlled non-commutation with $U$ (enables matter-antimatter asymmetry while preserving unitarity)
-- **R7: Spin-statistics** — fermions antisymmetric, bosons symmetric (enables Pauli exclusion)
-- **R8: Quantitative admissible window** — transfer operators must lie in a narrow, weak-sector-compatible parameter band
+- **R1: Graph locality** � information only spreads one hop per tick (enables causal structure)
+- **R2: Unitarity (Information Preservation)** � reversible, norm-preserving dynamics (the **core constraint**: information is never lost, only redistributed; this solves the information paradox and guarantees energy conservation)
+- **R3: Buffering consistency** � local conservation of information density (enables stress-energy projection; mass/energy emerges from information confinement via buffering)
+- **R5: Chiral structure** � left/right sectors with measurable mixing (enables parity violation, CP violation)
+- **R6: CP structure** � real chiral phases with controlled non-commutation with $U$ (enables matter-antimatter asymmetry while preserving unitarity)
+- **R7: Spin-statistics** � fermions antisymmetric, bosons symmetric (enables Pauli exclusion)
+- **R8: Quantitative admissible window** � transfer operators must lie in a narrow, weak-sector-compatible parameter band
 
 Without these constraints, $U$ could be almost anything. **With them, $U$ converges to something that looks like the Standard Model.**
 
@@ -94,14 +94,14 @@ Without these constraints, $U$ could be almost anything. **With them, $U$ conver
 
 This document develops:
 
-1. **Tier 0:** Seven axioms (graph, unitary, buffering, chirality) that are **non-negotiable**
-2. **Tier 1–3:** Causal structure, time functions, observer time–all derived as theorems
-3. **Tier 4–6:** Spacetime projection and energy-momentum calibration via explicit **bridge axioms** (4.1–4.3), then derived consequences
+1. **Tier 0:** Minimal core axioms (`AXIOM-1`...`AXIOM-10`) plus explicitly tagged model-layer assumptions (`MODEL-*`, `SM-FOUND-*`) that are declared and auditable
+2. **Tier 1�3:** Causal structure, time functions, observer time�all derived as theorems
+3. **Tier 4�6:** Spacetime projection and energy-momentum calibration via explicit **bridge postulates** (`BRIDGE-P1`...`BRIDGE-P3`), then derived consequences
 4. **Regimes:** QM (static latency) and GR (dynamic latency via field equation)
 5. **Application:** Cosmology (dark sectors, inflation) from single buffering mechanism
 6. **Queueing rigor expansion (planned):** explicit backlog/throughput observables, transport-operator viability gates, and boundary-layer black-hole queue theorems (see [QUEUEING_RIGOR_PLAN.md](QUEUEING_RIGOR_PLAN.md))
 
-**The thesis:** If you grant the Tier-0 core axioms plus the Tier-4 bridge axioms, the remaining structure follows as a mathematical consequence.
+**The thesis:** If you grant the Tier-0 core axioms plus the Tier-4 bridge postulates, the remaining structure follows as a mathematical consequence.
 
 ### Queueing Rigor (Planned, No Axiom Creep)
 
@@ -111,25 +111,25 @@ Planned additions are formal definitions and theorems plus stricter transport-fu
 
 Implementation plan: [QUEUEING_RIGOR_PLAN.md](QUEUEING_RIGOR_PLAN.md).
 
-### The Central Theme: Information Flow → Spacetime Structure
+### The Central Theme: Information Flow Spacetime Structure
 
 As you read, keep this chain in mind:
 
 ```
-Information at node (ψ_v)
-    ↓
-Buffering density (ρ = |ψ|²)
-    ↓
+Information at node (?_v)
+    ?
+Buffering density (? = |?|�)
+    ?
 Confinement = reduced propagation speed
-    ↓
+    ?
 Effective geometric delay (latency)
-    ↓
+    ?
 Spacetime curvature (Einstein equation)
-    ↓
+    ?
 Gravitational effects (mass appears)
 ```
 
-**Key insight:** You never postulate mass. It emerges from how information gets buffered/trapped at nodes. A node with high $\rho$ (densely packed information) acts as a gravitational source–not because we added a "mass field," but because the information density, when projected to spacetime, IS the energy density.
+**Key insight:** You never postulate mass. It emerges from how information gets buffered/trapped at nodes. A node with high $\rho$ (densely packed information) acts as a gravitational source�not because we added a "mass field," but because the information density, when projected to spacetime, IS the energy density.
 
 This is why:
 - **Black holes are resolvable:** The information is still there, just maximally buffered
@@ -145,11 +145,11 @@ UniNet is a **discrete-to-continuum framework** for quantum gravity that:
 
 1. **Starts with minimal axioms:** an undirected graph $G=(V,E)$, a unitary and graph-local transfer operator $U$, node buffering density $\rho(v,n)$, and **chiral decomposition** of internal degrees of freedom into left/right sectors.
 
-2. **Derives geometric structures automatically:** latency → causal order → light cones → time functions → spacetime metric, all as theorems.
+2. **Derives geometric structures automatically:** latency causal order light cones time functions spacetime metric, all as theorems.
 
-3. **Bridges microscopic and macroscopic physics:** buffering density ρ projects to energy density T₀₀; flux projects to momentum; Planck scale emerges as information saturation. **Crucially: information is the fundamental conserved quantity (unitary evolution); mass/energy emerges from information confinement.**
+3. **Bridges microscopic and macroscopic physics:** buffering density projects to energy density T00; flux projects to momentum; Planck scale emerges as information saturation. **Crucially: information is the fundamental conserved quantity (unitary evolution); mass/energy emerges from information confinement.**
 
-4. **Guarantees information preservation:** Unitary dynamics means no information is ever lost–even in black holes (resolves the information paradox). Energy conservation is rooted in information conservation.
+4. **Guarantees information preservation:** Unitary dynamics means no information is ever lost�even in black holes (resolves the information paradox). Energy conservation is rooted in information conservation.
 
 5. **Unifies QM and GR:** in the QM regime, latency is topological (fixed); in the GR regime, a field equation makes delays dynamic and adaptive to buffering.
 
@@ -157,7 +157,7 @@ UniNet is a **discrete-to-continuum framework** for quantum gravity that:
 
 7. **Incorporates CP/chirality rigorously:** Chiral sector decomposition enables parity asymmetry, CP violation, and spin-statistics connection (fermion antisymmetry, boson symmetry) without additional assumptions.
 
-8. **Explains the arrow of time:** Microscopic evolution (Tier 0) is fully reversible and bidirectional ($n \in \mathbb{Z}$); macroscopic time (Tier 4–6) becomes unidirectional and irreversible due to **information hiding during coarse-graining**. Entropy increase, black hole thermodynamics, and cosmological expansion all emerge from this information-loss transition.
+8. **Explains the arrow of time:** Microscopic evolution (Tier 0) is fully reversible and bidirectional ($n \in \mathbb{Z}$); macroscopic time (Tier 4�6) becomes unidirectional and irreversible due to **information hiding during coarse-graining**. Entropy increase, black hole thermodynamics, and cosmological expansion all emerge from this information-loss transition.
 
 **Key insight:** Fewer axioms, more emergence. No independent latency postulate; no separate edge-delay mechanism; no auxiliary fields; no separate arrow-of-time axiom. Time direction, CP violation, and all apparent irreversibility emerge from coarse-graining and chiral mixing in the transfer operator.
 
@@ -206,9 +206,23 @@ UniNet is a **discrete-to-continuum framework** for quantum gravity that:
 ## Core Axioms (Tier 0: Microscopic Foundation)
 
 These are the only unfalsifiable assumptions of the microscopic substrate (Tier 0).  
-Tier 4–6 introduces explicit bridge axioms for mapping to physical spacetime units/observables.
+Tier 4-6 introduces explicit bridge postulates for mapping to physical spacetime units/observables.
 
-### Axiom 0.1 — Graph Substrate
+### Canonical Core Order (Logical)
+1. `AXIOM-1` Graph substrate
+2. `AXIOM-2` Relabeling invariance (defined in Symmetries block)
+3. `AXIOM-3` Discrete update ordering parameter
+4. `AXIOM-4` One update rule family
+5. `AXIOM-5` Update homogeneity
+6. `AXIOM-6` Locality of interactions/transfer
+7. `AXIOM-7` No information loss
+8. `AXIOM-8` Graph cutting primitive (defined in Tier-1 cut block)
+9. `AXIOM-9` Boundary observability principle (operational form in Tier-1/Tier-1B blocks)
+10. `AXIOM-10` Standing-wave particle principle (defined in Tier-1C block)
+
+---
+
+### AXIOM-1 - Graph Substrate
 Let $G=(V,E)$ be a finite, undirected, connected simple graph (no multi-edges, no loops).
 
 **Intuition:** The graph encodes network/lattice topology. It is the fabric on which information propagates.
@@ -217,7 +231,7 @@ Let $G=(V,E)$ be a finite, undirected, connected simple graph (no multi-edges, n
 
 ---
 
-### Axiom 0.2 — Tick Parameter
+### AXIOM-3 - Discrete Update Ordering Parameter
 There exists a discrete global parameter $n \in \mathbb{Z}$ called tick time, with step size $\Delta t$ (to be identified with Planck time $t_{\mathrm{P}}$ in physical units).
 
 **Intuition:** Iteration index, not (yet) physical time. Physical time emerges from causal order.
@@ -226,11 +240,33 @@ There exists a discrete global parameter $n \in \mathbb{Z}$ called tick time, wi
 
 ---
 
-### Axiom 0.3 — Hilbert Space and States
+### AXIOM-4 - One Update Rule Family
+There exists a single declared update-rule family $\{U_n\}_{n\in\mathbb{Z}}$ on the global state space such that
+$$
+\psi_{n+1}=U_n\psi_n.
+$$
+In the baseline static case, $U_n \equiv U$.
+
+**Intuition:** The substrate has one law-family of evolution, not a patchwork of unrelated local laws.
+
+**Role:** Fixes a unique dynamical law class before model/regime specialization.
+
+---
+
+### AXIOM-5 - Update Homogeneity
+The update rule family is homogeneous over the graph: admissible local update forms are the same at every node/edge, and any variation must come only from declared local state/observable inputs, not from node labels or hidden per-node laws.
+
+**Intuition:** Same physics everywhere on the substrate.
+
+**Role:** Prevents hidden node-indexed dynamics and keeps the theory label-covariant.
+
+---
+
+### MODEL-P1 - Hilbert Space and States (Representation Choice)
 Define the global state space as
-\[
+$$
 \mathcal{H} := \bigoplus_{v \in V} \mathbb{C}^d
-\]
+$$
 where $d$ is the internal (spin/coin) degrees of freedom per node. A state at tick $n$ is $\psi_n \in \mathcal{H}$.
 
 **Intuition:** Local Hilbert spaces at each node; global state is their direct sum. Standard for quantum walks.
@@ -241,23 +277,7 @@ where $d$ is the internal (spin/coin) degrees of freedom per node. A state at ti
 
 ---
 
-### Axiom 0.4 — Unitary Evolution
-There exists a unitary operator $U: \mathcal{H} \to \mathcal{H}$ with $U^\dagger U = I$, such that
-\[
-\boxed{\; \psi_{n+1} = U \psi_n. \;}
-\]
-
-**Intuition:** Reversible, norm-preserving dynamics. Standard in quantum mechanics.
-
-**Role:** Preserves probability mass and phase information. Enables causal structure.
-
-**Conserved quantity:** $\|\psi_n\| = \|\psi_0\|$ for all $n$.
-
-**Literature:** Standard postulate in quantum mechanics and quantum walks.
-
----
-
-### Axiom 0.5 — Graph Locality of Transfer
+### AXIOM-6 - Locality of Interactions/Transfer
 The unitary $U$ is graph-local: it decomposes as $U = S \circ C$ where
 
 - $C = \bigoplus_{v \in V} C_v$ acts independently on each node's internal d.o.f.,
@@ -269,24 +289,40 @@ Equivalently: in one evolution step, amplitude at node $u$ can reach node $v$ **
 
 **Role:** Fundamental to deriving latency and causal order. **Removing this breaks everything above it.**
 
-**Ablation:** Non-local $U$ → instantaneous influence → no meaningful causal structure.
+**Ablation:** Non-local $U$ instantaneous influence no meaningful causal structure.
 
 **Literature:** Quantum walk locality (Aharonov et al., Ambainis et al.); discrete quantum mechanics.
 
 ---
 
-### Axiom 0.6 — Node Buffering
+### AXIOM-7 - No Information Loss (Unitary Evolution)
+There exists a unitary operator $U: \mathcal{H} \to \mathcal{H}$ with $U^\dagger U = I$, such that
+$$
+\boxed{\; \psi_{n+1} = U \psi_n. \;}
+$$
+
+**Intuition:** Reversible, norm-preserving dynamics. Standard in quantum mechanics.
+
+**Role:** Preserves probability mass and phase information. Enables causal structure.
+
+**Conserved quantity:** $\|\psi_n\| = \|\psi_0\|$ for all $n$.
+
+**Literature:** Standard postulate in quantum mechanics and quantum walks.
+
+---
+
+### MODEL-P2 - Node Buffering (Operational Bookkeeping Layer)
 Each node $v$ at tick $n$ retains a **buffering measure**:
-\[
+$$
 \rho(v, n) := \|\psi_v(n)\|^2.
-\]
+$$
 
 **Intuition:** Information can pile up (congest) at nodes via interference. Buffering measures confinement vs. spreading.
 
 **Role:** 
 - Microscopic: drives confinement and interference patterns
 - Macroscopic: projects to energy density $T_{00}$ in spacetime
-- Cosmological: long-wavelength modes → dark matter; relaxation → dark energy
+- Cosmological: long-wavelength modes dark matter; relaxation dark energy
 
 **Conserved quantity:** $\sum_{v \in V} \rho(v,n) = 1$ (probability mass).
 
@@ -294,8 +330,7 @@ Each node $v$ at tick $n$ retains a **buffering measure**:
 
 ---
 
-### Axiom 0.7 — Chiral Decomposition of Internal Degrees of Freedom
-
+### SM-FOUND-A1 - Chiral Decomposition of Internal Degrees of Freedom
 At each node $v$, the internal Hilbert space decomposes into left-handed and right-handed chiral sectors:
 $$\mathcal{H}_v = \mathcal{H}_v^L \oplus \mathcal{H}_v^R,$$
 where each sector has dimension at least 1.
@@ -315,62 +350,62 @@ where $I_L, I_R$ are identity operators on their respective sectors (eigenvalues
 
 ---
 
-## Derived Structures (Tiers 1–3: Geometric Emergence)
+## Derived Structures (Tiers 1�3: Geometric Emergence)
 
-**Philosophy:** Every object in Tier 1–3 below is a theorem proved from Axioms 0.1–0.7. No additional axioms are introduced in this section.
+**Philosophy:** Every object in Tier 1-3 below is derived from AXIOM-1, AXIOM-2, AXIOM-3, AXIOM-4, AXIOM-5, AXIOM-6, AXIOM-7 plus declared model-layer assumptions (MODEL-P1, MODEL-P2, SM-FOUND-A1). No additional core axioms are introduced in this section.
 
 ---
 
 ### Tier 1: Graph Distance Latency
 
-#### Lemma 1.1 — Reachability via Graph Distance
+#### Lemma 1.1 � Reachability via Graph Distance
 For events $(u, n), (v, m) \in V \times \mathbb{Z}$, information at $u$ at tick $n$ can influence $v$ by tick $m$ only if
-\[
+$$
 m \geq n + d_G(u, v),
-\]
+$$
 where $d_G(u,v)$ is the shortest-path distance in $G$.
 
-**Proof:** By Axiom 0.5 (graph locality), each tick extends reachable zone by ≤1 hop. Reaching distance $d$ requires ≥ $d$ ticks. ∎
+**Proof:** By AXIOM-6 (graph locality), each tick extends reachable zone by =1 hop. Reaching distance $d$ requires = $d$ ticks. ?
 
-**Ablation:** Remove locality → conclusion fails; reachability becomes instantaneous or unbounded.
+**Ablation:** Remove locality conclusion fails; reachability becomes instantaneous or unbounded.
 
 ---
 
-#### Definition 1.1 — Effective Latency
+#### Definition 1.1 � Effective Latency
 Define the **effective latency** as:
-\[
+$$
 \boxed{\; \delta(u, v) := d_G(u, v). \;}
-\]
+$$
 
 **Intuition:** The minimum time for influence to propagate between nodes is the graph distance.
 
-**Key point:** This is **not a new axiom**. It is a direct consequence of Axiom 0.5.
+**Key point:** This is **not a new axiom**. It is a direct consequence of AXIOM-6.
 
 **Warning:** Never postulate separate "edge delays" $\tau_e$; they are redundant and break the framework.
 
 ---
 
-#### Lemma 1.2 — Metric Properties of Latency
+#### Lemma 1.2 � Metric Properties of Latency
 The derived latency satisfies:
 1. **Symmetry:** $\delta(u,v) = \delta(v,u)$
 2. **Triangle inequality:** $\delta(u,w) \leq \delta(u,v) + \delta(v,w)$
 3. **Additivity on paths:** $\delta(u,w) = d_G(u,w) = \sum_{\text{edges on path}} 1$
 
-**Proof:** Standard graph theory (shortest paths). ∎
+**Proof:** Standard graph theory (shortest paths). ?
 
 **Interpretation:** Latency is a true metric and inherits all properties of graph distance.
 
 ---
 
-#### Definition 1.2 — Local Conservation / Continuity
+#### Definition 1.2 � Local Conservation / Continuity
 For an information density $\rho_n(v) : V \to \mathbb{R}_{\geq0}$, define oriented edge flux $J_n(u \to v) \in \mathbb{R}$ with $J_n(u \to v) = -J_n(v \to u)$.
 
 Define **local conservation** by the discrete continuity equation:
-\[
+$$
 \rho_{n+1}(v) - \rho_n(v) + \sum_{u \sim v} J_n(v \to u) = 0. \quad \text{(LC)}
-\]
+$$
 
-**Existence statement:** Axiom 0.4 gives global conservation
+**Existence statement:** AXIOM-7 gives global conservation
 $\sum_v \rho_{n+1}(v)=\sum_v \rho_n(v)$, hence
 $\sum_v\left[\rho_{n+1}(v)-\rho_n(v)\right]=0$.
 On a connected finite graph, this guarantees existence of an antisymmetric edge flux $J_n$ satisfying (LC)
@@ -380,21 +415,21 @@ On a connected finite graph, this guarantees existence of an antisymmetric edge 
 
 **Comparison to GR:** This is the discrete analogue of $\nabla_a T^{ab} = 0$ (stress-energy conservation).
 
-**Literature:** Discrete continuity equations; Benamou–Brenier optimal transport.
+**Literature:** Discrete continuity equations; Benamou�Brenier optimal transport.
 
 ---
 
-#### Theorem 1.1 — Discrete Gauss/Stokes: Bulk = Boundary
+#### Theorem 1.1 � Discrete Gauss/Stokes: Bulk = Boundary
 For any region $R \subseteq V$, define:
 - **Interior sum:** $Q_n(R) := \sum_{v \in R} \rho_n(v)$
 - **Boundary flux:** $\Phi_n(\partial R) := \sum_{\substack{u \in R, v \notin R \\ \{u,v\} \in E}} J_n(u \to v)$
 
 Then (LC) and antisymmetry imply:
-\[
+$$
 \boxed{\; Q_{n+1}(R) - Q_n(R) = -\Phi_n(\partial R). \quad \text{(GB)} \;}
-\]
+$$
 
-**Proof:** Sum (LC) over all $v \in R$; internal fluxes cancel by antisymmetry; only cut-edges contribute. ∎
+**Proof:** Sum (LC) over all $v \in R$; internal fluxes cancel by antisymmetry; only cut-edges contribute. ?
 
 **Interpretation:** Conservation = bulk change balanced by boundary flux. This is the flux-first viewpoint of stress-energy in GR.
 
@@ -402,55 +437,55 @@ Then (LC) and antisymmetry imply:
 
 ---
 
-#### Definition 1.3 — Boundary Register (Quasi-Local Closure)
+#### AXIOM-9 (Operational Form) - Boundary Register (Quasi-Local Closure)
 For each region $R \subseteq V$, define a boundary register $b_n(\partial R)$ by
-\[
+$$
 b_{n+1}(\partial R) = b_n(\partial R) + \Phi_n(\partial R).
-\]
+$$
 
 Define the closed regional quantity
-\[
+$$
 \widetilde{Q}_n(R) := Q_n(R) + b_n(\partial R).
-\]
+$$
 
 ---
 
-#### Corollary 1.1 — Exact Closure with Boundary Bookkeeping
+#### Corollary 1.1 � Exact Closure with Boundary Bookkeeping
 Under Theorem 1.1,
-\[
+$$
 \widetilde{Q}_{n+1}(R) = \widetilde{Q}_n(R) \quad \forall n.
-\]
+$$
 
-**Proof:** From (GB), $Q_{n+1}-Q_n=-\Phi_n$ and $b_{n+1}-b_n=+\Phi_n$; summing gives zero net change. ∎
+**Proof:** From (GB), $Q_{n+1}-Q_n=-\Phi_n$ and $b_{n+1}-b_n=+\Phi_n$; summing gives zero net change. ?
 
 **Interpretation:** For bounded regions, conservation is exact only after boundary exchange is explicitly tracked.
 
 ---
 
-#### Definition 1.4 — Horizon-Like Cut (Quasi-Local, Minimal Sense)
+#### AXIOM-8 - Graph Cutting Primitive (Horizon-Like Cut, Quasi-Local Minimal Sense)
 A cut $\partial R$ is **horizon-like** on a tick interval $I \subseteq \mathbb{Z}$ if interior bookkeeping alone is not closed on $I$, i.e.
-\[
+$$
 \exists n \in I \text{ such that } \Phi_n(\partial R) \neq 0.
-\]
+$$
 
 Equivalently, boundary data is required to close conservation on $R$.
 
 ---
 
-#### Definition 1.5 — Boundary Slack and Leakiness
+#### Definition 1.5 � Boundary Slack and Leakiness
 - **Boundary slack at tick $n$:** constraints permit $\Phi_n(\partial R) \neq 0$.
 - **Leaky (at tick $n$):** $\Phi_n(\partial R) \neq 0$.
 
 ---
 
-#### Theorem 1.2 — Leaky-Boundary Criterion
+#### Theorem 1.2 � Leaky-Boundary Criterion
 Assume Definition 1.2 (LC) and Theorem 1.1 (GB). For any region $R \subseteq V$ and tick $n$:
 
-1. \(Q_{n+1}(R)=Q_n(R)\) **iff** \(\Phi_n(\partial R)=0\).
-2. If \(\Phi_n(\partial R)\neq 0\), the region exchanges information with its exterior (leaky at tick \(n\)).
-3. Even in the leaky case, \(\widetilde{Q}_n(R)=Q_n(R)+b_n(\partial R)\) remains exactly conserved.
+1. $Q_{n+1}(R)=Q_n(R)$ **iff** $\Phi_n(\partial R)=0$.
+2. If $\Phi_n(\partial R)\neq 0$, the region exchanges information with its exterior (leaky at tick $n$).
+3. Even in the leaky case, $\widetilde{Q}_n(R)=Q_n(R)+b_n(\partial R)$ remains exactly conserved.
 
-**Proof:** Immediate from (GB) and Corollary 1.1. ∎
+**Proof:** Immediate from (GB) and Corollary 1.1. ?
 
 **Consequence for later tiers:** This provides a rigorous quasi-local mechanism for horizon-like boundaries with controlled leakage, without assuming teleological event horizons.
 
@@ -460,13 +495,13 @@ Assume Definition 1.2 (LC) and Theorem 1.1 (GB). For any region $R \subseteq V$ 
 #### Definition 1.6 - Queue Interpretation of Buffering
 
 Define the local queue depth at node $v$ and tick $n$ by
-\[
+$$
 q_v(n) := \rho(v,n) = \|\psi_v(n)\|^2,\qquad 0\le q_v(n)\le 1.
-\]
+$$
 For any region $R\subseteq V$, define the regional queue depth
-\[
+$$
 Q_n(R)=\sum_{v\in R} q_v(n),\qquad 0\le Q_n(R)\le 1.
-\]
+$$
 
 **Interpretation:** Queue depth is continuous-valued occupancy on a discrete substrate.
 
@@ -475,16 +510,16 @@ Q_n(R)=\sum_{v\in R} q_v(n),\qquad 0\le Q_n(R)\le 1.
 #### Definition 1.7 - Queue Throughput Decomposition
 
 For any region $R\subseteq V$, define boundary throughput components
-\[
+$$
 S_n(R):=\max\{\Phi_n(\partial R),0\}\quad\text{(service/outflow)},
-\]
-\[
+$$
+$$
 A_n(R):=\max\{-\Phi_n(\partial R),0\}\quad\text{(arrival/inflow)}.
-\]
+$$
 Then Theorem 1.1 is equivalently
-\[
+$$
 Q_{n+1}(R)=Q_n(R)+A_n(R)-S_n(R).
-\]
+$$
 
 ---
 
@@ -493,18 +528,18 @@ Q_{n+1}(R)=Q_n(R)+A_n(R)-S_n(R).
 Under Definition 1.2 and Theorem 1.1, for any region $R$ and tick interval $I$:
 
 1. **Exact drift identity:**
-\[
+$$
 Q_{n+k}(R)-Q_n(R)=\sum_{j=0}^{k-1}\big(A_{n+j}(R)-S_{n+j}(R)\big).
-\]
+$$
 
 2. **Low-load stability condition:** If there exists $\varepsilon>0$ such that
-\[
+$$
 S_m(R)-A_m(R)\ge \varepsilon\quad\forall m\in I,
-\]
+$$
 then queue depth is non-increasing with strict negative drift until saturation at zero,
-\[
+$$
 Q_{n+k}(R)\le \max\{0,\,Q_n(R)-k\varepsilon\}.
-\]
+$$
 
 **Proof:** Item 1 follows by telescoping Theorem 1.1 with the definitions of $A_n,S_n$. Item 2 follows from uniform drift bound and non-negativity of $Q_n(R)$. QED.
 
@@ -513,17 +548,17 @@ Q_{n+k}(R)\le \max\{0,\,Q_n(R)-k\varepsilon\}.
 #### Theorem 1.4 - Near-Saturation Trapping Bound (GR Regime)
 
 Assume GR-regime effective latency law
-\[
+$$
 \delta_{\mathrm{GR,eff}}(u\to v)=\min_{\text{paths}}\int_{\text{path}}\big(1+\alpha\rho+\beta\,\mathrm{Curv}[\tau]\big)\,d\ell,
-\]
+$$
 with $\alpha,\beta>0$ (GR regime theorem), and let $H\subseteq V$ be a shell such that
-\[
+$$
 \rho(w,n)\ge 1-\eta\quad(0<\eta\ll1),\qquad \mathrm{Curv}[\tau](w,n)\ge K_{\min}\ge0\quad\forall w\in H.
-\]
+$$
 If any outward causal path from interior region $R_{\mathrm{in}}$ to exterior crosses shell length at least $L_H$, then
-\[
+$$
 \delta_{\mathrm{out}}\ge L_H\big(1+\alpha(1-\eta)+\beta K_{\min}\big).
-\]
+$$
 
 **Consequence:** Near-saturation shells induce large outbound dwell times; interior dynamics can remain unitary while outward release is boundary-layer controlled.
 
@@ -541,11 +576,11 @@ In the trapping regime of Theorem 1.4:
 ---
 ### Tier 2: Causal Order and Cones
 
-#### Definition 2.1 — Precedence Relation
+#### Definition 2.1 � Precedence Relation
 For events $x = (u, n), y = (v, m) \in X := V \times \mathbb{Z}$, define:
-\[
+$$
 \boxed{\; x \prec y \iff m \geq n + d_G(u, v). \;}
-\]
+$$
 
 **Intuition:** Event $x$ can causally influence $y$ if $y$ is at least $\delta(u,v)$ ticks in the future.
 
@@ -553,29 +588,29 @@ For events $x = (u, n), y = (v, m) \in X := V \times \mathbb{Z}$, define:
 
 ---
 
-#### Lemma 2.1 — Partial Order
+#### Lemma 2.1 � Partial Order
 The relation $\prec$ is a **partial order** on $X$:
 1. **Reflexive:** $(v,n) \prec (v,n)$ (since $d_G(v,v)=0$)
 2. **Transitive:** $x \prec y$ and $y \prec z \implies x \prec z$ (by path additivity)
 3. **Antisymmetric:** $x \prec y$ and $y \prec x \implies x = y$ (by causality)
 
-**Proof:** Immediate from lattice metric properties. ∎
+**Proof:** Immediate from lattice metric properties. ?
 
 **Literature:** Minguzzi (2018) on causality theory; causal sets.
 
 ---
 
-#### Definition 2.2 — Causal Futures/Pasts and Horismos
+#### Definition 2.2 � Causal Futures/Pasts and Horismos
 For event $x = (u,n)$, define:
-\[
+$$
 J^+(x) := \{ y \in X : x \prec y \} \quad \text{(causal future)}
-\]
-\[
+$$
+$$
 I^+(x) := \{ (v,m) : m > n + d_G(u,v) \} \quad \text{(strict timelike reachability)}
-\]
-\[
+$$
+$$
 \boxed{\; E^+(x) := J^+(x) \setminus I^+(x) \quad \text{(horismos = light-cone boundary)} \;}
-\]
+$$
 
 **Intuition:** 
 - $J^+$ = all causally reachable future events
@@ -584,19 +619,19 @@ I^+(x) := \{ (v,m) : m > n + d_G(u,v) \} \quad \text{(strict timelike reachabili
 
 ---
 
-#### Lemma 2.2 — Horismos Characterization
+#### Lemma 2.2 � Horismos Characterization
 An event $y = (v,m)$ lies on horismos $E^+(x)$ iff:
-\[
+$$
 m = n + d_G(u, v) \quad \text{(exactly the latency).}
-\]
+$$
 
-**Proof:** By definition of $I^+$ and $J^+$. ∎
+**Proof:** By definition of $I^+$ and $J^+$. ?
 
 **Literature:** Horismos in Minguzzi (2018); null surface in differential geometry.
 
 ---
 
-#### Proposition 2.1 — Closed Cone Structure
+#### Proposition 2.1 � Closed Cone Structure
 The collection $\{ J^+(x) : x \in X \}$ with partial order $\prec$ forms a **closed cone structure** in Minguzzi's sense (2018).
 
 **Consequence:** All standard causality conditions apply:
@@ -610,75 +645,75 @@ The collection $\{ J^+(x) : x \in X \}$ with partial order $\prec$ forms a **clo
 
 ### Tier 3: Observer Time and Geometry
 
-#### Definition 3.1 — Time Function
+#### Definition 3.1 � Time Function
 A function $t: X \to \mathbb{R}$ is a **time function** (or **causal function**) if:
-\[
+$$
 x \prec y \implies t(x) < t(y).
-\]
+$$
 
 **Intuition:** Time assignment that respects causal order. Plays the role of "coordinate time" in GR.
 
 ---
 
-#### Lemma 3.1 — Existence of Time Functions
+#### Lemma 3.1 � Existence of Time Functions
 For any finite causal set with partial order $\prec$, there exists at least one time function.
 
-**Proof (sketch):** Finite posets admit topological sorts; assign levels accordingly. ∎
+**Proof (sketch):** Finite posets admit topological sorts; assign levels accordingly. ?
 
-**Literature:** Geroch–Hawking "time functions" in GR; computability in causal sets.
+**Literature:** Geroch�Hawking "time functions" in GR; computability in causal sets.
 
 ---
 
-#### Definition 3.2 — Volume-Based Time
+#### Definition 3.2 � Volume-Based Time
 Define observer time via past-set cardinality:
-\[
+$$
 t_{\mathrm{obs}}(v, n) := |J^-((v,n))|,
-\]
+$$
 where $|J^-|$ counts events in the causal past.
 
 **Intuition:** "How much has happened before this event?" Measures accumulated history.
 
-**Justification:** If $(u,n) \prec (v,m)$, then $J^-(u,n) \subseteq J^-(v,m)$, so $t_{\mathrm{obs}}$ is monotone increasing along causal curves. ✓
+**Justification:** If $(u,n) \prec (v,m)$, then $J^-(u,n) \subseteq J^-(v,m)$, so $t_{\mathrm{obs}}$ is monotone increasing along causal curves. ?
 
 ---
 
-#### Definition 3.3 — Time Separation (Lorentzian Metric Core)
+#### Definition 3.3 � Time Separation (Lorentzian Metric Core)
 Define the **time separation function** between events:
-\[
+$$
 \tau(x, y) := \max_{\text{causal curves } \gamma : x \to y} \int_\gamma \mathrm{d\ell},
-\]
+$$
 where $\mathrm{d\ell}$ is a suitably defined causal-length element.
 
 **Intuition:** Maximum proper time along causal curves. In GR, this is the Lorentzian distance.
 
-**Role:** The time separation $\tau$ is the **metric core** of Lorentzian length spaces (Kunzinger–Sämann); curvature is encoded via convexity/concavity properties of $\tau$.
+**Role:** The time separation $\tau$ is the **metric core** of Lorentzian length spaces (Kunzinger�S�mann); curvature is encoded via convexity/concavity properties of $\tau$.
 
-**Literature:** Kunzinger & Sämann (2018) *Lorentzian length spaces*; Beran–Kunzinger–Rott (2021).
+**Literature:** Kunzinger & S�mann (2018) *Lorentzian length spaces*; Beran�Kunzinger�Rott (2021).
 
 ---
 
-#### Subsection 3.4 — Arrow of Time: Reversibility at Tier 0 → Irreversibility at Tier 4–6
+#### Subsection 3.4 � Arrow of Time: Reversibility at Tier 0 Irreversibility at Tier 4�6
 
-#### Definition 3.4 — Coarse-Graining Observation Map
+#### Definition 3.4 � Coarse-Graining Observation Map
 Let
-\[
+$$
 \Phi_{\mathrm{cg}}:\mathcal{H}\to\mathcal{M}
-\]
+$$
 be the observational map that keeps macroscopic observables (for example $\rho(v,n)=\|\psi_v(n)\|^2$, coarse flux summaries, and projected coordinates) while discarding phase-resolved microscopic data. In general, $\Phi_{\mathrm{cg}}$ is non-injective.
 
 ---
 
-#### Theorem 3.2 — Emergent Arrow from Non-Injective Observation
-Assume Axiom 0.4 (unitarity), Definitions 3.1–3.2 (observer-time construction), and Definition 3.4 (coarse-graining map). For
-\[
+#### Theorem 3.2 � Emergent Arrow from Non-Injective Observation
+Assume AXIOM-7 (unitarity), Definitions 3.1�3.2 (observer-time construction), and Definition 3.4 (coarse-graining map). For
+$$
 m_n:=\Phi_{\mathrm{cg}}(U^n\psi_0),
-\]
+$$
 the following hold:
 
 1. **Microscopic reversibility (Tier 0):**
-\[
+$$
 \psi_{n+1}=U\psi_n,\qquad \psi_n=U^\dagger\psi_{n+1}.
-\]
+$$
 
 2. **Macroscopic irreversibility (observational):**
 if $\Phi_{\mathrm{cg}}$ is non-injective, $m_n$ does not uniquely determine $\psi_n$, hence there is no unique inverse map $m_n\mapsto m_{n-1}$ in general.
@@ -692,21 +727,21 @@ Therefore, the arrow of time is not a Tier-0 axiom; it is an emergent consequenc
 
 ---
 
-#### Corollary 3.1 — QM Sector Consequence (Kinematic Arrow Only)
+#### Corollary 3.1 � QM Sector Consequence (Kinematic Arrow Only)
 In the QM regime (Section "QM Regime: Static Topological Latency"), latency remains
-\[
+$$
 \delta_{\mathrm{QM}}(u,v)=d_G(u,v),
-\]
+$$
 independent of buffering. Hence no additional microscopic time-direction postulate is introduced in QM; the observed arrow is entirely from coarse-graining/measurement interface.
 
 ---
 
-#### Corollary 3.2 — GR Sector Consequence (Strengthened Operational Arrow)
+#### Corollary 3.2 � GR Sector Consequence (Strengthened Operational Arrow)
 In the GR regime, adaptive latency and queue constraints (`R9`, `R10`) plus Theorem 1.4 imply stronger one-way operational behavior in near-saturation regions: long dwell/trapping times with boundary-dominant release. This sharpens the observable arrow without violating Tier-0 reversibility.
 
 ---
 
-#### Corollary 3.3 — SM Sector Consequence (CP as Modifier, Not Origin)
+#### Corollary 3.3 � SM Sector Consequence (CP as Modifier, Not Origin)
 Requirement `R6` (CP non-commutation metric) constrains asymmetry channels in flavor/chiral observables, but does not define the thermodynamic arrow by itself. CP violation is a sector-level asymmetry modifier on top of Theorem 3.2, not the foundational source of irreversibility.
 
 ---
@@ -717,17 +752,17 @@ Requirement `R6` (CP non-commutation metric) constrains asymmetry channels in fl
 
 ## Requirements on Transfer Operator U
 
-### R1: Graph Locality (Axiom 0.5)
+### R1: Graph Locality (AXIOM-6)
 $U = S \circ C$ where $C$ acts node-wise and $S$ only couples adjacent nodes.
 
-**Why:** Enables causal structure. Removes it → causality collapses.
+**Why:** Enables causal structure. Removes it causality collapses.
 
 ---
 
-### R2: Unitarity (Axiom 0.4)
+### R2: Unitarity (AXIOM-7)
 $U^\dagger U = I$ (reversible, norm-preserving).
 
-**Why:** Preserves unitarity and information. Enables Tier 1–3 derivations.
+**Why:** Preserves unitarity and information. Enables Tier 1�3 derivations.
 
 **Conserved quantity:** $\|\psi_n\| = \text{const}$.
 
@@ -736,9 +771,9 @@ $U^\dagger U = I$ (reversible, norm-preserving).
 ### R3: Consistency with Buffering
 The induced dynamics on $\rho_n(v) = \|\psi_v(n)\|^2$ must admit an antisymmetric edge flux
 $J_n$ such that Definition 1.2 holds:
-\[
+$$
 \rho_{n+1}(v) - \rho_n(v) + \sum_{u \sim v} J_n(v \to u) = 0.
-\]
+$$
 
 **Why:** Ensures stress-energy is locally conserved, matching GR axiom.
 
@@ -754,40 +789,40 @@ Do **not** add independent "edge latencies" $\tau_e$ on top of $U$. Latency is d
 
 ---
 
-### R5: Chiral Structure Preservation (Axiom 0.7)
+### R5: Chiral Structure Preservation (SM-FOUND-A1)
 The coin operator $C_v$ at each node must respect the chiral decomposition:
-\[
+$$
 C_v = \begin{pmatrix} C_v^{LL} & C_v^{LR} \ C_v^{RL} & C_v^{RR} \end{pmatrix}
-\]
+$$
 where $C_v^{LL}, C_v^{RR}$ are operations within each chiral sector, and $C_v^{LR}, C_v^{RL}$ are off-diagonal couplings between sectors (chiral mixing).
 
 Since $C_v$ is unitary, block components must satisfy:
-\[
+$$
 \begin{aligned}
 (C_v^{LL})^\dagger C_v^{LL} + (C_v^{RL})^\dagger C_v^{RL} &= I_L,\
 (C_v^{LR})^\dagger C_v^{LR} + (C_v^{RR})^\dagger C_v^{RR} &= I_R,\
 (C_v^{LL})^\dagger C_v^{LR} + (C_v^{RL})^\dagger C_v^{RR} &= 0.
 \end{aligned}
-\]
+$$
 These identities are hard algebraic constraints on admissible transfer blocks.
 
 **Key constraint:** Define the **chirality violation amplitude**:
-\[
+$$
 \epsilon_{\text{mix}}(v) := \frac{\|C_v^{LR}\|_{\text{op}} + \|C_v^{RL}\|_{\text{op}}}{\|C_v\|_{\text{op}}},
-\]
+$$
 where $\|\cdot\|_{\text{op}}$ is the operator norm. Then:
 - **Chirality-conserving regime:** $\epsilon_{\text{mix}} \approx 0$ (parity-respecting)
 - **Chiral-mixing regime:** $\epsilon_{\text{mix}} \sim \text{small but nonzero}$ (parity violation)
 - **Anomalous regime:** $\epsilon_{\text{mix}} \sim O(1)$ (strong sector dynamics)
 
 Because $C_v$ is unitary, $\|C_v\|_{\text{op}}=1$, so
-\[
+$$
 \epsilon_{\text{mix}}(v)=\|C_v^{LR}\|_{\text{op}}+\|C_v^{RL}\|_{\text{op}},\qquad 0\le \epsilon_{\text{mix}}(v)\le 2.
-\]
+$$
 For physically admissible weak-sector behavior, require
-\[
+$$
 \epsilon_{\text{mix}}(v)\le \epsilon_{\text{mix}}^{\max}\ll 1 \quad \forall v.
-\]
+$$
 
 **Why:** Enforces that chiral sectors couple differently to geometry/projection, enabling parity asymmetry, CP violation, and gauge anomaly cancellation.
 
@@ -795,22 +830,22 @@ For physically admissible weak-sector behavior, require
 
 ---
 
-### R6: CP Symmetry or Violation (Axiom 0.7 Consequence)
+### R6: CP Symmetry or Violation (SM-FOUND-A1 Consequence)
 For each periodic mode class $\Psi_{\alpha}$, define the **CP involution**:
-\[
+$$
 \mathsf{CP}(\Psi_\alpha^L) = e^{i\delta_\alpha} \Psi_\alpha^R,
-\]
+$$
 with
-\[
+$$
 \mathsf{CP}(\Psi_\alpha^R) = e^{-i\delta_\alpha} \Psi_\alpha^L,\qquad \delta_\alpha\in\mathbb{R}.
-\]
+$$
 This keeps $\mathsf{CP}$ norm-preserving on mode pairs.
 
 Define the CP-breaking strength
-\[
+$$
 \epsilon_{\text{CP}} := \frac{\|[\mathsf{CP},U]\|_{\text{op}}}{2\|U\|_{\text{op}}}
 = \frac{1}{2}\|[\mathsf{CP},U]\|_{\text{op}},
-\]
+$$
 using $\|U\|_{\text{op}}=1$.
 
 **CP Symmetry:** $\epsilon_{\text{CP}}=0$.
@@ -823,16 +858,16 @@ using $\|U\|_{\text{op}}=1$.
 
 ---
 
-### R7: Spin-Statistics Connection (Axiom 0.7 Consequence)
+### R7: Spin-Statistics Connection (SM-FOUND-A1 Consequence)
 For half-integer spin (fermionic modes), combined wavefunctions must be **antisymmetric** under particle exchange:
-\[
+$$
 \Psi_{\alpha\beta}^{\text{fermi}} = -\Psi_{\beta\alpha}^{\text{fermi}}.
-\]
+$$
 
 For integer spin (bosonic modes), **symmetry** is required:
-\[
+$$
 \Psi_{\alpha\beta}^{\text{bose}} = +\Psi_{\beta\alpha}^{\text{bose}}.
-\]
+$$
 
 **Why:** Enforces Pauli exclusion and Bose-Einstein condensation. Follows from spin-statistics theorem (Weinberg-Haag-Lopuszanski-Sohnius).
 
@@ -842,21 +877,21 @@ For integer spin (bosonic modes), **symmetry** is required:
 
 ### R8: Quantitative Admissible Window for Transfer Operator
 Define global diagnostics:
-\[
+$$
 \bar{\epsilon}_{\text{mix}} := \frac{1}{|V|}\sum_{v\in V}\epsilon_{\text{mix}}(v),\qquad
 \epsilon_{\text{CP}} := \frac{1}{2}\|[\mathsf{CP},U]\|_{\text{op}}.
-\]
+$$
 
 For a constrained, SM-like operator class require:
-\[
+$$
 0 < \bar{\epsilon}_{\text{mix}} \le \epsilon_{\text{mix}}^{\max}\ll 1,\qquad
 0 < \epsilon_{\text{CP}} \le \epsilon_{\text{CP}}^{\max}\ll 1.
-\]
+$$
 
 Additionally impose spatial regularity of chiral mixing:
-\[
+$$
 \max_{u\sim v}\left|\epsilon_{\text{mix}}(u)-\epsilon_{\text{mix}}(v)\right| \le L_{\text{mix}}.
-\]
+$$
 
 **Why:** Excludes both trivial parity-symmetric operators ($\bar{\epsilon}_{\text{mix}}=0$) and strongly mixed/non-perturbative operators ($O(1)$), sharply reducing admissible $U$.
 
@@ -866,14 +901,14 @@ Additionally impose spatial regularity of chiral mixing:
 ### R9: Queue-Response Monotonicity in Effective Transport (GR Regime)
 
 For admissible effective transport laws in the GR regime, require monotone slowdown with buffering and curvature:
-\[
+$$
 \partial_{\rho}\,\tau_{\mathrm{eff}}\ge0,\qquad
 \partial_{\mathrm{Curv}}\,\tau_{\mathrm{eff}}\ge0.
-\]
+$$
 Additionally, enforce baseline dominance
-\[
+$$
 \tau_{\mathrm{eff}}(u\to v)\ge d_G(u,v).
-\]
+$$
 
 **Why:** Encodes backpressure as a constitutive inequality without introducing new microscopic axioms.
 
@@ -882,9 +917,9 @@ Additionally, enforce baseline dominance
 ### R10: Saturation Throughput Suppression and Regularity
 
 Near occupancy saturation, outward throughput across a horizon-like cut must be suppressed in a controlled manner. Require a bound class of the form
-\[
+$$
 |\Phi_n(\partial R)|\le F(1-\rho_{\mathrm{shell}}(n)),\qquad F(x)\to0\ \text{as}\ x\to0^+,
-\]
+$$
 with regularity of $F$ sufficient for stable perturbation analysis (e.g., locally Lipschitz on $(0,1]$).
 
 **Why:** Prevents unphysical finite outflow at full saturation while keeping the leaky branch mathematically well-posed.
@@ -894,13 +929,13 @@ with regularity of $F$ sufficient for stable perturbation analysis (e.g., locall
 
 ### Graph-Level Symmetries
 
-#### S1: Graph Isomorphism Invariance (Gauge Symmetry)
+#### AXIOM-2: Relabeling Invariance (Graph Isomorphism Covariance)
 The dynamics are invariant under graph relabelings (renumbering nodes/edges).
 
 **Formal:** If $\varphi: G \to G'$ is an isomorphism, then
-\[
+$$
 \varphi_*( U_G(\psi) ) = U_{G'}( \varphi_*(\psi) ).
-\]
+$$
 
 **Intuition:** Physics is independent of labeling; labels are pure gauge.
 
@@ -926,9 +961,9 @@ Transformations $U \to U' = V U V^\dagger$ where $V$ is also graph-local preserv
 
 #### S4: Pseudo-Unitary Invariance (Design Goal)
 If the projection $\Pi_v: \mathcal{H} \to \mathbb{C}^{p,q}$ is chosen such that projected increment $\Delta x_n(v)$ evolves as
-\[
+$$
 \Delta x_{n+1}(v) = U_{\mathrm{proj}} \Delta x_n(v)
-\]
+$$
 with $U_{\mathrm{proj}}^\dagger \eta U_{\mathrm{proj}} = \eta$ (pseudo-unitary), then Lorentz invariants are preserved.
 
 **Intuition:** Generalization of Lorentz symmetry to indefinite-metric spaces.
@@ -940,19 +975,19 @@ with $U_{\mathrm{proj}}^\dagger \eta U_{\mathrm{proj}} = \eta$ (pseudo-unitary),
 ### Conserved Quantities
 
 #### C1: Norm (Probability)
-\[
+$$
 \|\psi_n\|^2 = \|\psi_0\|^2 \quad \forall n.
-\]
+$$
 
-**Source:** Unitarity (Axiom 0.4).
+**Source:** Unitarity (AXIOM-7).
 
 ---
 
 #### C2: Information Entropy
 For a basis decomposition $\psi_v(n) = \sum_j c_{v,j}(n) |j\rangle$, define:
-\[
+$$
 S_v(n) := -\sum_j |c_{v,j}(n)|^2 \log |c_{v,j}(n)|^2.
-\]
+$$
 
 **In reversible evolution:** Total entropy is conserved (no dissipation).
 
@@ -974,23 +1009,23 @@ If $G$ is periodic/lattice-like and $U$ has hidden symmetry, winding numbers or 
 ### Action Principle
 
 Observed geometric structures (particularly in GR regime) can be derived from an action principle:
-\[
+$$
 \mathcal{S}[\tau, \rho, J] := \mathcal{S}_{\mathrm{geo}}[\tau] + \kappa \, \mathcal{S}_{\mathrm{src}}[\rho, J].
-\]
+$$
 
 ---
 
 ### Geometric Action
 
 The geometric part encodes the "cost" of spatial distances and shifts in proper time:
-\[
+$$
 \mathcal{S}_{\mathrm{geo}}[\tau] := \sum_{n,u,v} \left( \tau(x_n(u), x_n(v)) \right)^2 + \text{(curvature terms)}.
-\]
+$$
 
-Equivalently, using a continuum limit, this becomes an Einstein–Hilbert action:
-\[
+Equivalently, using a continuum limit, this becomes an Einstein�Hilbert action:
+$$
 \mathcal{S}_{\mathrm{geo}} = \frac{1}{16\pi G} \int \sqrt{-g} \, R \, \mathrm{d}^4 x.
-\]
+$$
 
 **Literature:** Regge calculus (deficit angles as curvature), causal dynamical triangulation.
 
@@ -999,22 +1034,22 @@ Equivalently, using a continuum limit, this becomes an Einstein–Hilbert action
 ### Source (Transport Effort) Action
 
 The transport cost penalizes flux under continuity:
-\[
+$$
 \mathcal{S}_{\mathrm{src}}[\rho, J] := \sum_n \sum_{e \in E} \mathcal{L}\left( \rho_n(e), J_n(e) \right),
-\]
+$$
 where $\mathcal{L} \geq 0$ is a Lagrangian density (effort per edge).
 
-**Example form (Benamou–Brenier):**
-\[
+**Example form (Benamou�Brenier):**
+$$
 \mathcal{L} = \frac{J^2(e)}{2 \rho_e}, \quad \text{(kinetic energy / transport cost)}
-\]
+$$
 
 **Interpretation:** Highest flux with lowest density costs the most (high acceleration).
 
 **Stress-energy coupling:**
-\[
+$$
 T^{\alpha\beta} \propto \frac{\delta \mathcal{S}_{\mathrm{src}}}{\delta \tau_{\alpha\beta}}.
-\]
+$$
 
 **Literature:** Benamou & Brenier (1991), Optimal Transport; Entropic gradient flows.
 
@@ -1023,89 +1058,89 @@ T^{\alpha\beta} \propto \frac{\delta \mathcal{S}_{\mathrm{src}}}{\delta \tau_{\a
 ### Field Equation (Variational Condition)
 
 Stationarity under variations $\delta \tau$:
-\[
+$$
 \frac{\delta \mathcal{S}}{\delta \tau} = 0 \quad \implies \quad \mathrm{Curv}[\tau] = \kappa \, \mathrm{StressEffort}[\rho, J].
-\]
+$$
 
 **Discrete form:**
-\[
+$$
 \mathrm{Curv}[\tau]_{ij} = \kappa \left( T_{\mathrm{src}} \right)_{ij},
-\]
+$$
 where $\mathrm{Curv}[\tau]_{ij}$ is a discrete curvature (e.g., deficit angle, holonomy).
 
 **Comparison to GR:**
-\[
+$$
 G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu} \quad \text{(Einstein's equation)}.
-\]
+$$
 
 **Literature:** Regge calculus (Wheeler, 1961); discrete GR (Sorkin, 1975).
 
 ---
 
-## Projection to Physical Spacetime (Tier 4–6)
+## Projection to Physical Spacetime (Tier 4�6)
 
-Tier 4–6 is an interface layer: assumptions here calibrate the microscopic model to physical
-spacetime observables/units. They are explicit bridge axioms, not claimed as Tier-0 theorems.
+Tier 4�6 is an interface layer: assumptions here calibrate the microscopic model to physical
+spacetime observables/units. They are explicit bridge postulates, not claimed as Tier-0 theorems.
 
-### Axiom 4.1 — Linear Projection of Amplitudes
+### BRIDGE-P1 - Linear Projection of Amplitudes
 For each node $v$, define a fixed linear map:
-\[
+$$
 \Pi_v: \mathcal{H} \to \mathbb{C}^{p,q}.
-\]
+$$
 
 The **projected Minkowski coordinate** of $v$ at tick $n$ is:
-\[
+$$
 x_n(v) := \Pi_v(\psi_n),
-\]
+$$
 where $\mathbb{C}^{p,q}$ is Minkowski space with signature $\eta = \mathrm{diag}(-I_p, +I_q)$.
 
 **Intuition:** Embed quantum amplitudes into spacetime points. This is the model interface.
 
 ---
 
-### Definition 4.1 — Worldline and Proper Time
+### Definition 4.1 � Worldline and Proper Time
 For each vertex $v$, the projected worldline is:
-\[
+$$
 \gamma_v(n) := x_n(v) \in \mathbb{C}^{p,q}.
-\]
+$$
 
 The displaced increment per tick:
-\[
+$$
 \Delta x_n(v) := \Pi_v( (U - I) \psi_n ).
-\]
+$$
 
 If $\langle \Delta x_n(v), \Delta x_n(v) \rangle_\eta < 0$ (timelike), define proper time:
-\[
+$$
 \Delta \tau_n(v) := \sqrt{-\langle \Delta x_n(v), \Delta x_n(v) \rangle_\eta}.
-\]
+$$
 
 **Interpretation:** Standard Lorentzian metric length (RIemannian analogue for timelike segments).
 
 ---
 
-### Axiom 4.2 — Buffering to Energy Projection
+### BRIDGE-P2 - Buffering to Energy Projection
 Node buffering density projects linearly to energy-density stress-tensor component:
-\[
+$$
 T_{00}(v, n) := \Lambda_{\mathrm{proj}} \cdot \rho(v, n),
-\]
+$$
 where $\Lambda_{\mathrm{proj}}$ is a universal coupling constant.
 
 **Dimensions:** $[\Lambda_{\mathrm{proj}}] = \text{energy density}$ (since $\rho$ is dimensionless occupancy).
 
 **Natural choice (Planck calibration):**
-\[
+$$
 \Lambda_{\mathrm{proj}} := \rho_{\mathrm{P}} = \frac{c^7}{\hbar G^2}.
-\]
+$$
 
-**Consequence:** High buffering ($\rho \to 1$) sources high energy density → strong gravity.
+**Consequence:** High buffering ($\rho \to 1$) sources high energy density strong gravity.
 
 ---
 
-### Axiom 4.3 — Lightspeed from Lattice Ratio
+### BRIDGE-P3 - Lightspeed from Lattice Ratio
 The maximum propagation speed (one hop per tick) is identified with lightspeed:
-\[
+$$
 c := \frac{\ell_e}{\Delta t}.
-\]
+$$
 
 **Model choice:** Set $\ell_e = \ell_{\mathrm{P}}$, $\Delta t = t_{\mathrm{P}}$.
 
@@ -1113,27 +1148,27 @@ c := \frac{\ell_e}{\Delta t}.
 
 ---
 
-### Theorem 4.1 — Buffering Couples to Geometry
+### Theorem 4.1 � Buffering Couples to Geometry
 High buffering density $\rho$ implies:
-1. Enhanced transport effort → longer effective latency
+1. Enhanced transport effort longer effective latency
 2. Field equation couples effort to curvature
 3. Curvature deforms horismos and light cones
-4. Deep potential wells emerge → gravity
+4. Deep potential wells emerge gravity
 
 **Result:** Buffering IS the source of spacetime curvature. No separate mass field.
 
 ---
 
-### Definition 4.2 — Node Occupancy Saturation Bound
+### Definition 4.2 � Node Occupancy Saturation Bound
 Since $\rho(v,n)=\|\psi_v(n)\|^2$ is a normalized node occupancy:
-\[
+$$
 0 \le \rho(v,n) \le 1,\qquad \rho_{\max}=1.
-\]
+$$
 
 Projected energy density therefore obeys:
-\[
+$$
 0 \le T_{00}(v,n)=\Lambda_{\mathrm{proj}}\rho(v,n)\le \Lambda_{\mathrm{proj}}.
-\]
+$$
 
 **Intuition:** Microscopic saturation is occupancy concentration, not geometric area density.
 
@@ -1146,15 +1181,15 @@ Projected energy density therefore obeys:
 ### QM Regime: Static Topological Latency
 
 #### Axiom: QM
-- Unitary transfer $U$ with locality (Axioms 0.1–0.6)
+- Unitary transfer $U$ with declared update family/homogeneity/locality (AXIOM-1, AXIOM-3, AXIOM-4, AXIOM-5, AXIOM-6, AXIOM-7, MODEL-P2)
 - Node buffering $\rho(v,n)$
 - **No field equation** coupling geometry to stress-energy
 
 #### Theorem: QM Latency
 Latency is **fixed and topological:**
-\[
+$$
 \delta_{\mathrm{QM}}(u,v) = d_G(u,v) \quad \text{(independent of } \rho \text{)}
-\]
+$$
 
 **Consequence:** Causal cones are **universal** and **time-independent**.
 
@@ -1163,16 +1198,16 @@ Latency is **fixed and topological:**
 ### GR Regime: Dynamic Latency from Field Equation
 
 #### Axiom: GR
-- Axioms 0.1–0.6 (graph, unitary, locality, buffering)
+- AXIOM-1, AXIOM-3, AXIOM-4, AXIOM-5, AXIOM-6, AXIOM-7, MODEL-P2 (graph, update-family, homogeneity, locality, unitarity, buffering)
 - Local conservation (Definition 1.2)
 - Effort functional $\mathcal{E}(e; \rho, J) \geq 0$
 - **Field equation:** $\mathrm{Curv}[\tau] = \kappa \, \mathrm{StressEffort}[\rho, J]$
 
 #### Theorem: GR Latency (Adaptive)
 Effective latency becomes dynamically coupled:
-\[
+$$
 \delta_{\mathrm{GR, eff}}(u \to v) = \min_{\text{paths}} \int_{\text{path}} \left( 1 + \alpha \rho + \beta \, \mathrm{Curv}[\tau] \right) \, \mathrm{d}\ell,
-\]
+$$
 where $\alpha, \beta > 0$ are coupling constants (determined by action principle).
 
 **Intuition:** Signals slow down in high-$\rho$, high-curvature regions (Shapiro delay analogue).
@@ -1189,9 +1224,9 @@ where $\alpha, \beta > 0$ are coupling constants (determined by action principle
 **Mechanism:** Primordial buffering $\rho_{\max}$ relaxes via coupling decay $\rho(t) = \rho_{\max} \exp(-t/\tau_{\mathrm{relax}})$.
 
 **Effective equation of state:**
-\[
+$$
 w \approx -1 + \frac{1}{3 H_0 \tau_{\mathrm{relax}}}.
-\]
+$$
 
 **Observable:** Evolving $w(z)$ in BAO, SNe, weak lensing.
 
@@ -1200,7 +1235,7 @@ w \approx -1 + \frac{1}{3 H_0 \tau_{\mathrm{relax}}}.
 ### Dark Matter
 **Mechanism:** Long-wavelength buffering modes ($\lambda \sim$ Mpc) with $w \approx 0$ (pressureless).
 
-**Congestion feedback:** High $\rho_{\mathrm{DM}}$ creates additional buffering → reduced propagation → amplified clustering.
+**Congestion feedback:** High $\rho_{\mathrm{DM}}$ creates additional buffering reduced propagation amplified clustering.
 
 **Observable:** Matter power spectrum enhancement, $\sigma_8$; Lyman-$\alpha$ forest; galaxy cluster abundance.
 
@@ -1210,9 +1245,9 @@ w \approx -1 + \frac{1}{3 H_0 \tau_{\mathrm{relax}}}.
 **Mechanism:** Maximal phase accumulation $\Phi \to \Phi_{\max}$ drives exponential expansion $a \propto \exp(H_{\mathrm{inf}} t)$.
 
 **Number of e-folds:**
-\[
-N_e \sim \log(\Phi_{\max} / \Phi_{\mathrm{initial}}) \approx 50–70.
-\]
+$$
+N_e \sim \log(\Phi_{\max} / \Phi_{\mathrm{initial}}) \approx 50�70.
+$$
 
 **Observable:** Scalar spectral index $n_s \approx 0.96$ (red-tilted); tensor-to-scalar ratio $r$; chiral asymmetry in CMB.
 
@@ -1221,32 +1256,32 @@ N_e \sim \log(\Phi_{\max} / \Phi_{\mathrm{initial}}) \approx 50–70.
 ## Literature Cross-References
 
 ### Foundational: Quantum Walks
-- Aharonov, Davidovich, Zagury (1993). "Quantum random walks." *PRL* 48:1494–1497.
-- Ambainis, Bach, Nayak, Vishwanathan, Watrous (2001). "One-dimensional quantum walks with absorbing boundaries." *J. Comput. System Sci.* 69:562–592.
-- Venegas-Andraca (2012). "Quantum walks for computer scientists." *Synth. Lect. Quantum Comput.* 1:1–149.
+- Aharonov, Davidovich, Zagury (1993). "Quantum random walks." *PRL* 48:1494�1497.
+- Ambainis, Bach, Nayak, Vishwanathan, Watrous (2001). "One-dimensional quantum walks with absorbing boundaries." *J. Comput. System Sci.* 69:562�592.
+- Venegas-Andraca (2012). "Quantum walks for computer scientists." *Synth. Lect. Quantum Comput.* 1:1�149.
 
 ### Causality Theory
 - Minguzzi, E. (2018). "Causality theory for closed cone structures with applications." *Living Reviews in Relativity* 21:3.
 - Penrose, R. (1972). "Techniques of differential topology in relativity." SIAM.
 
 ### Synthetic Lorentzian Geometry
-- Kunzinger, M., Sämann, C. (2018). "Lorentzian length spaces." *Annales Globales Analysi Geometriae* 54:399–447.
+- Kunzinger, M., S�mann, C. (2018). "Lorentzian length spaces." *Annales Globales Analysi Geometriae* 54:399�447.
 - Beran, T., Kunzinger, M., Rott, A. (2021). "Generalized Lorentzian length spaces." *Preprint arXiv:2107.02010*.
-- Burtscher, A., García-Heveling, L. (2021–2025). Time functions in Lorentzian length spaces without manifold assumptions. *Preprints*.
+- Burtscher, A., Garc�a-Heveling, L. (2021�2025). Time functions in Lorentzian length spaces without manifold assumptions. *Preprints*.
 
 ### Discrete Gravity & Regge Calculus
 - Wheeler, J.A. (1962). Geometrodynamics. Academic Press.
-- Regge, T. (1961). "General relativity without coordinates." *Nuovo Cimento* 19:558–571.
+- Regge, T. (1961). "General relativity without coordinates." *Nuovo Cimento* 19:558�571.
 - Sorkin, R.D. (1975). "A combinatorial approach to the Dirac equation." *Preprint arXiv:1003.1091*.
 - Corichi, A., Zapata, J.A. (2010). "From discrete to continuous general relativity." *Preprint arXiv:0905.1826*.
 
 ### Optimal Transport & Source Terms
-- Benamou, J.-D., Brenier, Y. (1989). "A computational fluid mechanics solution to the Monge–Kantorovich mass transfer problem." *Numer. Math.* 84:375–393.
+- Benamou, J.-D., Brenier, Y. (1989). "A computational fluid mechanics solution to the Monge�Kantorovich mass transfer problem." *Numer. Math.* 84:375�393.
 - Villani, C. (2003). "Topics in Optimal Transport." AMS.
 
 ### Black Hole Information
-- Page, D.N. (1993). "Information in black hole radiation." *PRL* 71:3743–3746.
-- Harlow, D. (2016). "The Ryu–Takayanagi formula from quantum error correction." *Comm. Math. Phys.* 354:865–912.
+- Page, D.N. (1993). "Information in black hole radiation." *PRL* 71:3743�3746.
+- Harlow, D. (2016). "The Ryu�Takayanagi formula from quantum error correction." *Comm. Math. Phys.* 354:865�912.
 
 ### Cosmology & Dark Sectors
 - Planck Collaboration (2018). "Planck 2018 results. VI. Cosmological parameters." *A&A* 641:A6.
@@ -1269,9 +1304,9 @@ Before using this framework, ensure:
 - [ ] Causal order $\prec$ is derived from latency (Def. 2.1)
 - [ ] Time functions exist (Lemma 3.1) and time progression is causal
 - [ ] Projection $\Pi$ maps amplitudes linearly to spacetime
-- [ ] Energy density couples to buffering (Axiom 4.2)
+- [ ] Energy density couples to buffering (BRIDGE-P2)
 - [ ] Field equation is variational (from action principle)
-- [ ] **Chirality:** Internal d.o.f. decompose into $L/R$ sectors (Axiom 0.7)
+- [ ] **Chirality:** Internal d.o.f. decompose into $L/R$ sectors (SM-FOUND-A1)
 - [ ] **Coin operator:** Respects chiral structure with measurable mixing parameter $\epsilon_{\text{mix}}(v)$ (R5)
 - [ ] **CP symmetry/violation:** Quantified by $\epsilon_{\text{CP}}=\tfrac12\|[\mathsf{CP},U]\|_{\text{op}}$ with real chiral phases (R6)
 - [ ] **Spin-statistics:** Fermionic modes antisymmetric, bosonic modes symmetric (R7)
@@ -1292,7 +1327,7 @@ Before using this framework, ensure:
 ---
 ## Tier 1A: Boundary Bandwidth, Effective Dimension, and Symmetry Capacity
 
-### Definition 1A.1 ? Boundary Bandwidth Function
+### Definition 1A.1 Boundary Bandwidth Function
 For a nested family of regions $\{R_r\}$ in $G$ (e.g. graph balls of radius $r$), define the **boundary bandwidth**
 $$
 B(r) := |\partial R_r|,
@@ -1300,7 +1335,7 @@ $$
 or, more generally, a capacity-weighted boundary throughput bound when edge weights or flux constraints are present.
 
 ---
-### Definition 1A.2 ? Effective Dimension from Bandwidth Growth
+### Definition 1A.2 Effective Dimension from Bandwidth Growth
 Define the **effective dimension** associated with boundary growth as
 $$
 d_{\mathrm{eff}} := 1 + \limsup_{r\to\infty} \frac{\log B(r)}{\log r}.
@@ -1308,17 +1343,17 @@ $$
 **Interpretation:** dimension is the exponent governing how many independent information channels become available as a cut grows.
 
 ---
-### Theorem 1A.1 ? Boundary Growth Controls Volume Growth
+### Theorem 1A.1 Boundary Growth Controls Volume Growth
 Under mild regularity assumptions on $\{R_r\}$ (nestedness, bounded eccentricity), boundary-growth exponent and volume-growth exponent are linked: polynomial boundary growth with exponent $d_{\mathrm{eff}}-1$ implies polynomial volume growth with exponent $d_{\mathrm{eff}}$.
 
 **Status:** proved (graph-theoretic; independent of SM assumptions).
 
 ---
-### Definition 1A.3 ? Boundary Observable Algebra
+### Definition 1A.3 Boundary Observable Algebra
 For a region $R$, define $\mathcal{O}(\partial R)$ as the algebra of observables accessible outside the cut (net fluxes, coarse-grained boundary registers, projected boundary variables).
 
 ---
-### Definition 1A.4 ? Boundary Redundancy Group
+### Definition 1A.4 Boundary Redundancy Group
 Define the **boundary redundancy group**
 $$
 \mathcal{G}(\partial R) := \{\text{internal transformations on } R \text{ leaving } \mathcal{O}(\partial R) \text{ invariant}\}.
@@ -1326,13 +1361,13 @@ $$
 **Interpretation:** internal relabelings that do not affect boundary-observable information flow are physically redundant (gauge freedom).
 
 ---
-### Theorem 1A.2 ? Boundary Capacity Bounds Independent Conserved Flows
+### Theorem 1A.2 Boundary Capacity Bounds Independent Conserved Flows
 The number of independent conserved exchange modes detectable outside $R$ is bounded above by a function of the boundary bandwidth $B(r)$. In particular, no more than $O(B(r))$ linearly independent boundary-resolved flows can be simultaneously conserved.
 
 **Status:** noether-like (requires full action?symmetry pipeline for promotion).
 
 ---
-### Theorem 1A.3 ? Goldilocks Window for Boundary Symmetry Viability
+### Theorem 1A.3 Goldilocks Window for Boundary Symmetry Viability
 There exists a window of effective dimensions $d_{\mathrm{eff}}$ such that:
 1. For $d_{\mathrm{eff}}$ too small, admissible boundary redundancy groups collapse to effectively abelian or trivial classes.
 2. For $d_{\mathrm{eff}}$ too large, redundancy structures proliferate and destabilize under coarse-graining.
@@ -1341,7 +1376,7 @@ There exists a window of effective dimensions $d_{\mathrm{eff}}$ such that:
 **Status:** deferred (explicit constructive witness families and full Noether promotion required).
 
 ---
-### Corollary 1A.1 ? Constraint (Not Derivation) on SM Gauge Structure
+### Corollary 1A.1 Constraint (Not Derivation) on SM Gauge Structure
 Boundary bandwidth scaling sharply constrains admissible internal boundary symmetries. Identification of the Standard Model gauge group $U(1) \times SU(2) \times SU(3)$ as a realized member of this constrained class remains a deferred result pending constructive derivation.
 
 **Status:** deferred (see Proof Status Ledger PS-010).
@@ -1352,50 +1387,50 @@ Boundary bandwidth scaling sharply constrains admissible internal boundary symme
 
 **Purpose (non-axiomatic):** This block extracts additional *derived* statements suggested by the boundary/cut viewpoint. No new Tier-0 axioms are introduced. Each item is tagged by proof maturity following the project's Noether governance.
 
-### Definition 1B.1 ? Cut-External Observational Equivalence
+### Definition 1B.1 Cut-External Observational Equivalence
 Fix a region $R\subseteq V$ and its boundary $\partial R$. Let $\mathcal{O}(\partial R)$ denote the algebra of observables accessible outside $R$ (e.g., boundary throughput summaries $\Phi_n(\partial R)$, boundary register $b_n(\partial R)$, and any declared coarse-grained boundary projections). Two interior microstates at tick $n$, denoted $\psi_n|_R$ and $\psi'_n|_R$, are **externally equivalent across the cut** if they induce identical boundary observables:
-\[
+$$
 \psi_n|_R \sim_{\partial R} \psi'_n|_R \iff \mathcal{O}(\partial R;\psi_n)=\mathcal{O}(\partial R;\psi'_n).
-\]
+$$
 
 ---
-### Theorem 1B.1 ? Gauge Equivalence as Cut-Observable Equivalence
+### Theorem 1B.1 Gauge Equivalence as Cut-Observable Equivalence
 **Claim.** The relation $\sim_{\partial R}$ is an equivalence relation on interior microstates (reflexive, symmetric, transitive). The automorphisms of each equivalence class are precisely the **boundary redundancy transformations** ("gauge" in the cut sense): transformations acting on $R$ that preserve $\mathcal{O}(\partial R)$.
 
 **Status:** proved (equivalence-relation construction; depends only on Definition 1B.1 and the definition of $\mathcal{O}(\partial R)$).
 
 ---
-### Theorem 1B.2 ? Universal Boundary Mediator Structure (Horizon/Boson Analogue)
-**Claim.** For any horizon-like cut $\partial R$ (Definition 1.4), the exterior-facing effect of the interior dynamics is fully characterized by the boundary data $(\Phi_n(\partial R),\, b_n(\partial R))$ together with the chosen observation map $\Phi_{\mathrm{cg}}$ (Definition 3.4). In particular, the exterior cannot distinguish interior microstates within the same $\sim_{\partial R}$ class; it observes only a delayed, bandwidth-limited projection mediated by the boundary.
+### Theorem 1B.2 Universal Boundary Mediator Structure (Horizon/Boson Analogue)
+**Claim.** For any horizon-like cut $\partial R$ (AXIOM-8), the exterior-facing effect of the interior dynamics is fully characterized by the boundary data $(\Phi_n(\partial R),\, b_n(\partial R))$ together with the chosen observation map $\Phi_{\mathrm{cg}}$ (Definition 3.4). In particular, the exterior cannot distinguish interior microstates within the same $\sim_{\partial R}$ class; it observes only a delayed, bandwidth-limited projection mediated by the boundary.
 
 **Status:** proved (depends on Theorem 1.1 (GB), Corollary 1.1, Theorem 1.2, and Definition 3.4).
 
 ---
-### Theorem 1B.3 ? Boundary Rank Bound on Independent Conserved Charges
+### Theorem 1B.3 Boundary Rank Bound on Independent Conserved Charges
 **Claim.** The number of independent conserved exchange modes/charges that can be resolved outside $R$ is bounded by a function of the boundary bandwidth $B(r)$ and (when defined) by the rank/size of the boundary redundancy group $\mathcal{G}(\partial R)$. Intuitively: independent conserved flows cannot exceed the number of independent boundary channels.
 
 **Status:** noether-like (a full Noether promotion requires a frozen action, a continuous symmetry action, and explicit current/charge construction).
 
 ---
-### Theorem 1B.4 ? Low-Dimensional Abelianization (Boundary Symmetry Collapse)
+### Theorem 1B.4 Low-Dimensional Abelianization (Boundary Symmetry Collapse)
 **Claim.** If boundary bandwidth growth is too small (e.g., $d_{\mathrm{eff}}\le 2$ under Definition 1A.2 for a canonical exhaustion), then admissible boundary redundancy structures that act faithfully on boundary-resolved degrees of freedom collapse under coarse-graining to effectively abelian (commutative) classes.
 
 **Status:** noether-like (requires formal stability/coarse-graining class and the action-to-charge pipeline for full promotion).
 
 ---
-### Theorem 1B.5 ? High-Dimensional Symmetry Proliferation Instability
+### Theorem 1B.5 High-Dimensional Symmetry Proliferation Instability
 **Claim.** If boundary bandwidth grows too rapidly (e.g., super-polynomial growth or $d_{\mathrm{eff}}\gg 3$), then boundary redundancy structures proliferate faster than coarse-graining can stabilize them, so no small, robust low-rank effective symmetry description persists at macroscopic scale.
 
 **Status:** deferred (requires an explicit stability definition under coarse-graining and witness-family construction).
 
 ---
-### Theorem 1B.6 ? Dimensional Attractor (Bandwidth-Driven Fixed-Window Hypothesis)
+### Theorem 1B.6 Dimensional Attractor (Bandwidth-Driven Fixed-Window Hypothesis)
 **Claim.** Under repeated coarse-graining with stability constraints on boundary throughput, the effective dimension defined by boundary bandwidth (Definition 1A.2) flows toward a fixed window compatible with stable, low-rank non-abelian boundary redundancies.
 
 **Status:** deferred (requires a formal renormalization/coarse-graining flow definition and stability criteria).
 
 ---
-### Theorem 1B.7 ? Field Limit as a Boundary Ensemble Average (Boltzmann Analogue)
+### Theorem 1B.7 Field Limit as a Boundary Ensemble Average (Boltzmann Analogue)
 **Claim.** In regimes where cuts are dense and individual boundary mediations cannot be resolved, effective classical/quantum fields arise as ensemble-averaged descriptions of boundary-mediated information transfer histories, analogous to Boltzmann/kinetic descriptions of molecular microdynamics.
 
 **Status:** noether-like (requires an explicit ensemble measure on transfer histories and an observational equivalence specification).
@@ -1403,7 +1438,7 @@ Fix a region $R\subseteq V$ and its boundary $\partial R$. Let $\mathcal{O}(\par
 ---
 ## Tier 1C: Particle Modes as Boundary-Stabilized Standing Waves
 
-### Theorem 1C.1 ? Particle Modes as Horizon-Supported Standing Waves
+### AXIOM-10 - Particle Modes as Boundary-Stabilized Standing Waves
 **Claim.** In UniNet, any long-lived, particle-like excitation corresponds to a **standing or quasi-standing wave pattern** of the update dynamics, stabilized by a **horizon-like boundary (cut)** whose surface admits a symmetry group. The observable properties of the excitation are determined by the symmetry structure of this boundary and the allowed standing-wave modes it supports.
 
 **Explanation (structural, non-axiomatic):**
@@ -1420,7 +1455,6 @@ Fix a region $R\subseteq V$ and its boundary $\partial R$. Let $\mathcal{O}(\par
 **Status:** derived theorem.
 ---
 ``
-
 
 ---
 ## Literature Anchors for Boundary, Bandwidth, and Gauge-Redundancy Results
@@ -1441,6 +1475,17 @@ The following references provide established context and partial formal preceden
 
 ### Bulk?Boundary Mediation and Gauge Constraints
 - I. Heemskerk, *Construction of Bulk Fields with Gauge Redundancy*, arXiv:1201.3666. Boundary constraints and non-locality from Gauss law. ?cite?turn46search66?
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-﻿# UniNet GR Section: Full-Rigor Build Plan (Mapping-Complete)
+# UniNet GR Section: Full-Rigor Build Plan (Mapping-Complete)
 
 **Date:** 2026-03-30  
 **Primary source of truth:** `../docs_input/UNINET_CORE_AXIOMS.md` only  
@@ -10,7 +10,7 @@
 
 This GR section is ready to start **now** under the following lock:
 
-1. No new microscopic axioms beyond Tier-0 and bridge axioms 4.1–4.3 already in `../docs_input/UNINET_CORE_AXIOMS.md`.
+1. No new microscopic axioms beyond Tier-0 and bridge postulates BRIDGE-P1..BRIDGE-P3 already in `../docs_input/UNINET_CORE_AXIOMS.md`.
 2. Any new assumption at GR level must be marked explicitly as either:
    - `Postulate` (model choice), or
    - `Derived` (with proof and dependency list).
@@ -231,6 +231,7 @@ All must be true:
 5. Write M8 queueing/backpressure-horizon block and tie to falsifiability rows.
 6. Write M9 black-hole application block (deferred-aware).
 7. Run a final "claim audit" to remove all unstated assumptions.
+
 
 
 
