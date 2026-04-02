@@ -1,7 +1,7 @@
 # UniNet Proof-Status Ledger v1
 
 Date: 2026-03-30  
-Purpose: explicit claim-status registry for clear reader-facing traceability and review transparency.
+Purpose: explicit claim-status registry for hostile-review transparency.
 
 ## 1. Status Vocabulary
 
@@ -39,15 +39,11 @@ Purpose: explicit claim-status registry for clear reader-facing traceability and
 | PS-013 | Black-hole Page/firewall/microstate quantitative claims | deferred | `GR-BH-DEF-004/005` | leaky/trapping + coarse-graining theorem | operational estimator + threshold + waveform maps | `UNINET_GR_FALSIFIABILITY_MATRIX.md` |
 | PS-014 | Noether promotions beyond current symmetry theorems | deferred | `UNINET_NOETHER_SYMMETRY_SECTION.md` | action + symmetry generators + boundary terms | full Noether pipeline not frozen (`deferred-noether` subtype) | `UNINET_NOETHER_SYMMETRY_SECTION.md` |
 | PS-015 | Spin-statistics operational use in SM packaging | external-constraint | `../docs_input/UNINET_CORE_AXIOMS.md:861` | relies on external theorem class | internal derivation out of scope currently | `UNINET_SM_SECTION.md` |
-| PS-016 | Buffering induces dynamic weighted geometry, global Lorentzian envelope, and curved Lorentzian emergence (conditional) | proved | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` | Tier-0 + continuity + bridge/closure assumptions + external curvature/causal bridge | remains conditional on explicit assumptions `P-C1` to `P-C5` and `E1` to `E4` | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` |
-| PS-017 | UniNet has a non-empty open geometric Regge regime around an isotropic seed (conditional) | proved | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` | isotropic-branch corollary + equilateral seed refinement + continuity/openness of simplicial admissibility | uniform refinement control and one explicit observationally viable seed still not established | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` |
-| PS-018 | UniNet effective costs land in the Regge dynamical class | deferred | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` | geometric Regge regime + action identification + source correspondence + variation compatibility | full `R1` bridge not yet proved | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` |
-| PS-019 | Non-empty observationally admissible Regge-dynamical regime | deferred | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` | observational windows + geometric Regge regime + Regge dynamical embedding | one explicit seed in $Theta_obs n Theta_Regge,dyn$ not yet constructed | `UNINET_BUFFERING_TO_EFFECTIVE_EDGE_GEOMETRY_PROOF.md` |
 
 ## 4. Review Rule
 
-Any manuscript statement should map to one ledger row.  
-If not yet mapped, it is treated as `deferred` until added with explicit status and blocker.
+Any manuscript statement must map to one ledger row.  
+If not mapped, it is automatically `deferred` until added with explicit status and blocker.
 
 ## 5. Promotion Queue (Next Critical Steps)
 
@@ -55,8 +51,6 @@ If not yet mapped, it is treated as `deferred` until added with explicit status 
 2. Promote PS-010: complete explicit gauge-group emergence proof path.
 3. Promote PS-013: freeze Page/ringdown estimators and binary reject thresholds.
 4. Promote PS-014: complete Noether action-domain theorem package.
-5. Promote PS-018: prove the UniNet-to-Regge dynamical-class bridge (`R1`).
-6. Promote PS-019: construct one explicit seed in the observationally admissible Regge-dynamical regime.
 
 
 

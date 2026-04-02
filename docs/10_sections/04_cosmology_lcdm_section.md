@@ -15,12 +15,12 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 | id | statement | status | source anchor | role |
 |---|---|---|---|---|
-| COS-A1 | Buffer dynamics can be coarse-grained into effective cosmological sectors | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1188,1200,1209` | sector packaging |
-| COS-A2 | Projection bridge to observed spacetime and units | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1050,1086,1104` | observable calibration |
-| COS-A3 | Queue-response and saturation constraints shape transport corrections | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:866,882` | congestion/backpressure channel |
-| COS-A4 | Observer-time/coarse-graining arrow remains consistent in macro sector | proved + postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:671,704` | thermodynamic directionality |
-| COS-A5 | Full multipole transfer kernel from UniNet to Boltzmann observables | deferred | `C:/SB/UniNet3/docs_output/UNINET_COSMOLOGY_LCDM_FALSIFIABILITY_MATRIX.md` | precision CMB closure gap |
-| COS-A6 | Detector-level coupling map for non-particle dark sector | deferred | `C:/SB/UniNet3/docs_output/UNINET_COSMOLOGY_LCDM_FALSIFIABILITY_MATRIX.md` | direct detection interface gap |
+| COS-A1 | Buffer dynamics can be coarse-grained into effective cosmological sectors | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1223,1235,1244` | sector packaging |
+| COS-A2 | Projection bridge to observed spacetime and units | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1085,1121,1139` | observable calibration |
+| COS-A3 | Queue-response and saturation constraints shape transport corrections | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:901,917` | congestion/backpressure channel |
+| COS-A4 | Observer-time/coarse-graining arrow remains consistent in macro sector | proved + postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:706,739` | thermodynamic directionality |
+| COS-A5 | Full multipole transfer kernel from UniNet to Boltzmann observables | deferred | `C:/SB/UniNet3/ docs_input/UNINET_COSMOLOGY_LCDM_FALSIFIABILITY_MATRIX.md` | precision CMB closure gap |
+| COS-A6 | Detector-level coupling map for non-particle dark sector | deferred | `C:/SB/UniNet3/ docs_input/UNINET_COSMOLOGY_LCDM_FALSIFIABILITY_MATRIX.md` | direct detection interface gap |
 
 ## 3. Mapping Blocks (C1-C12)
 
@@ -32,17 +32,17 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 ### C2. Effective Sources -> Friedmann-Like Evolution
 
 - Operational background equation form:
-  \[
+  $$
   H^2(z)=H_0^2\left[\Omega_r(1+z)^4+\Omega_m(1+z)^3+\Omega_{\mathrm{DE}}\,f_{\mathrm{DE}}(z)\right].
-  \]
+  $$
 - Status: `postulate` packaging; explicit mapping kernels are deferred by component.
 
 ### C3. Buffer Relaxation -> Dark Energy Sector
 
 - Operational parameterization:
-  \[
+  $$
   w(z)=w_0+w_a\frac{z}{1+z}.
-  \]
+  $$
 - Status: `postulate`.
 - Matrix-linked sign test: `COS-CORE-001`.
 
@@ -100,9 +100,9 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 - Native equations remain primary.
 - Effective-action companion (when assumptions are frozen):
-  \[
+  $$
   \mathcal{S}_{\mathrm{eff}}=\int d^4x\sqrt{-g}\,\mathcal{L}_{\mathrm{eff}}\!\left(\rho_{\mathrm{buffer}},\Phi,\ldots\right).
-  \]
+  $$
 - Status: formal scaffold only; not a completed derivation theorem.
 
 ## 5. Claim Boundaries
@@ -139,6 +139,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 1. Core rows: `COS-CORE-001`, `COS-CORE-002`, `COS-CORE-003`, `COS-CORE-004`.
 2. Deferred rows: `COS-DEF-005`, `COS-DEF-006`, `COS-DEF-007`.
+
 
 
 

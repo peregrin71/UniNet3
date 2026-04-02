@@ -1,8 +1,8 @@
-﻿# UniNet Axiom-to-Prediction Dependency DAG (Updated)
+# UniNet Axiom-to-Prediction Dependency DAG (Updated)
 Date: 2026-03-30
 
 ## New Structural Additions
-A0.1–A0.6
+AXIOM-1/AXIOM-3/AXIOM-4/AXIOM-5/AXIOM-6/AXIOM-7/MODEL-P2
   -> T1.1 (Discrete Gauss / Cut Balance)
   -> T1.2 (Leaky Boundary)
   -> T1A.* (Boundary Bandwidth & Effective Dimension)
@@ -26,6 +26,10 @@ T1B.*
 ## Status Notes
 - T1A.1: proved
 - T1A.3: deferred
-- T1B.1–1B.2: proved
-- T1B.3–1B.7: noether-like / deferred
+- T1B.1�1B.2: proved
+- T1B.3�1B.7: noether-like / deferred
+
+
+
+
 

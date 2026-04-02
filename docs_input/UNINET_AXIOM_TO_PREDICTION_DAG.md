@@ -14,7 +14,7 @@ Scope: transparency artifact only; no new derivations.
 ## 2. Global Skeleton
 
 ```text
-A0.1/A0.4/A0.5/A0.6
+AXIOM-1/AXIOM-3/AXIOM-4/AXIOM-5/AXIOM-6/AXIOM-7/MODEL-P2
   -> T1.1/T1.2/T1.1(Discrete Gauss) -> T1.2(leaky boundary)
   -> T2.1(closed cones) -> T3.2(observer time) -> T3.4/T3.2(arrow theorem family)
   -> Regime split (QM theorem / GR theorem)
@@ -25,10 +25,10 @@ A0.1/A0.4/A0.5/A0.6
 ## 3. GR Branch (Buffers -> Emergent Spacetime/Gravity)
 
 ```text
-A0.4 + A0.5 + A0.6
+AXIOM-3 + AXIOM-4 + AXIOM-5 + AXIOM-6 + AXIOM-7 + MODEL-P2
   -> T1.1 (cut balance)
   -> T1.3/T1.4 + R9/R10 (queue/backpressure constraints)
-  -> A4.1/A4.2/A4.3 (projection bridge)
+  -> BRIDGE-P1/P2/P3 (projection bridge)
   -> T(GR latency adaptive)
   -> S-GR packaging
   -> P: GR-CORE-001/002/003, GR-LB-CORE-001, GR deferred clusters
@@ -36,13 +36,16 @@ A0.4 + A0.5 + A0.6
 
 Core anchors:
 
-1. `A0.4`: `../docs_input/UNINET_CORE_AXIOMS.md:244`
-2. `A0.5`: `../docs_input/UNINET_CORE_AXIOMS.md:260`
-3. `A0.6`: `../docs_input/UNINET_CORE_AXIOMS.md:278`
-4. `T1.4`: `../docs_input/UNINET_CORE_AXIOMS.md:513`
-5. `R9/R10`: `../docs_input/UNINET_CORE_AXIOMS.md:866`, `../docs_input/UNINET_CORE_AXIOMS.md:882`
-6. `A4.1/4.2/4.3`: `../docs_input/UNINET_CORE_AXIOMS.md:1050`, `1086`, `1104`
-7. `GR theorem`: `../docs_input/UNINET_CORE_AXIOMS.md:1171`
+1. `AXIOM-3`: `../docs_input/UNINET_CORE_AXIOMS.md:234`
+2. `AXIOM-4`: `../docs_input/UNINET_CORE_AXIOMS.md:243`
+3. `AXIOM-5`: `../docs_input/UNINET_CORE_AXIOMS.md:256`
+4. `AXIOM-6`: `../docs_input/UNINET_CORE_AXIOMS.md:280`
+5. `AXIOM-7`: `../docs_input/UNINET_CORE_AXIOMS.md:298`
+6. `MODEL-P2`: `../docs_input/UNINET_CORE_AXIOMS.md:314`
+7. `T1.4`: `../docs_input/UNINET_CORE_AXIOMS.md:548`
+8. `R9/R10`: `../docs_input/UNINET_CORE_AXIOMS.md:901`, `../docs_input/UNINET_CORE_AXIOMS.md:917`
+9. `BRIDGE-P1/P2/P3`: `../docs_input/UNINET_CORE_AXIOMS.md:1085`, `../docs_input/UNINET_CORE_AXIOMS.md:1121`, `../docs_input/UNINET_CORE_AXIOMS.md:1139`
+10. `GR theorem`: `../docs_input/UNINET_CORE_AXIOMS.md:1206`
 
 Prediction targets:
 
@@ -54,7 +57,7 @@ Prediction targets:
 ## 4. QM Branch (Wave/Particle Interface)
 
 ```text
-A0.4 + A0.5
+AXIOM-3 + AXIOM-4 + AXIOM-5 + AXIOM-6 + AXIOM-7
   -> QM regime axiom/theorem (static latency)
   -> T3.2 + T3.2(arrow theorem) via coarse-graining map
   -> S-QM packaging
@@ -63,13 +66,13 @@ A0.4 + A0.5
 
 Core anchors:
 
-1. `QM axiom/theorem`: `../docs_input/UNINET_CORE_AXIOMS.md:1148`, `1153`
-2. `observer-time/arrow`: `../docs_input/UNINET_CORE_AXIOMS.md:632`, `671`
+1. `QM axiom/theorem`: `../docs_input/UNINET_CORE_AXIOMS.md:1183`, `1223`
+2. `observer-time/arrow`: `../docs_input/UNINET_CORE_AXIOMS.md:667`, `706`
 
 ## 5. SM Branch (Transfer Constraints -> Flavor/CP Tests)
 
 ```text
-A0.7
+SM-FOUND-A1
   -> R5/R6/R8 (chirality + CP metric + admissible window)
   -> S-SM packaging (still partial for gauge derivation)
   -> P: SM-CORE-001/002, SM-DEF-003/004
@@ -77,8 +80,8 @@ A0.7
 
 Core anchors:
 
-1. `A0.7`: `../docs_input/UNINET_CORE_AXIOMS.md:297`
-2. `R5/R6/R8`: `../docs_input/UNINET_CORE_AXIOMS.md:757`, `798`, `843`
+1. `SM-FOUND-A1`: `../docs_input/UNINET_CORE_AXIOMS.md:333`
+2. `R5/R6/R8`: `../docs_input/UNINET_CORE_AXIOMS.md:792`, `833`, `878`
 
 ## 6. Cosmology Branch (Buffer Dynamics Packaging)
 
@@ -91,9 +94,9 @@ GR/source bridge + cosmology application block
 
 Core anchors:
 
-1. `Dark Energy`: `../docs_input/UNINET_CORE_AXIOMS.md:1188`
-2. `Dark Matter`: `../docs_input/UNINET_CORE_AXIOMS.md:1200`
-3. `Inflation`: `../docs_input/UNINET_CORE_AXIOMS.md:1209`
+1. `Dark Energy`: `../docs_input/UNINET_CORE_AXIOMS.md:1223`
+2. `Dark Matter`: `../docs_input/UNINET_CORE_AXIOMS.md:1235`
+3. `Inflation`: `../docs_input/UNINET_CORE_AXIOMS.md:1244`
 4. `queue constraints used by congestion branch`: `866`, `882`
 
 ## 7. Explicit Boundary Nodes
@@ -117,6 +120,11 @@ Every new prediction row must add:
 1. one `A*`/`T*` parent path in this DAG,
 2. one explicit source anchor in core,
 3. one binary reject criterion in matrix row.
+
+
+
+
+
 
 
 

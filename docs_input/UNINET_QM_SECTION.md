@@ -15,13 +15,13 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 | id | statement | status | source anchor | role |
 |---|---|---|---|---|
-| QM-A1 | Hilbert state space and unitary update | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:229,244` | microscopic dynamics |
-| QM-A2 | Graph locality of transfer | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:260` | finite propagation |
-| QM-A3 | Static-latency QM regime | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1148,1153` | regime axiom/theorem |
-| QM-A4 | Continuity/cut-balance structure | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:365,387` | occupancy/flux balance |
-| QM-A5 | Observer-time and coarse-graining map | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:632,662,671` | observed-time interface |
+| QM-A1 | Hilbert state space and unitary update | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:265,298` | microscopic dynamics |
+| QM-A2 | Graph locality of transfer | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:280` | finite propagation |
+| QM-A3 | Static-latency QM regime | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1183,1223` | regime axiom/theorem |
+| QM-A4 | Continuity/cut-balance structure | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:400,422` | occupancy/flux balance |
+| QM-A5 | Observer-time and coarse-graining map | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:667,697,706` | observed-time interface |
 | QM-A6 | Born-like frequency recovery from coarse layer | deferred | `C:/SB/UniNet3/docs_input/UNINET_QM_SECTION_RIGOR_PLAN.md` | measurement derivation gap |
-| QM-A7 | Queue bookkeeping does not alter QM latency | proved (scope-limited) | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:491,1153` | category separation |
+| QM-A7 | Queue bookkeeping does not alter QM latency | proved (scope-limited) | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:526,1223` | category separation |
 
 ## 3. Mapping Blocks (Q1-Q9)
 
@@ -119,6 +119,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 1. `UNINET_QM_FALSIFIABILITY_MATRIX.md`: `QM-CORE-001`, `QM-CORE-002`.
 2. Deferred interfaces: `QM-DEF-003`, `QM-DEF-004`.
+
 
 
 

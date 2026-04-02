@@ -1,4 +1,4 @@
-﻿# UniNet Philosophical Results Section (Build-Up Draft v1)
+# UniNet Philosophical Results Section (Build-Up Draft v1)
 
 Date: 2026-03-30  
 Primary source of truth: UniNet core/section documents, plus `../docs_input/UNINET_PHILOSOPHICAL_RESULTS_SECTION_PLAN.md`  
@@ -14,9 +14,9 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 - UniNet interpretation target: deterministic microscopic evolution plus observer-level coarse-grained statistics.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:244`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:671`
-  - `C:/SB/UniNet3/docs_output/UNINET_QM_SECTION.md`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:298`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:706`
+  - `C:/SB/UniNet3/ docs_input/UNINET_QM_SECTION.md`
 - Status: `deferred` (interpretive subtype).
 - Non-claim: this section does not claim a completed Bell-inequality derivation theorem inside UniNet formalism.
 
@@ -24,9 +24,9 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 - UniNet interpretation target: micro-level unitary determinism with macro-level probabilistic interface from non-injective coarse-graining.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:244`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:662`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:671`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:298`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:697`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:706`
 - Status: mixed (`proved` scaffold + `postulate` measurement interface packaging).
 - Non-claim: no claim of complete derivation of all quantum measurement statistics yet.
 
@@ -34,8 +34,8 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 - UniNet interpretation target: observer-relative macro description from projection/coarse-graining without modifying Tier-0 unitarity.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:662`
-  - `C:/SB/UniNet3/docs_output/UNINET_QM_SECTION.md` (Q5/Q6)
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:697`
+  - `C:/SB/UniNet3/ docs_input/UNINET_QM_SECTION.md` (Q5/Q6)
 - Status: `postulate` to `deferred` boundary.
 - Non-claim: no claim that observer-relative update rules are complete in all protocols.
 
@@ -43,9 +43,9 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 - UniNet interpretation target: observed time as an order/coarse-grained construct from internal relations, not a primitive absolute variable.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:613`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:632`
-  - `C:/SB/UniNet3/docs_output/UNINET_QM_SECTION.md` (Q4)
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:648`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:667`
+  - `C:/SB/UniNet3/ docs_input/UNINET_QM_SECTION.md` (Q4)
 - Status: `proved` for causal-order time-function scaffold; `deferred` for stronger equivalence statements to specific relational-time programs.
 - Non-claim: no exact-equivalence theorem to Page-Wootters formalism is claimed.
 
@@ -53,9 +53,9 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 - UniNet interpretation target: no Tier-0 retrocausality is required; delayed-choice effects are packaged at observer/protocol layer.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:544`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:632`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:671`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:579`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:667`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:706`
 - Status: `deferred` (interpretive subtype).
 - Non-claim: no complete protocol theorem for all delayed-choice scenarios is claimed.
 
@@ -63,8 +63,8 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 - UniNet interpretation target: one microdynamics with projection-dependent observational regimes.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_output/UNINET_QM_SECTION.md` (Q1/Q5/Q6)
-  - `C:/SB/UniNet3/docs_output/UNINET_BOUNDARY_NONCLAIMS.md`
+  - `C:/SB/UniNet3/ docs_input/UNINET_QM_SECTION.md` (Q1/Q5/Q6)
+  - `C:/SB/UniNet3/ docs_input/UNINET_BOUNDARY_NONCLAIMS.md`
 - Status: `deferred` for protocol-level theorem closure.
 - Non-claim: this section does not claim full derivation of uncertainty relations from first principles beyond existing framework assumptions.
 
@@ -73,9 +73,9 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 - Core theorem scaffold: emergent arrow from non-injective coarse-graining.
 - Sector modifier statement: CP asymmetry modifies channels but is not the foundational source of thermodynamic arrow.
 - Anchor set:
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:671`
-  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:709`
-  - `C:/SB/UniNet3/docs_output/UNINET_SM_SECTION.md` (S3)
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:706`
+  - `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:744`
+  - `C:/SB/UniNet3/ docs_input/UNINET_SM_SECTION.md` (S3)
 - Status: `proved` for arrow theorem scaffold, `postulate` for quantitative cross-sector packaging.
 
 ## 9. Explicit Non-Claims
@@ -92,6 +92,7 @@ To upgrade any deferred interpretive claim:
 1. Add a theorem/postulate mapping in sector document (`QM/GR/SM/Cosmology`).
 2. Add a falsifiability row with binary reject criterion when observationally testable.
 3. Update `UNINET_PROOF_STATUS_LEDGER.md` and `UNINET_BOUNDARY_NONCLAIMS.md`.
+
 
 
 

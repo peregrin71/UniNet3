@@ -21,7 +21,7 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 | item_id | claim | status | source anchor | upgrade blocker |
 |---|---|---|---|---|
-| NS-001 | Graph relabeling covariance (`S1`) | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:897` | none |
+| NS-001 | Graph relabeling covariance (`S1`) | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:932` | none |
 | NS-002 | QM time-translation invariance in static regime (`S2`) | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:911` | none |
 | NS-003 | Locality-preserving conjugation symmetry (`S3`) | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:918` | none |
 | NS-004 | Pseudo-unitary projected invariance (`S4`) | noether-like | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:927` | full action-domain proof needed |
@@ -64,6 +64,7 @@ To promote any `noether-like` or `deferred-noether` item:
 1. This section does not claim full Noether closure for all sectors.
 2. It does not replace sector-specific derivations.
 3. It does not allow symmetry language to upgrade proof status without the promotion protocol.
+
 
 
 

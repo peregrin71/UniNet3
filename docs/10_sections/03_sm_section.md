@@ -15,18 +15,18 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 | id | statement | status | source anchor | role |
 |---|---|---|---|---|
-| SM-A1 | Chiral decomposition of node Hilbert space | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:297` | mode taxonomy basis |
-| SM-A2 | Chiral-structure transfer requirement (`R5`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:757` | admissibility condition |
-| SM-A3 | CP non-commutation metric (`R6`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:798` | CP-asymmetry control |
-| SM-A4 | Spin-statistics connection (`R7`) | external-constraint | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:826` | sector interpretation constraint |
-| SM-A5 | Quantitative admissible window (`R8`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:843` | viability bound |
+| SM-A1 | Chiral decomposition of node Hilbert space | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:333` | mode taxonomy basis |
+| SM-A2 | Chiral-structure transfer requirement (`R5`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:792` | admissibility condition |
+| SM-A3 | CP non-commutation metric (`R6`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:833` | CP-asymmetry control |
+| SM-A4 | Spin-statistics connection (`R7`) | external-constraint | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:861` | sector interpretation constraint |
+| SM-A5 | Quantitative admissible window (`R8`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:878` | viability bound |
 | SM-A6 | Gauge-group constructive emergence | deferred | `C:/SB/UniNet3/docs_input/UNINET_SM_SECTION_RIGOR_PLAN.md` | explicit construction pending |
 
 ## 3. Mapping Blocks (S0-S10)
 
 ## S0. Particle Ontology Assumption (Imported)
 
-This section adopts **Theorem 1C.1 (Particle Modes as Horizon-Supported Standing Waves)** from the UniNet core axioms.
+This section adopts **AXIOM-10 (Particle Modes as Boundary-Stabilized Standing Waves)** from the UniNet core axioms.
 
 Accordingly:
 - Standard Model particles are treated as admissible **boundary-stabilized standing-wave modes**.
@@ -37,29 +37,29 @@ No independent particle ontology is introduced in this section.
 
 ### S1. Chiral Hilbert Structure -> Mode Taxonomy
 
-- `proved`: left/right decomposition from Axiom 0.7.
+- `proved`: left/right decomposition from SM-FOUND-A1.
 - Canonical split:
-  \[
+  $$
   \mathcal{H}_v = \mathcal{H}_v^L \oplus \mathcal{H}_v^R.
-  \]
+  $$
 - This defines the basic mode classes used for parity/CP packaging.
 
 ### S2. Chiral Transfer Blocks -> Controlled Mixing Sector
 
 - `postulate`: admissible transfer class respects chiral block structure plus bounded mixing.
 - Canonical window variable:
-  \[
+  $$
   0 < \bar{\epsilon}_{\mathrm{mix}} \le \epsilon_{\mathrm{mix}}^{\max} \ll 1.
-  \]
+  $$
 - Non-emptiness of admissible class is required but still partially `deferred` (see S9).
 
 ### S3. CP Operator -> Quantified CP Breaking
 
 - CP involution with real chiral phases and operator non-commutation metric:
-  \[
+  $$
   \epsilon_{\mathrm{CP}}=\frac{1}{2}\|[\mathsf{CP},U]\|_{\mathrm{op}},\qquad
   0 < \epsilon_{\mathrm{CP}} \le \epsilon_{\mathrm{CP}}^{\max}\ll 1.
-  \]
+  $$
 - Status: `postulate` as transfer-class restriction; observational mapping tested in falsifiability matrix.
 
 ### S4. Exchange Symmetry Constraints -> Fermion/Boson Sectors
@@ -106,11 +106,11 @@ No independent particle ontology is introduced in this section.
 
 - Native constraints remain primary.
 - Optional variational encoding for admissible transfer family:
-  \[
+  $$
   \min_{U}\ \mathcal{J}[U]
   \quad\text{subject to}\quad
   U^\dagger U=I,\ \text{locality},\ \bar{\epsilon}_{\mathrm{mix}}\le\epsilon_{\mathrm{mix}}^{\max},\ \epsilon_{\mathrm{CP}}\le\epsilon_{\mathrm{CP}}^{\max}.
-  \]
+  $$
 - Status: this is a formal encoding aid, not yet a completed derivation theorem.
 
 ## 5. Claim Boundaries
@@ -145,5 +145,8 @@ No independent particle ontology is introduced in this section.
 
 1. `UNINET_SM_FALSIFIABILITY_MATRIX.md`: `SM-CORE-001`, `SM-CORE-002`.
 2. Deferred bridge rows: `SM-DEF-003`, `SM-DEF-004`.
+
+
+
 
 

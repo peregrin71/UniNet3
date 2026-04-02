@@ -8,7 +8,7 @@ Governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_LEDGER.md`
 ## 1. Contract and Scope Lock
 
 1. No new microscopic axioms are introduced.
-2. Allowed input claims are limited to Tier-0 axioms, Tier-1 to Tier-3 derived structures, bridge axioms 4.1-4.3, and transfer constraints `R9`, `R10`.
+2. Allowed input claims are limited to Tier-0 axioms, Tier-1 to Tier-3 derived structures, bridge postulates BRIDGE-P1..BRIDGE-P3, and transfer constraints `R9`, `R10`.
 3. Claim taxonomy used in this section: `Definition`, `Lemma`, `Theorem`, `Corollary`, `Postulate`, `Proposition`, `Boundary Note`.
 4. Status vocabulary is constrained to: `proved`, `postulate`, `deferred`, `external-constraint`.
 5. No observational fitting is done in this section.
@@ -17,13 +17,13 @@ Governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_LEDGER.md`
 
 | id | statement | status | source anchor | depends_on |
 |---|---|---|---|---|
-| GR-A1 | Graph-local unitary buffering substrate | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:211,244,260,278` | none |
-| GR-A2 | Causal precedence, cones, horismos | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:544,568,599` | GR-A1 |
-| GR-A3 | Observer-time and time-separation structures | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:613,632,645` | GR-A2 |
-| GR-A4 | Projection bridge (`4.1`, `4.2`, `4.3`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1050,1086,1104` | GR-A1, GR-A3 |
-| GR-A5 | Adaptive latency in GR regime | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1171` | GR-A4 |
-| GR-A6 | Queue drift and trapping package | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:491,513,532` | GR-A1, GR-A5 |
-| GR-A7 | Effective transport constraints `R9`, `R10` | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:866,882` | GR-A5 |
+| GR-A1 | Graph-local unitary buffering substrate | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:225,298,280,314` | none |
+| GR-A2 | Causal precedence, cones, horismos | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:579,568,634` | GR-A1 |
+| GR-A3 | Observer-time and time-separation structures | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:648,667,680` | GR-A2 |
+| GR-A4 | Projection bridge (`BRIDGE-P1`, `BRIDGE-P2`, `BRIDGE-P3`) | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1085,1121,1139` | GR-A1, GR-A3 |
+| GR-A5 | Adaptive latency in GR regime | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1206` | GR-A4 |
+| GR-A6 | Queue drift and trapping package | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:526,548,567` | GR-A1, GR-A5 |
+| GR-A7 | Effective transport constraints `R9`, `R10` | postulate | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:901,917` | GR-A5 |
 | GR-A8 | Pseudo-unitary projected invariance target | deferred | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:927` | GR-A4 |
 
 ## 3. Formal Mapping Blocks (M1-M9)
@@ -34,23 +34,23 @@ Governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_LEDGER.md`
 |---|---|---|---|---|---|
 | M1.1 | Lemma | proved | GR-A1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:326` | Graph locality implies finite-speed reachability bound. |
 | M1.2 | Theorem | proved | M1.1, GR-A2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:556` | Precedence relation is a partial order. |
-| M1.3 | Corollary | proved | M1.2, GR-A2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:587,599` | Horismos is the cone-boundary notion in the discrete causal setting. |
+| M1.3 | Corollary | proved | M1.2, GR-A2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:587,634` | Horismos is the cone-boundary notion in the discrete causal setting. |
 
 ### M2. Causal Order -> Observed Time
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M2.1 | Definition | proved | GR-A2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:632` | Define observer-time functional via past-set volume. |
-| M2.2 | Theorem | proved | M2.1, GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:623,632` | Under nondegeneracy, $x \prec y => t_{\mathrm{obs}}(x) < t_{\mathrm{obs}}(y)$. |
-| M2.R | Remark | proved | M2.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:220,632` | Distinguish microscopic tick `n` from emergent observed time $t_{\mathrm{obs}}$. |
+| M2.1 | Definition | proved | GR-A2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:667` | Define observer-time functional via past-set volume. |
+| M2.2 | Theorem | proved | M2.1, GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:658,667` | Under nondegeneracy, $x \prec y => t_{\mathrm{obs}}(x) < t_{\mathrm{obs}}(y)$. |
+| M2.R | Remark | proved | M2.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:234,667` | Distinguish microscopic tick `n` from emergent observed time $t_{\mathrm{obs}}$. |
 
 ### M3. Microscopic State -> Observed Spacetime
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M3.1 | Definition | postulate | GR-A4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1050` | Projection interface map from microscopic amplitudes to observed fields/events. |
-| M3.2 | Theorem target | deferred | M3.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:897,1050` | Label-gauge covariance of projection under graph isomorphisms. |
-| M3.3 | Theorem target | deferred | M3.1, M1.2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:544,599,1050` | Causal compatibility of projection (no superluminal inversion). |
+| M3.1 | Definition | postulate | GR-A4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1085` | Projection interface map from microscopic amplitudes to observed fields/events. |
+| M3.2 | Theorem target | deferred | M3.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:932,1085` | Label-gauge covariance of projection under graph isomorphisms. |
+| M3.3 | Theorem target | deferred | M3.1, M1.2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:579,634,1085` | Causal compatibility of projection (no superluminal inversion). |
 
 ### M4. Observed Spacetime -> Proper Time and Time Dilation
 
@@ -58,62 +58,62 @@ Domain assumptions: projected increments are timelike where proper-time is evalu
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M4.1 | Definition | proved | GR-A4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1066` | Proper-time increment from projected Lorentzian norm. |
-| M4.2 | Theorem target | postulate | M4.1, GR-A5, GR-A6 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:513,1066,1171` | Congestion/adaptive-delay regimes reduce accumulated proper time relative to low-load branch. |
-| M4.3 | Corollary target | deferred | M4.2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1066,1171` | Operational time-dilation comparison statement between observers. |
+| M4.1 | Definition | proved | GR-A4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1101` | Proper-time increment from projected Lorentzian norm. |
+| M4.2 | Theorem target | postulate | M4.1, GR-A5, GR-A6 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:548,1101,1206` | Congestion/adaptive-delay regimes reduce accumulated proper time relative to low-load branch. |
+| M4.3 | Corollary target | deferred | M4.2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1101,1206` | Operational time-dilation comparison statement between observers. |
 
 Native expression:
-\[
+$$
 \Delta \tau_n(v)=\frac{\sqrt{-\langle \Delta x_n(v),\Delta x_n(v)\rangle_\eta}}{c_{\mathrm{map}}}.
-\]
+$$
 
 ### M5. Dynamics -> Lorentz Invariance Envelope
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
 | M5.1 | Definition target | deferred | GR-A8 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:927` | Admissible projected pseudo-unitary transformation class. |
-| M5.2 | Theorem target | deferred | M5.1, M4.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:927,1066` | Invariance of projected interval under admissible class. |
-| M5.3 | Proposition target | deferred | M5.2, GR-A5 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1171` | Controlled deviation envelope from discrete corrections. |
+| M5.2 | Theorem target | deferred | M5.1, M4.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:927,1101` | Invariance of projected interval under admissible class. |
+| M5.3 | Proposition target | deferred | M5.2, GR-A5 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1206` | Controlled deviation envelope from discrete corrections. |
 
 Low-load local envelope (postulated target metric):
-\[
+$$
 ds^2 \approx -c_{\mathrm{map}}^2\,dt_{\mathrm{obs}}^2 + dx^2+dy^2+dz^2.
-\]
+$$
 
 ### M6. Geometry -> Geodesics in Observed Spacetime
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M6.1 | Definition | proved | GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:645` | Time-separation core $\tau(x,y)$ as geodesic scaffold. |
-| M6.2 | Theorem target | external-constraint | M6.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:645` | Existence of maximizing causal curves under adopted regularity class. |
-| M6.3 | Theorem target | deferred | M6.1, M3.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:326,645,1050` | Correspondence between graph-optimal paths and projected geodesics. |
+| M6.1 | Definition | proved | GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:680` | Time-separation core $\tau(x,y)$ as geodesic scaffold. |
+| M6.2 | Theorem target | external-constraint | M6.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:680` | Existence of maximizing causal curves under adopted regularity class. |
+| M6.3 | Theorem target | deferred | M6.1, M3.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:326,680,1085` | Correspondence between graph-optimal paths and projected geodesics. |
 
 ### M7. Sources -> Curvature Dynamics
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M7.1 | Definition target | postulate | GR-A4, GR-A5 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:999,1023,1171` | Stress-effort map from buffering/flux variables. |
-| M7.2 | Theorem target | postulate | M7.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1023,1171` | Discrete Euler-Lagrange field equation for GR-regime packaging. |
+| M7.1 | Definition target | postulate | GR-A4, GR-A5 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:999,1023,1206` | Stress-effort map from buffering/flux variables. |
+| M7.2 | Theorem target | postulate | M7.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1023,1206` | Discrete Euler-Lagrange field equation for GR-regime packaging. |
 | M7.3 | Lemma target | deferred | M7.2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1023` | Conservation compatibility (Bianchi-type consistency identity). |
 
 Native target equation:
-\[
+$$
 \mathrm{Curv}[\tau]=\kappa\,\mathrm{StressEffort}[\rho,J].
-\]
+$$
 
 Variational companion (mandatory class):
-\[
+$$
 \frac{\delta\!\left(\mathcal{S}_{\mathrm{geo}}[\tau]+\kappa\,\mathcal{S}_{\mathrm{src}}[\rho,J]\right)}{\delta \tau}=0.
-\]
+$$
 
 ### M8. Queueing/Backpressure -> Horizon-Scale Transport
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M8.1 | Definition target | postulate | GR-A6, GR-A7 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:460,475,866,882` | Normal vs near-saturation queueing regimes in projected GR observables. |
-| M8.2 | Theorem | proved | GR-A6 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:491` | Queue-drift identity and low-load stability imply finite-release behavior. |
-| M8.3 | Theorem | proved | GR-A5, GR-A6, GR-A7 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:513,866,882` | Near-saturation trapping bound under adaptive-latency + throughput constraints. |
-| M8.4 | Corollary | proved | M8.3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:532` | Boundary-dominant release with closure-vs-leak branch split. |
+| M8.1 | Definition target | postulate | GR-A6, GR-A7 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:460,475,901,917` | Normal vs near-saturation queueing regimes in projected GR observables. |
+| M8.2 | Theorem | proved | GR-A6 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:526` | Queue-drift identity and low-load stability imply finite-release behavior. |
+| M8.3 | Theorem | proved | GR-A5, GR-A6, GR-A7 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:548,901,917` | Near-saturation trapping bound under adaptive-latency + throughput constraints. |
+| M8.4 | Corollary | proved | M8.3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:567` | Boundary-dominant release with closure-vs-leak branch split. |
 
 Branch declaration requirement:
 1. Exact-closure branch: $\Phi_n(\partial R_{\mathrm{in}})=0$.
@@ -123,10 +123,10 @@ Branch declaration requirement:
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M9.1 | Proposition target | deferred | M8.2, M8.3, GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:513,671,704` | Operational Page-turnover proxy for coarse-grained radiation entropy trajectory. |
-| M9.2 | Proposition target | deferred | M8.3, M8.4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:513,532,882` | Near-horizon smoothness/no-firewall statement as bounded transport law condition. |
-| M9.3 | Proposition target | deferred | M8.4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:446,532` | Multimode ringdown coefficient map from leakage/microstate parameters. |
-| M9.B | Boundary Note | proved | M9.1-M9.3 | `../docs_output/UNINET_GR_FALSIFIABILITY_MATRIX.md` | M9 claims are not promotable without explicit forward map and binary reject threshold. |
+| M9.1 | Proposition target | deferred | M8.2, M8.3, GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:548,706,739` | Operational Page-turnover proxy for coarse-grained radiation entropy trajectory. |
+| M9.2 | Proposition target | deferred | M8.3, M8.4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:548,567,917` | Near-horizon smoothness/no-firewall statement as bounded transport law condition. |
+| M9.3 | Proposition target | deferred | M8.4 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:481,567` | Multimode ringdown coefficient map from leakage/microstate parameters. |
+| M9.B | Boundary Note | proved | M9.1-M9.3 | `../ docs_input/UNINET_GR_FALSIFIABILITY_MATRIX.md` | M9 claims are not promotable without explicit forward map and binary reject threshold. |
 
 ## 4. Continuum Correspondence Block
 
@@ -138,9 +138,9 @@ Scaling assumptions (all explicit postulates unless already proved):
 
 Limit statement (deferred target):
 
-\[
+$$
 \text{Discrete projected dynamics} \xrightarrow[\ell_e,\Delta t\to 0]{\ell_e/\Delta t=c_{\mathrm{map}}} \text{Lorentzian continuum envelope on admissible domains}.
-\]
+$$
 
 Status: `deferred` pending explicit regularity and convergence theorem.
 
@@ -201,6 +201,9 @@ Status: `deferred` pending explicit regularity and convergence theorem.
 2. Leaky-boundary rows: `GR-LB-CORE-001`, `GR-LB-DEF-002`, `GR-LB-DEF-003`.
 3. Black-hole deferred rows: `GR-BH-DEF-004`, `GR-BH-DEF-005`.
 4. Axiom-to-prediction dependency map: `UNINET_AXIOM_TO_PREDICTION_DAG.md`.
+
+
+
 
 
 

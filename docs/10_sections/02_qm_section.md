@@ -15,22 +15,22 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 | id | statement | status | source anchor | role |
 |---|---|---|---|---|
-| QM-A1 | Hilbert state space and unitary update | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:229,244` | microscopic dynamics |
-| QM-A2 | Graph locality of transfer | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:260` | finite propagation |
-| QM-A3 | Static-latency QM regime | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1148,1153` | regime axiom/theorem |
-| QM-A4 | Continuity/cut-balance structure | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:365,387` | occupancy/flux balance |
-| QM-A5 | Observer-time and coarse-graining map | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:632,662,671` | observed-time interface |
+| QM-A1 | Hilbert state space and unitary update | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:265,298` | microscopic dynamics |
+| QM-A2 | Graph locality of transfer | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:280` | finite propagation |
+| QM-A3 | Static-latency QM regime | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:1183,1223` | regime axiom/theorem |
+| QM-A4 | Continuity/cut-balance structure | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:400,422` | occupancy/flux balance |
+| QM-A5 | Observer-time and coarse-graining map | proved | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:667,697,706` | observed-time interface |
 | QM-A6 | Born-like frequency recovery from coarse layer | deferred | `C:/SB/UniNet3/docs_input/UNINET_QM_SECTION_RIGOR_PLAN.md` | measurement derivation gap |
-| QM-A7 | Queue bookkeeping does not alter QM latency | proved (scope-limited) | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:491,1153` | category separation |
+| QM-A7 | Queue bookkeeping does not alter QM latency | proved (scope-limited) | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:526,1223` | category separation |
 
 ## 3. Mapping Blocks (Q1-Q9)
 
 ### Q1. Substrate Dynamics -> Well-Posed Unitary Evolution
 
 - Core evolution law (`proved`):
-  \[
+  $$
   \psi_{n+1}=U\psi_n,\qquad U^\dagger U=I.
-  \]
+  $$
 - Immediate consequence (`proved`): global norm conservation.
 - Optional variational companion (not required for kinematic claim): discrete action in $\psi_n,\psi_n^\dagger$ with unitary constraint multipliers.
 
@@ -38,17 +38,17 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 - Locality gives finite support growth per tick (`Lemma 1.1`).
 - QM regime theorem gives fixed topological latency (`proved`):
-  \[
+  $$
   \delta_{\mathrm{QM}}(u,v)=d_G(u,v).
-  \]
+  $$
 - No species-dependent superluminal branch is introduced at this layer.
 
 ### Q3. Occupancy Dynamics -> Continuity/Flux Form
 
 - Occupancy definition:
-  \[
+  $$
   \rho(v,n)=\|\psi_v(n)\|^2.
-  \]
+  $$
 - Cut-balance theorem (`proved`): bulk change equals boundary flux for any region.
 - Queue equivalence form is admissible bookkeeping, not a new propagation law.
 
@@ -119,6 +119,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 1. `UNINET_QM_FALSIFIABILITY_MATRIX.md`: `QM-CORE-001`, `QM-CORE-002`.
 2. Deferred interfaces: `QM-DEF-003`, `QM-DEF-004`.
+
 
 
 
