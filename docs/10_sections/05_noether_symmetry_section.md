@@ -1,4 +1,4 @@
-﻿# UniNet Noether and Symmetry Section (Build-Up Draft v1)
+# UniNet Noether and Symmetry Section (Build-Up Draft v1)
 
 Date: 2026-03-30  
 Primary source of truth: `../docs_input/UNINET_CORE_AXIOMS.md` and `../docs_input/UNINET_NOETHER_SYMMETRY_PROGRAM.md`  
@@ -38,7 +38,7 @@ Companion governance: `UNINET_PROOF_STATUS_LEDGER.md`, `UNINET_BOUNDARY_NONCLAIM
 
 ### Variational Companions (Required for Promotion)
 
-1. Specify `\mathcal{S}` on a declared state/field domain.
+1. Specify $\mathcal{S}$ on a declared state/field domain.
 2. Specify symmetry group action and differentiability assumptions.
 3. Derive conserved current/charge relation with explicit boundary terms.
 
@@ -64,6 +64,7 @@ To promote any `noether-like` or `deferred-noether` item:
 1. This section does not claim full Noether closure for all sectors.
 2. It does not replace sector-specific derivations.
 3. It does not allow symmetry language to upgrade proof status without the promotion protocol.
+
 
 
 

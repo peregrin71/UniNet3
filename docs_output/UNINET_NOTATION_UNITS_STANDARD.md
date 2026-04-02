@@ -1,4 +1,4 @@
-﻿# UniNet Notation and Units Standard v1
+# UniNet Notation and Units Standard v1
 
 Date: 2026-03-30  
 Purpose: enforce notation/unit consistency across all active UniNet documents.
@@ -6,25 +6,38 @@ Scope: mandatory for core, plans, ledgers, and falsifiability matrices.
 
 ## 1. Conventions
 
-1. Markdown math uses LaTeX delimiters `$...$` and `\[...\]`.
+1. Markdown math must use LaTeX delimiters:
+   - Inline math: $...$ (e.g., $E=mc^2$)
+   - Display math: $$...$$ on its own line (e.g.,
+
+     $$
+     E=mc^2
+     $$
+     )
+   - Never place $...$ or $$...$$ inside tick marks/backticks. Use plain LaTeX math delimiters only, not $...$ or $$...$$.
+   - Use $n$ for discrete/evolving substrate time (ticks), and $t$ for observed/continuous time.
+2. Do not use `\[...\]` or `\(...\)` for math, as they do not render reliably in Markdown viewers.
+3. For display equations, always use $$...$$ on a separate line, never `\[...\]`.
 2. Symbols must use explicit subscripts/superscripts (no plain-text fallback when avoidable).
 3. Use one canonical symbol per concept (no silent renaming).
 4. Regime labels must be explicit: QM, GR, SM, Cosmology.
 
 ## 2. Core Symbol Canon
 
-1. Graph substrate: `$G=(V,E)$`
-2. Tick index: `$n \in \mathbb{Z}$`
-3. State: `$\psi_n \in \mathcal{H}$`, node state `$\psi_v(n)$`
-4. Buffering occupancy: `$\rho(v,n)=\|\psi_v(n)\|^2$`
-5. Flux/cut variables: `$J_n(u\to v)$`, `$Q_n(R)$`, `$\Phi_n(\partial R)$`
-6. Causal sets: `$J^\pm(x)$`, horismos `$E^+(x)$`
-7. Observer time: `$t_{\mathrm{obs}}$`
-8. Time separation: `$\tau(x,y)$`
-9. Chiral mixing: `$\epsilon_{\mathrm{mix}}$`, `$\bar{\epsilon}_{\mathrm{mix}}$`, `$\epsilon_{\mathrm{mix}}^{\max}$`
-10. CP metric: `$\epsilon_{\mathrm{CP}}=\frac12\|[\mathsf{CP},U]\|_{\mathrm{op}}$`
-11. GR adaptive latency: `$\delta_{\mathrm{GR,eff}}$`
-12. QM latency: `$\delta_{\mathrm{QM}}(u,v)=d_G(u,v)$`
+1. Graph substrate: $G=(V,E)$
+2. Discrete ticks (substrate time): $n \in \mathbb{Z}$
+3. State: $\psi_n \in \mathcal{H}$, node state $\psi_v(n)$
+4. Buffering occupancy: $\rho(v, n) = |\psi_v(n)|^2$
+5. Flux/cut variables: $J_n(u\to v)$, $Q_n(R)$, $\Phi_n(\partial R)$
+6. Causal sets: $J^\pm(x)$, horismos $E^+(x)$
+7. Observed/continuous time: $t \in \mathbb{R}$, $t_{\mathrm{obs}}$
+8. Time separation: $\tau(x,y)$
+9. Chiral mixing: $\epsilon_{\mathrm{mix}}$, $\bar{\epsilon}_{\mathrm{mix}}$, $\epsilon_{\mathrm{mix}}^{\max}$
+10. CP metric: $\epsilon_{\mathrm{CP}}=\frac12\|[\mathsf{CP},U]\|_{\mathrm{op}}$
+11. GR adaptive latency: $\delta_{\mathrm{GR,eff}}$
+12. QM latency: $\delta_{\mathrm{QM}}(u,v)=d_G(u,v)$
+13. Linear projection: $\Pi_v: \mathcal{H} \to \mathbb{C}^{p,q}$ (maps quantum amplitudes to spacetime points for node $v$)
+14. Projected energy density: $T_{00}(v,n)=\Lambda_{\mathrm{proj}}\,\rho(v,n)$
 
 ## 3. Units Policy
 
@@ -35,18 +48,19 @@ Scope: mandatory for core, plans, ledgers, and falsifiability matrices.
    2. projected physical observable,
    3. derived map quantity.
 4. Map constants:
-   1. `$c_{\mathrm{map}}=\ell_e/\Delta t$` (m/s),
-   2. `$\ell_e$` (m),
-   3. `$\Delta t$` (s).
+   1. $c_{\mathrm{map}}=\ell_e/\Delta t$ (m/s),
+   2. $\ell_e$ (m),
+   3. $\Delta t$ (s).
 
 ## 4. Document Formatting Rules
 
-1. Always use `\mathrm{...}` for text subscripts in math (`\rho_{\mathrm{DM}}`, `t_{\mathrm{obs}}`).
-2. Use calligraphic symbols for functionals/spaces (`\mathcal{H}`, `\mathcal{S}`) consistently.
-3. Use operator norm as `\|\cdot\|_{\mathrm{op}}` consistently.
+1. Always use $\mathrm{...}$ for text subscripts in math ($\rho_{\mathrm{DM}}$, $t_{\mathrm{obs}}$).
+2. Use calligraphic symbols for functionals/spaces ($\mathcal{H}$, $\mathcal{S}$) consistently.
+3. Use operator norm as $\|\cdot\|_{\mathrm{op}}$ consistently.
 4. For inequalities, keep canonical style:
-   1. `0 < x \le x_{\max} \ll 1`
+   1. $0 < x \le x_{\max} \ll 1$
    2. avoid mixed textual inequalities in same equation.
+5. For display equations, always use $$...$$ on its own line, not `\[...\]`.
 
 ## 5. Status Tagging Rules
 
@@ -78,6 +92,7 @@ Minimum compliance check before accepting edits:
 1. New edits: enforce immediately.
 2. Legacy text: normalize opportunistically during touched-file edits.
 3. Full repo-wide normalization: deferred until after core theorem/section drafting stabilizes.
+
 
 
 

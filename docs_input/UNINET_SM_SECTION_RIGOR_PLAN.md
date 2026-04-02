@@ -1,4 +1,4 @@
-﻿# UniNet SM Section: Full-Rigor Build Plan (Mapping-Complete)
+# UniNet SM Section: Full-Rigor Build Plan (Mapping-Complete)
 
 **Date:** 2026-03-30  
 **Primary source of truth:** `../docs_input/UNINET_CORE_AXIOMS.md` only  
@@ -80,7 +80,7 @@ Recommended target file: `UNINET_SM_SECTION.md`
 - `Definition S1.1`: mode class and chirality labels.
 - `Theorem S2.1`: admissible block-unitary transfer identities.
 - `Theorem S3.1`: CP operator norm-preserving property and CP-breaking metric properties.
-  Native targets: `\epsilon_{\mathrm{mix}}`, `\epsilon_{\mathrm{CP}}=\frac12\|[\mathsf{CP},U]\|_{\mathrm{op}}`.
+  Native targets: $\epsilon_{\mathrm{mix}}$, $\epsilon_{\mathrm{CP}}=\frac12\|[\mathsf{CP},U]\|_{\mathrm{op}}$.
   Optional variational companion: constrained/penalized functional over admissible `U` enforcing unitarity, locality, and chirality-window constraints.
 
 ### S4
@@ -158,6 +158,7 @@ Recommended target file: `UNINET_SM_SECTION.md`
 4. Add S7 flavor structure.
 5. Add S10 periodic/Floquet interface.
 6. Close with S8-S9 observables and non-emptiness proof.
+
 
 
 

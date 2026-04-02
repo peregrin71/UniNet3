@@ -55,6 +55,30 @@ When you decide to move from sample inputs to real datasets:
 5. Set the selected datasets to `enabled: true` in `configs/datasets.yaml`.
 6. Re-run the pipeline.
 
+## 5.1 Automated Real-Data Path
+
+If your raw inputs are in place under `data/raw/...`, run the automated path.
+
+Windows:
+
+1. `scripts\\bootstrap_venv.bat`
+2. `scripts\\run_pipeline_real.bat`
+
+Linux:
+
+1. `bash scripts/bootstrap_venv.sh`
+2. `bash scripts/run_pipeline_real.sh`
+
+This does two steps automatically:
+
+1. preprocesses files from `data/raw/...` to `data/processed/...` using `configs/real_data_sources.yaml`
+2. enables selected datasets and runs the pipeline
+
+Preprocess-only command:
+
+1. Windows: `scripts\\preprocess_real_data.bat --enable-datasets`
+2. Linux: `bash scripts/preprocess_real_data.sh --enable-datasets`
+
 ## 6. Common Notes
 
 1. This project is BAT-first on Windows.

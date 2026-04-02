@@ -1,4 +1,4 @@
-﻿# UniNet Parameter Ledger v1 (Pre-Lock)
+# UniNet Parameter Ledger v1 (Pre-Lock)
 
 Date: 2026-03-30
 Purpose: canonical parameter inventory before lock-protocol definition.
@@ -14,7 +14,7 @@ Primary source: `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md`.
 
 ## 2. ParameterRecord v1 Schema
 
-1. `parameter_id`
+1. $parameter_id$
 2. `symbol`
 3. `class`
 4. `status`
@@ -22,9 +22,9 @@ Primary source: `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md`.
 6. `domain`
 7. `meaning`
 8. `source_anchor`
-9. `used_by_prediction_ids`
-10. `planned_lock_dataset_family`
-11. `lock_priority`
+9. $used_by_prediction_ids$
+10. $planned_lock_dataset_family$
+11. $lock_priority$
 12. `notes`
 
 ## 3. Ledger
@@ -83,6 +83,7 @@ Excluded from fit by construction in v1:
 2. Freeze the finite parameterization choice for $\theta_{\Pi}$ and $\{\delta_\alpha\}_\alpha$ before any global fit.
 3. Decide whether $\chi_{\mathrm{parity}}$ is independent or derived from $\bar{\epsilon}_{\mathrm{mix}},\epsilon_{\mathrm{CP}}$ in v1.
 4. Add covariance propagation rules from lock step to each falsifiability-row decision rule.
+
 
 
 

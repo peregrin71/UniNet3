@@ -1,4 +1,4 @@
-﻿# UniNet Dual-Track Formalism Standard v1
+# UniNet Dual-Track Formalism Standard v1
 
 Date: 2026-03-30  
 Purpose: keep derivations readable in current UniNet notation while adding an action/Lagrangian formulation where it materially improves rigor and reviewer transparency.
@@ -23,7 +23,7 @@ Purpose: keep derivations readable in current UniNet notation while adding an ac
 
 ## 4. Section-Level Guidance
 
-1. **QM:** keep `\psi_{n+1}=U\psi_n` primary; optional discrete-action companion for audiences expecting variational framing.
+1. **QM:** keep $\psi_{n+1}=U\psi_n$ primary; optional discrete-action companion for audiences expecting variational framing.
 2. **GR:** keep adaptive-latency/source equations primary; include action-based derivation where theorem claims depend on variation.
 3. **SM:** keep transfer/chirality/CP constraints primary; optional penalty-functional/action encoding for admissible-operator class.
 4. **Cosmology:** keep effective fluid/background equations primary; add effective action forms where assumptions are explicit.
@@ -43,6 +43,7 @@ For each theorem candidate:
 2. "Variational companion" (if applicable).
 3. "Status tag" from `UNINET_PROOF_STATUS_LEDGER.md`.
 4. "Boundary note" if companion form is incomplete/deferred.
+
 
 
 

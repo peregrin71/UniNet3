@@ -1,4 +1,4 @@
-# UniNet Axiom-to-Prediction Dependency DAG (Updated)
+﻿# UniNet Axiom-to-Prediction Dependency DAG (Updated)
 Date: 2026-03-30
 
 ## New Structural Additions
@@ -28,3 +28,4 @@ T1B.*
 - T1A.3: deferred
 - T1B.1–1B.2: proved
 - T1B.3–1B.7: noether-like / deferred
+

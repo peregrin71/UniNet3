@@ -1,4 +1,4 @@
-﻿# UniNet SM Section (Build-Up Draft v1)
+# UniNet SM Section (Build-Up Draft v1)
 
 Date: 2026-03-30  
 Primary source of truth: `../docs_input/UNINET_CORE_AXIOMS.md`  
@@ -71,7 +71,7 @@ No independent particle ontology is introduced in this section.
 
 - Goal: map admissible transfer symmetries to effective internal gauge algebra.
 - Status now: `deferred` for full constructive theorem.
-- Non-claim: no current theorem that UniNet already derives all of `U(1)\times SU(2)\times SU(3)`.
+- Non-claim: no current theorem that UniNet already derives all of $U(1)\times SU(2)\times SU(3)$.
 
 ### S6. Representation and Anomaly Consistency
 
@@ -86,8 +86,8 @@ No independent particle ontology is introduced in this section.
 ### S8. Observable Interface
 
 - Observable map class:
-  - kaon CP parameter `|\epsilon_K|`,
-  - B-sector CP asymmetry `\sin(2\phi_1)`,
+  - kaon CP parameter $|\epsilon_K|$,
+  - B-sector CP asymmetry $\sin(2\phi_1)$,
   - chirality-sensitive weak-decay ratios.
 - Status: `postulate` packaging with hard test rows in matrix.
 
@@ -145,4 +145,5 @@ No independent particle ontology is introduced in this section.
 
 1. `UNINET_SM_FALSIFIABILITY_MATRIX.md`: `SM-CORE-001`, `SM-CORE-002`.
 2. Deferred bridge rows: `SM-DEF-003`, `SM-DEF-004`.
+
 

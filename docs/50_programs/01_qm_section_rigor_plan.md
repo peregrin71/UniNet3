@@ -1,4 +1,4 @@
-﻿# UniNet QM Section: Full-Rigor Build Plan (Mapping-Complete)
+# UniNet QM Section: Full-Rigor Build Plan (Mapping-Complete)
 
 **Date:** 2026-03-30  
 **Primary source of truth:** `../docs_input/UNINET_CORE_AXIOMS.md` only  
@@ -83,8 +83,8 @@ Recommended target file: `UNINET_QM_SECTION.md`
 ### Q1
 - `Theorem Q1.1`: existence and uniqueness for $\psi_{n+1}=U \psi_n$.
 - `Corollary Q1.2`: norm and global occupancy conservation.
-  Native target equation: `\psi_{n+1}=U\psi_n`, `U^\dagger U=I`.
-  Optional discrete-action companion: stationarity of a discrete action in `\psi_n,\psi_n^\dagger` yielding unitary update constraints.
+  Native target equation: $\psi_{n+1}=U\psi_n$, $U^\dagger U=I$.
+  Optional discrete-action companion: stationarity of a discrete action in $\psi_n,\psi_n^\dagger$ yielding unitary update constraints.
 
 ### Q2
 - `Lemma Q2.1`: locality implies finite-speed support growth.
@@ -127,7 +127,7 @@ Recommended target file: `UNINET_QM_SECTION.md`
 2. If Born-rule emergence is not fully proved, isolate as `Postulate` + required proof route.
 3. Separate kinematics, dynamics, and measurement in different sections.
 4. Every use of $\rho$, `J`, $\delta$, $t_obs$ must include domain and units.
-5. Any queue term must specify whether it is bookkeeping (`Q`, `A`, `S`, `\Phi`) or causal-latency (`\delta`) to prevent category mixing.
+5. Any queue term must specify whether it is bookkeeping (`Q`, `A`, `S`, $\Phi$) or causal-latency ($\delta$) to prevent category mixing.
 6. Keep deductions readable in native notation; add variational companion only where it improves rigor or audience expectations.
 
 ---
@@ -167,6 +167,7 @@ Recommended target file: `UNINET_QM_SECTION.md`
 5. Write Q8 boundary.
 6. Write Q9 queue compatibility.
 7. Run claim audit.
+
 
 
 

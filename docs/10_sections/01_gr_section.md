@@ -1,4 +1,4 @@
-﻿# UniNet GR Section (Rigorous Scaffold v2)
+# UniNet GR Section (Rigorous Scaffold v2)
 
 Date: 2026-03-30  
 Primary source of truth: `../docs_input/UNINET_CORE_AXIOMS.md`  
@@ -41,8 +41,8 @@ Governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_LEDGER.md`
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
 | M2.1 | Definition | proved | GR-A2 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:632` | Define observer-time functional via past-set volume. |
-| M2.2 | Theorem | proved | M2.1, GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:623,632` | Under nondegeneracy, `x \prec y => t_{\mathrm{obs}}(x) < t_{\mathrm{obs}}(y)`. |
-| M2.R | Remark | proved | M2.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:220,632` | Distinguish microscopic tick `n` from emergent observed time `t_{\mathrm{obs}}`. |
+| M2.2 | Theorem | proved | M2.1, GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:623,632` | Under nondegeneracy, $x \prec y => t_{\mathrm{obs}}(x) < t_{\mathrm{obs}}(y)$. |
+| M2.R | Remark | proved | M2.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:220,632` | Distinguish microscopic tick `n` from emergent observed time $t_{\mathrm{obs}}$. |
 
 ### M3. Microscopic State -> Observed Spacetime
 
@@ -84,7 +84,7 @@ ds^2 \approx -c_{\mathrm{map}}^2\,dt_{\mathrm{obs}}^2 + dx^2+dy^2+dz^2.
 
 | statement_id | type | status | depends_on | source anchor | statement |
 |---|---|---|---|---|---|
-| M6.1 | Definition | proved | GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:645` | Time-separation core `\tau(x,y)` as geodesic scaffold. |
+| M6.1 | Definition | proved | GR-A3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:645` | Time-separation core $\tau(x,y)$ as geodesic scaffold. |
 | M6.2 | Theorem target | external-constraint | M6.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:645` | Existence of maximizing causal curves under adopted regularity class. |
 | M6.3 | Theorem target | deferred | M6.1, M3.1 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:326,645,1050` | Correspondence between graph-optimal paths and projected geodesics. |
 
@@ -116,8 +116,8 @@ Variational companion (mandatory class):
 | M8.4 | Corollary | proved | M8.3 | `C:/SB/UniNet3/docs_input/UNINET_CORE_AXIOMS.md:532` | Boundary-dominant release with closure-vs-leak branch split. |
 
 Branch declaration requirement:
-1. Exact-closure branch: `\Phi_n(\partial R_{\mathrm{in}})=0`.
-2. Leaky branch: `\Phi_n(\partial R_{\mathrm{in}})\neq 0` with bounded throughput class.
+1. Exact-closure branch: $\Phi_n(\partial R_{\mathrm{in}})=0$.
+2. Leaky branch: $\Phi_n(\partial R_{\mathrm{in}})\neq 0$ with bounded throughput class.
 
 ### M9. Black-Hole Application Layer (Deferred-to-Core Path)
 
@@ -132,7 +132,7 @@ Branch declaration requirement:
 
 Scaling assumptions (all explicit postulates unless already proved):
 
-1. `\ell_e` and `\Delta t` define `c_{\mathrm{map}}=\ell_e/\Delta t`.
+1. $\ell_e$ and $\Delta t$ define $c_{\mathrm{map}}=\ell_e/\Delta t$.
 2. Coarse-graining scale is large relative to graph spacing.
 3. Effective fields are smooth enough on the projection scale for continuum observables.
 
@@ -168,7 +168,7 @@ Status: `deferred` pending explicit regularity and convergence theorem.
 
 1. Every theorem/proposition must list dependencies explicitly.
 2. Every equation used as a claim must state domain/regularity assumptions.
-3. Every horizon statement must declare branch (`\Phi=0` or `\Phi\neq0`) and throughput class.
+3. Every horizon statement must declare branch ($\Phi=0$ or $\Phi\neq0$) and throughput class.
 4. No phenomenological claims appear in proof-status sections without status tags.
 5. Dynamics claims include native and variational forms where mandatory.
 
@@ -201,6 +201,7 @@ Status: `deferred` pending explicit regularity and convergence theorem.
 2. Leaky-boundary rows: `GR-LB-CORE-001`, `GR-LB-DEF-002`, `GR-LB-DEF-003`.
 3. Black-hole deferred rows: `GR-BH-DEF-004`, `GR-BH-DEF-005`.
 4. Axiom-to-prediction dependency map: `UNINET_AXIOM_TO_PREDICTION_DAG.md`.
+
 
 
 

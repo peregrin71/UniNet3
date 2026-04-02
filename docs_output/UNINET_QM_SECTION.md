@@ -1,4 +1,4 @@
-﻿# UniNet QM Section (Build-Up Draft v1)
+# UniNet QM Section (Build-Up Draft v1)
 
 Date: 2026-03-30  
 Primary source of truth: `../docs_input/UNINET_CORE_AXIOMS.md`  
@@ -28,27 +28,27 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 ### Q1. Substrate Dynamics -> Well-Posed Unitary Evolution
 
 - Core evolution law (`proved`):
-  \[
+  $$
   \psi_{n+1}=U\psi_n,\qquad U^\dagger U=I.
-  \]
+  $$
 - Immediate consequence (`proved`): global norm conservation.
-- Optional variational companion (not required for kinematic claim): discrete action in `\psi_n,\psi_n^\dagger` with unitary constraint multipliers.
+- Optional variational companion (not required for kinematic claim): discrete action in $\psi_n,\psi_n^\dagger$ with unitary constraint multipliers.
 
 ### Q2. Local Dynamics -> Finite Propagation and Fixed Latency
 
 - Locality gives finite support growth per tick (`Lemma 1.1`).
 - QM regime theorem gives fixed topological latency (`proved`):
-  \[
+  $$
   \delta_{\mathrm{QM}}(u,v)=d_G(u,v).
-  \]
+  $$
 - No species-dependent superluminal branch is introduced at this layer.
 
 ### Q3. Occupancy Dynamics -> Continuity/Flux Form
 
 - Occupancy definition:
-  \[
+  $$
   \rho(v,n)=\|\psi_v(n)\|^2.
-  \]
+  $$
 - Cut-balance theorem (`proved`): bulk change equals boundary flux for any region.
 - Queue equivalence form is admissible bookkeeping, not a new propagation law.
 
@@ -119,6 +119,7 @@ Companion governance: `UNINET_NOTATION_UNITS_STANDARD.md`, `UNINET_PROOF_STATUS_
 
 1. `UNINET_QM_FALSIFIABILITY_MATRIX.md`: `QM-CORE-001`, `QM-CORE-002`.
 2. Deferred interfaces: `QM-DEF-003`, `QM-DEF-004`.
+
 
 
 

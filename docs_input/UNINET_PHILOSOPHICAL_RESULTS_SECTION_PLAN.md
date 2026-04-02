@@ -1,4 +1,4 @@
-﻿# UniNet Philosophical Results Cross-Section Plan
+# UniNet Philosophical Results Cross-Section Plan
 
 Date: 2026-03-30  
 Purpose: define a rigorous, non-overclaiming "Philosophical Results" section that connects foundational interpretation themes (Bell, Einstein, Wigner, Bohr, Rovelli, Page-Wootters) to current UniNet theorem status.
@@ -23,7 +23,7 @@ Scanned inspiration notes from `C:\SB\UniNet\Docs`:
 1. This section is interpretive and comparative, not a source of new axioms.
 2. Every claim must be tagged via `UNINET_PROOF_STATUS_LEDGER.md`.
 3. Every overclaim boundary must follow `UNINET_BOUNDARY_NONCLAIMS.md`.
-4. Notation must follow `UNINET_NOTATION_UNITS_STANDARD.md` (map any legacy `t1/t2` language to current `tick n` / `t_obs` terms).
+4. Notation must follow `UNINET_NOTATION_UNITS_STANDARD.md` (map any legacy `t1/t2` language to current `tick n` / $t_obs$ terms).
 
 ## 3. Proposed Section Structure
 
@@ -76,6 +76,7 @@ For each philosophical claim:
 3. Add a final non-claims subsection that mirrors `UNINET_BOUNDARY_NONCLAIMS.md`.
 4. Add cross-links from QM/GR/SM/Cosmology plans where relevant.
 5. Add one review pass specifically for wording inflation and category errors.
+
 
 
 

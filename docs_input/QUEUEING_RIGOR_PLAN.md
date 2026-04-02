@@ -1,4 +1,4 @@
-﻿# UniNet Queueing Rigor Plan
+# UniNet Queueing Rigor Plan
 
 Date: 2026-03-30
 Primary source: `../docs_input/UNINET_CORE_AXIOMS.md`
@@ -36,7 +36,7 @@ where `Q1--Q5` are queueing transport constraints below.
 
 Mandatory pass condition before theorem promotion:
 
-1. Provide at least one explicit witness family `U_*` with non-empty parameter domain in `\mathcal{A}_U`.
+1. Provide at least one explicit witness family $U_*$ with non-empty parameter domain in $\mathcal{A}_U$.
 2. Record witness assumptions and regularity class.
 
 ## 3. Queueing Transport Constraints (`Q1--Q5`)
@@ -56,7 +56,7 @@ These are additional constraints on effective transport behavior (not independen
 \[
 \tau_{\mathrm{eff}} \ge 0,\qquad \tau_{\mathrm{eff}}\to\infty\ \text{only in controlled saturation limits}.
 \]
-4. `Q4` Regularity (stability under small perturbations): Lipschitz bound in `(\rho,\mathrm{Curv})` over admissible regime.
+4. `Q4` Regularity (stability under small perturbations): Lipschitz bound in $(\rho,\mathrm{Curv})$ over admissible regime.
 5. `Q5` Saturation behavior near occupancy ceiling:
 \[
 \rho\to 1 \Rightarrow \text{outward throughput suppression, with explicit asymptotic bound on } |\Phi|.
@@ -122,6 +122,7 @@ Pass criteria:
 3. Run Viability Gate 1.
 4. Keep black-hole interior vs boundary-layer subsection aligned with core theorem branching.
 5. Re-run falsifiability and parameter-ledger traceability check after each theorem/constraint edit.
+
 
 
 

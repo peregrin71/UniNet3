@@ -1,4 +1,4 @@
-﻿# UniNet Boundaries and Non-Claims v1
+# UniNet Boundaries and Non-Claims v1
 
 Date: 2026-03-30  
 Purpose: explicit anti-overclaim contract for transparent and defensible communication.
@@ -10,7 +10,7 @@ If a claim is not tagged `proved` in `UNINET_PROOF_STATUS_LEDGER.md`, it must no
 ## 2. Non-Claims (Current)
 
 1. **No claim of full Standard Model derivation yet.**
-   - Specifically, `U(1) x SU(2) x SU(3)` emergence is not yet theorem-level.
+   - Specifically, $U(1) x SU(2) x SU(3)$ emergence is not yet theorem-level.
 
 2. **No claim of completed microscopic-to-observable transfer closure in all sectors.**
    - Several matrix rows remain intentionally `deferred`.
@@ -60,6 +60,7 @@ A non-claim can be removed only when all are true:
 1. It appears as `proved` or `postulate` with explicit status in proof ledger.
 2. It has a concrete source anchor in core or governing program doc.
 3. If observational, it has a binary reject criterion in a matrix row.
+
 
 
 
