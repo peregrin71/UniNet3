@@ -1,0 +1,23 @@
+The Cut Theorem — a friendly way to think about it
+If there’s one idea I’d quietly ask you to keep in the back of your mind while reading UniNet, it’s this: cuts matter more than they look like they should.
+Take any piece of the graph — any region you like. The moment you do that, you’ve also created something else, whether you wanted to or not: a boundary. A place where “inside” stops being self‑contained and the outside starts to matter.
+That boundary isn’t decoration. It’s where the bookkeeping lives.
+Here’s the simple intuition. Inside the region, things can change. Information can slosh around, pile up, drain away. But because the underlying dynamics don’t destroy information, whatever leaves the region has to go somewhere. And the only place it can show up is at the boundary. If you don’t keep track of that boundary exchange, your picture of the interior is incomplete — not approximately wrong, but structurally unfinished.
+This is the core of the Cut Theorem: a region only closes when its boundary is included in the accounting. No boundary bookkeeping, no closed system.
+Once you see that, a lot of things quietly fall into place.
+For one, boundaries start to look a lot like horizons. Not necessarily dramatic black‑hole ones — just places where interior dynamics stop being directly accessible. Some boundaries are effectively closed for long stretches. Others are leaky. And that distinction turns out to matter. A lot. In UniNet, “leaky” isn’t a metaphor; it’s a precise statement about whether information is crossing the cut or not.
+There’s another subtle point that’s easy to miss the first time around: boundaries don’t just filter information — they delay it. That delay isn’t noise or ignorance; it’s structural. Because updates are local on the graph, nothing propagates instantly. Whatever an outside observer learns about the interior has to travel, step by step, to the boundary. So what the boundary shows you is always a slightly late, slightly compressed version of what’s going on inside.
+This is why the paper keeps saying that observers don’t see interiors — they see boundary summaries.
+And here’s where things get really interesting.
+From the outside, many different interior states can look exactly the same if they produce the same boundary behavior. The details differ inside, but the boundary doesn’t care. From the observer’s point of view, those states are the same. That’s not a philosophical move — it’s operational. In UniNet, this is where “gauge redundancy” quietly comes from: different internal descriptions that collapse to the same boundary observables.
+Once you’re comfortable with that, it becomes natural to say that observers — detectors, experiments, even whole laboratories — are themselves cuts. They are interfaces. They carve the world into “what I can access” and “what I can’t,” and what they get is always coarse‑grained, delayed, and incomplete in a very specific way.
+That coarse‑graining does real work. Even though the microscopic dynamics are reversible, the act of observing through a boundary isn’t. Information gets hidden, merged, and discarded in ways that can’t be undone from the outside. This is where the arrow of time in observed spacetime comes from. Not because the underlying dynamics point one way, but because once information is lost behind a cut, the observer has no path back to it. From the inside, nothing prefers a direction. From the outside, history starts to look one‑way.
+The nice thing about this picture is that it scales.
+At one end, the same cut logic helps you talk carefully about black‑hole horizons — including the idea that they might not be perfectly sealed, just extremely leaky in slow motion. At another end, it nudges how you think about cosmological boundaries, like the CMB, where again we only ever see a boundary‑filtered snapshot. And at the particle level, what we usually call “particles” aren’t little things sitting at nodes — they’re stable patterns, standing or almost‑standing modes that survive because the boundary conditions let them.
+So when I say “everything is graph cuts,” I don’t mean it as a slogan. I mean it as a guidepost.
+Cuts tell you what can be known, what must be tracked, and what kinds of structure are even allowed to persist.
+If you follow that thread patiently, a surprising amount of physics stops looking mysterious — and starts looking inevitable.
+
+Note : The
+Many interior, fully reversible microscopic patterns map to the same boundary (horizon) state.
+As a result, reconstructability is lost — not information itself. And this is what cause an arrow of time in observed spacetime.

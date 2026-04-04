@@ -1,6 +1,13 @@
-# Chapter 6 - Symmetry and Formalism Layer
+# Chapter 6 - Geometry from Graph
 
 The manuscript needs one shared symmetry chapter before the sector chapters for a simple reason: symmetry language is reused across QM, GR, SM, and cosmology, but the proof maturity is not the same in all four places. If that distinction is not fixed once, early, the sector chapters will either duplicate each other or overclaim. This chapter therefore does two jobs. It records the current symmetry registry with explicit proof status, and it fixes the rule for how formulas are presented when native UniNet notation and variational language coexist.
+
+The previous chapters established structure, constraints, and admissible dynamics without ever appealing to space or geometry. This chapter shows that geometry nevertheless appears.
+Chapter 06 does not introduce a manifold, coordinates, or a metric. Instead, it asks a more restrained question: once causality, delay, and boundary‑aware evolution are fixed, what kind of geometric structure is already implied? The answer is that much of what later looks like spacetime geometry is already encoded in the causal and temporal relations of the graph itself.
+The focus of this chapter is Regge‑like structure: how discrete connectivity, finite propagation, and update order conspire to produce effective notions of distance, curvature, and geometry. These notions are not assumed. They are inferred from how influence spreads, how delays accumulate, and how paths compose. Geometry here is not something the system lives in — it is something the system exhibits.
+This chapter is careful about scope. No continuum limit is taken. No smoothness is assumed. Where analogies to general relativity are drawn, they are marked as interpretations rather than identifications. The goal is not to reproduce spacetime, but to show that a geometric reading is unavoidable once causal structure becomes rich enough.
+By the end of Chapter 06, the reader should see how geometry can emerge from bookkeeping alone. Distances arise from latency. Paths acquire length. Curvature appears as deviation from uniform propagation. None of this requires a background space. Geometry is revealed as a secondary description of the same underlying relational structure that has been present all along.
+
 
 ## 6.1 Symmetry Registry and Maturity Taxonomy
 The current registry separates theorem-level symmetry claims from noether-like and deferred claims. Paper 1 keeps that separation rather than smoothing it over.
