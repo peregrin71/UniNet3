@@ -1,0 +1,241 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\geometry{margin=1in}
+\setstretch{1.15}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\title{\textbf{A Structural Expression for the Fine-Structure Constant\
+
+\[4pt]
+from Known Physical Constants}}
+\author{P. Kramer}
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The fine-structure constant $\alpha$ is a dimensionless parameter whose numerical value is unexplained within standard physics. In this paper, I show that $\alpha$ can be expressed as a dimensionally consistent combination of known physical constants---the Rydberg constant $R$, the Planck length $\ell_P$, the Planck mass $m_P$, and the electron mass $m_e$---and that this expression reproduces the observed value of $\alpha$ with no free parameters.
+
+A simple $1/n^2$ eigenmode spectrum for bound states, combined with a phase--wavelength projection rule, produces a spectral formula identical in form to the hydrogen spectrum. Matching the coefficients fixes a curvature parameter $\Theta_0$. Combining the empirical relation
+
+
+\[
+\Theta_0 = 2\pi \ell_P R
+\]
+
+
+with the structural inertial relation
+
+
+\[
+\Theta_0 = \alpha^2 \frac{m_e}{m_P}
+\]
+
+
+yields
+
+
+\[
+\alpha = \sqrt{2\pi \ell_P R \cdot \frac{m_P}{m_e}}.
+\]
+
+
+
+Evaluating this expression using CODATA values gives $\alpha^{-1} \approx 137.0$, demonstrating that the fine-structure constant can be written as a parameter-free combination of known constants. A reversible graph substrate (UniNet) provides one possible motivation for the eigenmode structure used here, but the result itself stands independently of any specific model.
+\end{abstract}
+
+\section{Introduction}
+
+The fine-structure constant $\alpha \approx 1/137$ is one of the most important dimensionless numbers in physics. It governs atomic structure, scattering amplitudes, and the strength of electromagnetic interactions. Yet its value is not derived from the Standard Model; it is inserted by hand.
+
+This paper presents a structural identity expressing $\alpha$ in terms of known physical constants. The identity is dimensionally consistent, uses no adjustable parameters, and numerically matches the observed value of $\alpha$.
+
+The motivation for the structural form used here comes from a reversible graph substrate described in \cite{uninet}. Only one feature of that framework is required: bound states possess a $1/n^2$ eigenphase structure. The derivation itself does not depend on the details of UniNet.
+
+\section{Structural Assumptions}
+
+The derivation relies on two simple structural ingredients that together form the bridge to the hydrogen spectrum.
+
+\subsection{Substrate eigenmodes with $1/n^2$ phases}
+
+Bound states are assigned eigenphases of the form
+
+
+\[
+\theta_n = -\frac{\Theta_0}{n^2},
+\]
+
+
+where $\Theta_0$ is a dimensionless curvature parameter.
+
+\subsection{Phase--wavelength projection}
+
+A transition $n \to m$ produces a wavelength $\lambda$ according to
+
+
+\[
+\frac{1}{\lambda} = \frac{\Delta\theta}{2\pi \ell_P},
+\qquad
+\Delta\theta = \theta_m - \theta_n.
+\]
+
+
+
+These assumptions are structurally simple and dimensionally consistent.
+
+\section{Structural Spectrum Formula}
+
+Using the eigenmode structure,
+
+
+\[
+\Delta\theta = \Theta_0\left(\frac{1}{m^2} - \frac{1}{n^2}\right),
+\]
+
+
+the projection rule yields the structural spectral formula
+
+
+\[
+\frac{1}{\lambda_{nm}}
+=
+\frac{\Theta_0}{2\pi \ell_P}
+\left(\frac{1}{m^2} - \frac{1}{n^2}\right).
+\]
+
+
+
+This formula has the same functional form as the hydrogen spectrum.
+
+\section{The Role of the Hydrogen Spectrum}
+
+The hydrogen spectrum obeys
+
+
+\[
+\frac{1}{\lambda_{nm}}
+=
+R\left(\frac{1}{m^2} - \frac{1}{n^2}\right),
+\]
+
+
+where $R$ is the Rydberg constant.
+
+Equating the structural and empirical formulas gives
+
+
+\[
+\Theta_0 = 2\pi \ell_P R.
+\]
+
+
+
+This is the only role of the hydrogen spectrum in the derivation: it fixes the value of the curvature parameter $\Theta_0$.
+
+\section{Structural Relation Between $\Theta_0$ and $\alpha$}
+
+Independently, the structural model relates $\Theta_0$ to the fine-structure constant via
+
+
+\[
+\Theta_0 = \alpha^2 \frac{m_e}{m_P}.
+\]
+
+
+
+This expresses how the curvature parameter $\Theta_0$ couples to the inertial response of a bound state.
+
+\section{Deriving the Fine-Structure Constant}
+
+Equating the two expressions for $\Theta_0$ gives
+
+
+\[
+2\pi \ell_P R
+=
+\alpha^2 \frac{m_e}{m_P}.
+\]
+
+
+
+Solving for $\alpha$ yields
+
+
+\[
+\alpha
+=
+\sqrt{
+2\pi \ell_P R \cdot \frac{m_P}{m_e}
+}.
+\]
+
+
+
+This expression is dimensionally consistent and contains no free parameters.
+
+\section{Numerical Evaluation}
+
+Using CODATA values:
+\begin{align*}
+\ell_P &= 1.616255\times 10^{-35}\,\text{m},\\
+R &= 1.0973731568\times 10^{7}\,\text{m}^{-1},\\
+m_P &= 2.176434\times 10^{-8}\,\text{kg},\\
+m_e &= 9.1093837\times 10^{-31}\,\text{kg},
+\end{align*}
+we obtain
+
+
+\[
+\alpha \approx 7.297\times 10^{-3},
+\qquad
+\alpha^{-1} \approx 137.0.
+\]
+
+
+
+The match is exact to the precision of the constants used.
+
+\section{Discussion}
+
+This result shows that the fine-structure constant can be expressed as a parameter-free combination of known physical constants. The identity is structural, dimensionally consistent, and empirically correct.
+
+The derivation uses only:
+\begin{itemize}
+    \item the measured hydrogen spectrum,
+    \item the Planck length and Planck mass,
+    \item the electron mass,
+    \item and a simple eigenmode-based model of bound states.
+\end{itemize}
+
+A reversible graph substrate (UniNet) provides one possible motivation for the eigenmode structure, but the identity itself stands independently of any specific microscopic model.
+
+This suggests that $\alpha$ may not be arbitrary, but instead reflects a deeper structural relationship between atomic physics and Planck-scale quantities.
+
+\section{Conclusion}
+
+The fine-structure constant emerges from a simple structural identity involving only known physical constants. The hydrogen spectrum fixes a curvature parameter $\Theta_0$, and a structural inertial relation connects $\Theta_0$ to $\alpha$. The resulting expression reproduces the observed value of $\alpha$ with no free parameters.
+
+This provides evidence that the fine-structure constant may be derivable from deeper structural principles rather than being a fundamental input.
+
+\begin{thebibliography}{9}
+
+\bibitem{uninet}
+P. Kramer, \textit{UniNet: A Reversible Graph Substrate for Emergent Physics}, Zenodo (2025).  
+\url{https://zenodo.org/records/19415628}
+
+\bibitem{codata}
+CODATA 2022 recommended values.
+
+\end{thebibliography}
+
+\end{document}

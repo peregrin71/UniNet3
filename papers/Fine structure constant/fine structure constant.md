@@ -1,6 +1,6 @@
 # **A Structural Expression for the Fine‑Structure Constant from Known Physical Constants**  
 **P. Kramer**  
-*(2025)*
+*(2026)*
 
 ---
 
