@@ -45,8 +45,44 @@ this gives the chapter's kinematic base:
 
 That separation matters because the standing-wave program below is meant to live inside the already-accepted QM branch, not inside a mixed regime where transport rules have changed.
 
+
 ## 8.3 Standing-Wave Existence Proof Program
 `AXIOM-10` remains unchanged: particle-like modes are treated as boundary-stabilized standing or quasi-standing patterns.
+
+---
+
+### THEOREM-SUS-01 — Context-Dependent Operator Warning
+**Status:** explanatory theorem (no formal proof required)
+
+#### Statement
+
+Operators that refer to *observer-defined spacetime structures*—such as positions, times, subsystem partitions, or tensor‑product decompositions—are not fundamental objects in UniNet.  
+Their algebraic properties, including non‑commutativity, reflect the structure of the observer’s chosen representation rather than substrate-level physics.
+
+#### Interpretation (reader-facing)
+
+Traditional quantum theory is formulated on a continuum spacetime chosen by the observer.  
+Operators such as $\hat{x}$, $\hat{p}$, $\hat{H}(x)$, or decompositions like $H = H_A \otimes H_B$ are defined within that representation.  
+Their non‑commutativity is a feature of the *observer’s spacetime description*, not necessarily a fundamental property of nature.
+
+UniNet adopts a different ontology:
+
+- spacetime is not primitive but emergent,  
+- regions are defined by cuts,  
+- observers access only boundary flux,  
+- and no global Hilbert-space factorization is assumed.
+
+Therefore, operators tied to observer-defined spacetime structures should be treated as **effective**, not **fundamental**.  
+Their algebraic relations do not constrain UniNet’s substrate.
+
+#### Gentle Framing (for inclusion in commentary)
+
+This perspective does not imply that traditional operator methods are incorrect.  
+They remain powerful and accurate within the continuum spacetime framework for which they were developed.  
+UniNet simply begins from a different starting point: a discrete substrate with boundary-based observability.  
+In this setting, the familiar non‑commuting spacetime operators of standard quantum theory arise as *emergent*, representation-dependent constructs rather than primitive elements of the ontology.
+
+---
 
 The current witness-family program makes the existence claim explicit rather than leaving it as intuition.
 

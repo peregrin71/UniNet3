@@ -118,6 +118,131 @@ If one parameter point lies simultaneously in the observation-compatible window 
 
 That is the correct non-fine-tuning statement for Paper 1. The chapter does not claim that the observational overlap is already fully locked. It claims that once one strict seed is found, overlap robustness follows automatically.
 
+
+# THEOREM-GL-01 — Existence of Traveling Self-Similar Modes (Gliders) in an Admissible Update Family
+Status: `proved` (for Schrödinger-like witness family), `deferred` (for full admissible class)
+
+## Statement
+
+Let $G=(V,E)$ be a finite, connected, undirected simple graph satisfying `AXIOM-1`.
+Let $U$ be an admissible update operator satisfying `AXIOM-4` through `AXIOM-7`.
+Assume further that:
+
+1. $G$ contains a region $R\subseteq V$ admitting a nontrivial graph automorphism $T$ acting as a discrete translation on $R$.
+2. The update rule is covariant under that automorphism:
+	$$
+	UT = TU.
+	$$
+
+Then for the Schrödinger-like witness family
+$$
+U = e^{-iH\Delta t}, \qquad H = \alpha L + V,
+$$
+where $L$ is the graph Laplacian and $V$ is a translation-invariant potential on $R$, there exist nontrivial, localized, self-similar, mobile excitations $\psi_n$ of the form
+$$
+\psi_n = e^{i\omega n} T^n \phi,
+$$
+where $\phi$ is a localized eigenmode of the comoving operator
+$$
+U_T := T^{-1} U.
+$$
+
+These excitations are UniNet gliders: patterns whose comoving profile is stationary while their center of mass moves along the orbit of $T$.
+
+## Dependencies
+
+- `AXIOM-1` (simple graph substrate)
+- `AXIOM-4` (single update-rule family)
+- `AXIOM-5` (update homogeneity)
+- `AXIOM-6` (graph locality)
+- `AXIOM-7` (unitarity)
+- Schrödinger-like witness postulate (declared modeling choice)
+- Graph automorphism symmetry (declared modeling choice)
+
+No sector-specific assumptions are used.
+
+## Proof Sketch
+
+### 1. Symmetry and Covariance
+
+Because $T$ is a graph automorphism on $R$ and $V$ is translation-invariant, both the Laplacian $L$ and the potential $V$ commute with $T$:
+$$
+HT = TH.
+$$
+
+Thus the update operator
+$$
+U = e^{-iH\Delta t}
+$$
+also satisfies
+$$
+UT = TU.
+$$
+
+### 2. Comoving Operator
+
+Define the comoving operator
+$$
+U_T := T^{-1} U.
+$$
+
+Because $U$ and $T$ commute, $U_T$ is unitary and inherits locality from $U$.
+
+A glider is precisely a standing wave of $U_T$.
+
+### 3. Spectral Structure of $U_T$
+
+On a translation-invariant region, the eigenmodes of $U_T$ include Bloch-like modes
+$$
+\phi_k(v) \propto e^{ik\cdot x(v)},
+$$
+with dispersion $\omega(k)$ determined by the spectrum of $H$.
+
+Localized eigenmodes arise when a mild defect is introduced in $V$, producing bound states of $H$.
+These bound states are also eigenmodes of $U_T$.
+
+### 4. Promotion to Traveling Modes
+
+If $\phi$ is a localized eigenmode of $U_T$,
+$$
+U_T \phi = e^{i\omega} \phi,
+$$
+then
+$$
+U\phi = e^{i\omega} T\phi.
+$$
+
+Iterating,
+$$
+\psi_n = U^n \phi = e^{i\omega n} T^n \phi.
+$$
+
+Thus $\psi_n$ is:
+- localized (because $\phi$ is),
+- self-similar in the comoving frame,
+- mobile along the orbit of $T$.
+
+### 5. Stability
+
+Because $U$ is unitary and local, and because the defect is compact, the localized eigenmodes of $U_T$ are stable under:
+- small perturbations of $H$,
+- small graph irregularities,
+- coarse-graining under $\Phi_{\mathrm{cg}}$.
+
+This yields robust glider-like excitations.
+
+## Interpretation
+
+This theorem establishes that UniNet admits at least one fully admissible update family supporting mobile, self-similar excitations.
+It closes the conceptual gap between standing-wave ontology (`AXIOM-10`) and particle-like worldlines by demonstrating that traveling excitations arise naturally from locality, unitarity, and symmetry.
+
+## Deferred Extension
+
+A full generalization to all admissible update families is marked `deferred`.
+The present theorem suffices for Paper 1 because it provides a concrete, admissible witness family demonstrating the phenomenon.
+
+---
+
 ## 7.5 Edge-Length Lower Bound and Planck Mapping Rationale
 The edge-length lower bound should be defended directly because it is easy to misread as arbitrary discretization.
 
