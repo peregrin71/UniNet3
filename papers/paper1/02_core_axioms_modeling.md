@@ -162,7 +162,20 @@ From `AXIOM-10`:
 
 The main conceptual payoff is that causal and boundary structure are not late decorative layers on top of a generic graph dynamics. They are early consequences of locality plus no information loss.
 
-## 2.4 No-Smuggling Statement
+## 2.4 Boundary Access and the Gauss Analogy
+
+A useful way to reinterpret familiar quantum‑mechanical structures is to place them alongside a much older idea: Gauss’s insight that the interior of a region is knowable only through what crosses its boundary. In classical field theory, Gauss’s law states that the flux through a closed surface encodes all information about the enclosed charge. The observer never sees the interior directly; the observer sees only the boundary flux.
+
+The Boundary‑Access interpretation applies the same structural idea to quantum information. A quantum state is not the interior microstate itself, but the boundary‑filtered summary of what the interior can send outward. Formally, the observer has access only to $\mathcal{O}(\partial R;\psi)$, the operational boundary record induced by the inaccessible interior configuration $\psi|_R$. The state vector $|\psi\rangle$ is therefore best understood as an interface object: a compressed, boundary‑level shadow of the underlying microstate.
+
+In this reading, the bra $\langle\phi|$ represents the observer’s expectation template—what the observer is prepared to detect at the boundary—while the ket $|\psi\rangle$ represents the actual boundary signal delivered by the interior. The braket $\langle\phi|\psi\rangle$ becomes a directional comparison between expectation and receipt. Its irreversibility follows immediately: the map from interior microstate to boundary summary is many‑to‑one, so the comparison discards information even though the substrate dynamics remains reversible.
+
+This Gauss‑style perspective reframes several familiar quantum notions. Superposition reflects incomplete boundary information rather than ontological multiplicity. Entanglement becomes shared boundary‑compatibility rather than action at a distance. Measurement is the observer committing to one expectation template and discarding all incompatible boundary summaries. None of these reinterpretations alter the formalism; they simply relocate its conceptual weight from mysterious collapse to boundary‑limited access.
+
+The result is an interpretation in which quantum structure emerges from the same principle that underlies classical flux theorems: observers never access interiors directly. They infer them from what the boundary allows to pass.
+
+
+## 2.5 No-Smuggling Statement
 The anti-smuggling rule is simple: sector assumptions live downstream and stay visible.
 
 For any later-sector claim $C$, the manuscript requires
