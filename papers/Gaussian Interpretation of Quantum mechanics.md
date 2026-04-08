@@ -1,6 +1,9 @@
+Author: Pepijn Kramer M.Sc.
+Zenodo: https://zenodo.org/records/19435788
+
 ## Gaussian Interpretation of Quantum mechanics
 
-## A Gauss‑Style Lens on Quantum Notation
+## A Gauss-Style Lens on Quantum Notation
 
 The goal of this note is modest: to offer a conceptual lens that some readers may find clarifying when thinking about the symbols of quantum mechanics. The perspective is not presented as an ontology or a competing interpretation, but simply as a structurally coherent way of looking at familiar notation. It draws inspiration from a classical idea that long predates quantum theory: Gauss’s observation that the interior of a region is never accessed directly, while the boundary is the only place where information becomes available.
 
@@ -8,7 +11,7 @@ Throughout this note, the term **boundary** refers to the degrees of freedom acc
 
 In Gauss’s law, the observer does not inspect the charge distribution inside a surface. Instead, the outward flux through the boundary is measured, and the interior is inferred from that boundary data. This asymmetry—interior hidden, boundary accessible—turns out to be a surprisingly helpful template for understanding the operational roles of kets, bras, amplitudes, and probabilities in quantum mechanics. Nothing in this analogy changes the formalism; it simply highlights a structural pattern that is already present.
 
-Readers are invited to treat this as a way of seeing rather than a claim about what ultimately exists. The analogy is optional, but it can make several features of the quantum formalism feel less mysterious: superposition becomes boundary ambiguity, collapse becomes boundary commitment, and entanglement becomes a shared boundary constraint. The sections below develop this viewpoint step by step, showing how a Gauss‑style reading of quantum notation can serve as a compact and intuitive guide to the mathematics.
+Readers are invited to treat this as a way of seeing rather than a claim about what ultimately exists. The analogy is optional, but it can make several features of the quantum formalism feel less mysterious: superposition becomes boundary ambiguity, collapse becomes boundary commitment, and entanglement becomes a shared boundary constraint. The sections below develop this viewpoint step by step, showing how a Gauss-style reading of quantum notation can serve as a compact and intuitive guide to the mathematics.
 
 [Gauss’s law](https://en.wikipedia.org/wiki/Gauss%27s_law) is expressed by the integral identity
 
@@ -127,15 +130,13 @@ Once interior distinctions collapse into the same boundary signature, they canno
 
 The Gauss-style reinterpretation also sheds light on several long-standing quantum paradoxes without requiring any details of the UniNet model. Many of the classic puzzles—Copenhagen collapse, Wigner’s friend, Schrödinger’s cat, and the Einstein–Podolsky–Rosen argument—arise from treating the wavefunction as an interior object and collapse as an interior event. In the Gauss view, the wavefunction is a boundary signature, collapse is a boundary-level update of the observer’s hypothesis, and entanglement is a shared boundary constraint rather than an interior connection. Once this interior–boundary distinction is made explicit, the paradoxes lose their force: no observer ever accesses the interior directly, so there is no contradiction in different observers maintaining different boundary-compatible descriptions.
 
-## 9. Boundary-Based Understanding of Measurement, Collapse, and Quantum Paradoxes
-
 ### 9.1 Measurement as Boundary Inference
 
 An observer approaches a system with a specific expectation of what they might detect at the boundary. When the actual boundary signature arrives, they compare it to that expectation. The braket $\langle\phi|\psi\rangle$ expresses how well the observed pattern aligns with the one the observer was prepared to detect. Nothing inside the system is accessed; the entire measurement process is a comparison between an expected boundary pattern and the one that is actually received.
 
 ### 9.2 Collapse as Boundary Commitment
 
-After observing a boundary signature, several interior configurations may still be compatible with it. The observer then selects one interpretation and discards the others. Because different interior possibilities can lead to the same outward-facing pattern, this choice cannot be undone. Collapse is this act of committing to a single boundary‑compatible interpretation. The irreversibility of the interior‑to‑boundary mapping naturally gives this process a direction, even though the underlying quantum dynamics remain time-symmetric.
+After observing a boundary signature, several interior configurations may still be compatible with it. The observer then selects one interpretation and discards the others. Because different interior possibilities can lead to the same outward-facing pattern, this choice cannot be undone. Collapse is this act of committing to a single boundary-compatible interpretation. The irreversibility of the interior-to-boundary mapping naturally gives this process a direction, even though the underlying quantum dynamics remain time-symmetric.
 
 ### 9.3 Entanglement as Joint Boundary Constraint
 
@@ -149,7 +150,7 @@ A system’s interior may contain fine-grained distinctions, but the boundary do
 
 Different observers interact with different boundaries, and therefore receive different outward-facing signatures. The friend inside the laboratory interacts with the system’s immediate boundary and forms a description based on that access. Wigner, outside the laboratory, interacts with a larger boundary that includes both the friend and the system. Their descriptions differ without contradiction because they are based on different accessible regions.
 
-This picture aligns naturally with the relativistic structure of lightcones. Each observer can only incorporate information that lies within their past lightcone, and the friend’s observations remain outside Wigner’s lightcone until the laboratory is opened. As long as their lightcones do not overlap, the two observers have access to different boundary data and therefore maintain different, boundary‑compatible descriptions. Once causal contact becomes possible and their lightcones intersect, the boundary information available to both observers becomes shared, and their descriptions converge. The apparent paradox dissolves once it is recognized that no observer accesses the interior directly and that agreement is only required when their accessible-information regions—defined both by boundaries and by lightcones—finally connect.
+This picture aligns naturally with the relativistic structure of lightcones. Each observer can only incorporate information that lies within their past lightcone, and the friend’s observations remain outside Wigner’s lightcone until the laboratory is opened. As long as their lightcones do not overlap, the two observers have access to different boundary data and therefore maintain different, boundary-compatible descriptions. Once causal contact becomes possible and their lightcones intersect, the boundary information available to both observers becomes shared, and their descriptions converge. The apparent paradox dissolves once it is recognized that no observer accesses the interior directly and that agreement is only required when their accessible-information regions—defined both by boundaries and by lightcones—finally connect.
 
 ### 9.6 Schrödinger’s Cat as Boundary Ambiguity
 
@@ -180,13 +181,13 @@ This cut-based structure leads directly to a discrete analogue of Gauss’s law.
 
 The connection to the classical divergence theorem emerged only after the UniNet structure was already in place. When the discrete cut relation was compared to the continuous Gauss identity, the correspondence became clear: the discrete rule is the combinatorial version of the smooth boundary–interior relation. In this sense, Gauss’s law can be viewed as the continuum limit of the boundary logic that UniNet makes explicit.
 
-The Gaussian reinterpretation of quantum notation arose later, when the same interior–boundary asymmetry was recognized in the operational roles of bras, kets, amplitudes, and collapse. The purpose of this section is not to describe UniNet in detail, but simply to note that the discrete Gauss structure is not hypothetical. It is a concrete example of a substrate where the interior–boundary distinction is explicit, and where the classical Gauss relation appears naturally as the smooth limit of a simpler combinatorial rule. Readers interested in the broader context may consult the UniNet preprint, but the Gaussian interpretation stands on its own.
+The Gaussian reinterpretation of quantum notation arose later, when the same interior-boundary asymmetry was recognized in the operational roles of bras, kets, amplitudes, and collapse. The purpose of this section is not to describe UniNet in detail, but simply to note that the discrete Gauss structure is not hypothetical. It is a concrete example of a substrate where the interior-boundary distinction is explicit, and where the classical Gauss relation appears naturally as the smooth limit of a simpler combinatorial rule. Readers interested in the broader context may consult the UniNet preprint, but the Gaussian interpretation stands on its own.
 
 ---
 
-## 12. Concluding Remarks
+## 11. Concluding Remarks
 
-The Gauss‑style reinterpretation presented here is not intended as a literal description of physical reality, nor as a replacement for existing interpretations of quantum mechanics. It is simply a conceptual lens—one that highlights the universal asymmetry between what an observer can access at a boundary and what must be inferred about an interior. By reading kets, bras, amplitudes, and collapse through this boundary‑first structure, several long‑standing quantum puzzles become less mysterious. Superposition appears as boundary ambiguity, collapse as boundary commitment, and entanglement as a shared constraint on outward‑facing signatures. The discrete Gauss law and the UniNet‑inspired graph‑cut perspective show that this interior–boundary logic is not tied to any particular physical substrate. It is a structural pattern that recurs whenever a system has inaccessible degrees of freedom and an accessible interface. Readers may adopt or discard this lens as they see fit; its purpose is simply to offer a compact and intuitive way of understanding the operational content of quantum notation.
+The Gauss-style reinterpretation presented here is not intended as a literal description of physical reality, nor as a replacement for existing interpretations of quantum mechanics. It is simply a conceptual lens—one that highlights the universal asymmetry between what an observer can access at a boundary and what must be inferred about an interior. By reading kets, bras, amplitudes, and collapse through this boundary-first structure, several long-standing quantum puzzles become less mysterious. Superposition appears as boundary ambiguity, collapse as boundary commitment, and entanglement as a shared constraint on outward-facing signatures. The discrete Gauss law and the UniNet-inspired graph-cut perspective show that this interior–boundary logic is not tied to any particular physical substrate. It is a structural pattern that recurs whenever a system has inaccessible degrees of freedom and an accessible interface. Readers may adopt or discard this lens as they see fit; its purpose is simply to offer a compact and intuitive way of understanding the operational content of quantum notation.
 
 At first glance, the structural parallels between Gauss-style interior–boundary mappings and several core elements of quantum theory—such as the Born rule, the braket structure, and even unitary evolution—suggest that deeper mathematical correspondences may exist. Whether these similarities can be developed into formal equivalences is an open question. Establishing such results would require a more detailed functional-analytic treatment of boundary operators and quadratic evaluation maps, which lies beyond the scope of this note. The present work merely highlights the possibility and leaves the formal development to readers with a more mathematical inclination.
 
