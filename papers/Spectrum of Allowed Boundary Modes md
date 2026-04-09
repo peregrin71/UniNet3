@@ -1,0 +1,182 @@
+### Spectrum of Allowed Boundary Modes
+
+In the boundary–interior framework, particles are not fundamental objects but
+*harmonics* of the global spherical boundary. Each harmonic is defined by its
+anchor configuration, phase‑gradient structure, and the interior response
+required to sustain it. A mode is observable in spacetime only if it can
+propagate without encountering immediate congestion. This naturally leads to a
+finite, discrete spectrum of allowed boundary modes.
+
+#### Boundary complexity and interior congestion
+
+A boundary pattern with many anchors, steep gradients, or multiple interfering
+sub‑modes induces strong interior congestion. The interior is not passive: it
+must support the boundary pattern through its bulk response. The more complex
+the boundary harmonic, the more interior tension it generates, and the more
+likely it is to encounter a configuration that the update operator cannot
+propagate smoothly.
+
+This explains why heavy particles are short‑lived. Their boundary modes are
+high‑curvature, high‑tension configurations with many opportunities for local
+steepening. They frequently hit congestion before they can stabilize into a
+spacetime‑projectable mode.
+
+#### Congestion as a filter on the particle spectrum
+
+A mode becomes observable only if it survives the boundary’s congestion filter.
+If a harmonic encounters congestion, it must shed structure and relax into a
+simpler configuration. The resulting mode may itself be unstable, leading to a
+sequence of congestion‑driven simplifications,
+
+$$
+A \;\rightarrow\; B \;\rightarrow\; C \;\rightarrow\; \text{stable}.
+$$
+
+The particles we observe are the harmonics that survive this process. They are
+the stable or metastable modes whose anchor geometry and phase gradients can be
+propagated smoothly for long enough to appear in spacetime.
+
+This explains why the Standard Model contains only a small number of particle
+families. These are the harmonics that the boundary can sustain without
+immediate collapse.
+
+#### Why supersymmetric partners do not appear
+
+Supersymmetric partners would require boundary patterns with additional anchors,
+higher‑order gradients, and more internal interference modes. Such harmonics
+would induce far greater interior congestion than the already‑unstable heavy
+quarks and bosons. As a result, they would hit congestion almost immediately and
+shed structure before they could stabilize.
+
+In this framework, the absence of supersymmetric particles is not a mystery or a
+failure of symmetry. It is a geometric consequence of the boundary’s inability
+to sustain those harmonics. SUSY modes collapse before projection, leaving only
+their lower‑complexity decay products.
+
+#### Spacetime as the projection of sustainable harmonics
+
+Spacetime does not contain all possible boundary modes. It contains only those
+harmonics that:
+
+- have manageable curvature,
+- avoid runaway steepening,
+- couple weakly to the fixed chiral tilt,
+- and can propagate without immediate congestion.
+
+These are the modes that survive long enough to be projected into spacetime as
+particles. Everything else collapses in the boundary before it can appear.
+
+#### Summary
+
+The observed particle spectrum is the set of boundary harmonics that survive the
+congestion filter. Heavy or highly complex patterns decay before they can be
+projected, while simpler harmonics persist. This naturally explains the limited
+particle families of the Standard Model and the absence of supersymmetric
+partners: only a small subset of boundary modes are dynamically sustainable.
+
+
+### Decay as Congestion
+
+In this framework, decay is not a mysterious force or a spontaneous event. It is
+a geometric response of the boundary to a configuration it cannot propagate
+smoothly. A boundary harmonic drifts through many configurations as its anchors
+move, its phase gradients rotate, and its internal sub‑modes interfere. Most of
+these configurations are smooth enough for the update operator to handle.
+
+But occasionally, the interference of sub‑modes, combined with the fixed chiral
+tilt and the local curvature of the boundary, produces a region where the phase
+gradient becomes too steep. The boundary cannot update this region without
+introducing discontinuities. This is **congestion**.
+
+When congestion occurs, the boundary must shed the part of the pattern that
+cannot be maintained. The shedding process relaxes the boundary into a simpler
+harmonic. The decay products are precisely these simpler sub‑patterns that can
+propagate outward without further congestion.
+
+A decay chain is therefore a sequence of congestion‑driven simplifications,
+
+$$
+A \;\rightarrow\; B \;\rightarrow\; C \;\rightarrow\; \text{stable}.
+$$
+
+Each arrow corresponds to a moment when the drifting harmonic encounters a
+locally unsustainable configuration. The final stable particle is the harmonic
+that the boundary can propagate indefinitely without further congestion.
+
+This geometric picture unifies particle decay, nuclear decay chains, atomic
+cascades, and even black‑hole evaporation under a single mechanism: **boundary
+congestion and harmonic simplification**.
+
+### Why Half‑Life is Exponential
+
+Half‑life emerges naturally from the geometry of congestion. A drifting boundary
+mode explores a large space of configurations as its anchors move and its
+internal modes interfere. Congestion occurs only when the instantaneous
+configuration aligns in a particular way that produces a locally steep gradient.
+This alignment is rare and depends only on the current state of the pattern, not
+on its history.
+
+Because congestion is:
+
+- rare,
+- memoryless,
+- and dependent only on the instantaneous configuration,
+
+the probability of encountering a congestion point in any small time interval is
+constant. This leads directly to the exponential decay law,
+
+$$
+P(t) = e^{-t/\tau}.
+$$
+
+The half‑life is therefore not a built‑in timer or an intrinsic property of the
+particle. It is the statistical shadow of how often a drifting harmonic happens
+to encounter a configuration that the boundary cannot propagate smoothly.
+
+This explains why particles with more complex boundary patterns—those with more
+anchors, stronger curvature, or more internal interference—have shorter
+half‑lives. Their harmonics explore a larger configuration space with more
+opportunities for steepening, and thus more opportunities for congestion.
+
+The exponential decay law is simply the macroscopic signature of this geometric
+process.
+
+### Chiral Tilt and Mode Drift
+
+The update operator on the boundary contains a small, fixed chiral asymmetry. In
+geometric terms, this acts like a tiny global tilt or directional bias on the
+sphere. It does not change in time and does not depend on the particle’s
+configuration. It is a structural property of the boundary dynamics.
+
+Two‑anchor systems such as neutral kaons are sensitive to this tilt because
+their phase‑gradient patterns are free to drift and rotate. The kaon system has
+two independent harmonics,
+
+$$
+K^0 : (d,\;\bar{s}), \qquad 
+\bar{K}^0 : (\bar{d},\;s),
+$$
+
+which correspond to opposite orientations of the same two‑anchor pattern. These
+modes interfere on the boundary, producing a drifting composite pattern whose
+phase gradient continually moves into and out of alignment with the fixed chiral
+tilt.
+
+When the phase gradient aligns with the tilt, the boundary can propagate the
+pattern slightly more easily. When misaligned, propagation is slightly hindered.
+This produces a time‑dependent coupling between the drifting kaon pattern and
+the fixed chiral asymmetry.
+
+The alignment–misalignment cycle is the geometric origin of kaon oscillations.
+The small asymmetry in how the boundary handles the two orientations leads to a
+slight preference in one direction of the oscillation. This is the geometric
+origin of CP violation.
+
+When the drifting pattern and the chiral tilt momentarily reinforce each other
+in a way that produces a locally steep gradient, congestion occurs. The boundary
+then sheds structure, leading to decay. The rare CP‑violating decay channels
+arise from these special alignment conditions.
+
+In this view, chiral tilt and mode drift are not abstract algebraic features but
+geometric interactions between a fixed global asymmetry and a drifting boundary
+harmonic.
